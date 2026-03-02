@@ -15,7 +15,7 @@ const char D_0805db34[] = "Tr‡as belle performance‡R!";
 
 const char D_0805db54[] = "Concentrez-vous davantage, vous deux.";
 
-const char D_0805db74[] = "Des acrobaties renversantes‡R!";
+const char D_0805db74[] = "Vos acrobaties sont renversantes‡R!";
 
 const char D_0805db94[] = "Monsieur Loyal a dit";
 

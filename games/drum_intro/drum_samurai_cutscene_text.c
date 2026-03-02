@@ -53,7 +53,7 @@ const char D_0805e0d8[] =
     "vous vous entraˆ²nez‡R!";
 
 const char D_0805e10c[] =
-    "Jettez-vous dans ces\n"
+    "Jetez-vous dans ces\n"
     "mini-jeux et vous le\n"
     "verrez devenir meilleur\n"
     "de jour en jour‡S!";

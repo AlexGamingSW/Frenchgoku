@@ -118,7 +118,7 @@ void perfect_scene_start(void *sVar, s32 dArg) {
         }
     }
 
-    strcat(gPerfect->string, "\0020" "\0010" "\nVous recevez un cadeau‡R! "); // You've earned a gift!
+    strcat(gPerfect->string, "\0020" "\0010" "\nVous recevez un cadeau"); // You've earned a gift!
     strcat(gPerfect->string, perfect_gift_directive_text[giftType]);
 
     if (campaignsLeft > 0) {

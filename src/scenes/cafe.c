@@ -433,11 +433,12 @@ void cafe_print_dialogue(void) {
                     // Are you having trouble?
                     s = gCafe->string;
                     memcpy(s, "", 1);
+                    strcat(s, "\n");
                     strcat(s, "Vous semblez avoir des\n");
                     strcat(s, "difficult‡Qs avec le jeu\n");
                     strcat(s, "\0051" "\0015");
                     strcat(s, levelName);
-                    strcat(s, "\0054" "\0018" ".\n" "\n");
+                    strcat(s, "\0054" "\0018" ".\n");
                     string = s;
                     gCafe->levelToClear = activity->levelID;
                     activity->levelID = LEVEL_NULL;
@@ -464,12 +465,13 @@ void cafe_print_dialogue(void) {
                     // Weren't you playing it just now?
                     s = gCafe->string;
                     memcpy(s, "", 1);
+                    strcat(s, "\n");
                     strcat(s, "Alors... Vous avez un faible pour\n");
-                    strcat(s, "le jeu");
+                    strcat(s, "le jeu ");
                     strcat(s, "\0051" "\0015");
                     strcat(s, levelName);
                     strcat(s, "\0054" "\0018" ", hein‡R?\n");
-                    strcat(s, "Vous n'arrˆ®tez pas d'y jouer‡R?\n\n"
+                    strcat(s, "Vous n'arrˆ®tez pas d'y jouer‡R?\n"
                               " ");
                     string = s;
                     activity->levelID = LEVEL_NULL;
@@ -489,7 +491,7 @@ void cafe_print_dialogue(void) {
                     // Hey, here's a tip! Soon [...] is going to be having a perfect campaign.
                     s = gCafe->string;
                     memcpy(s, "", 1);
-                    strcat(s, "\nIl paraˆ²t qu'on va bientˆ¶t\n"
+                    strcat(s, "Il paraˆ²t qu'on va bientˆ¶t\n"
                               "vous donner la chance de faire\n"
                               "un Parfait dans le jeu\n");
                     strcat(s, "\0051" "\0015");
@@ -544,7 +546,7 @@ void cafe_print_dialogue(void) {
                 // <Leave it to me!>
                 string = "\n"
                          "\n"
-                         "\0032" "\001l" "\0051" "\0015" "Laissez-moi faire‡R!" "\0030" "\001s" "\0054" "\0018";
+                         "\0032" "\001l" "\0051" "\0015" "Laissez-moi faire !" "\0030" "\001s" "\0054" "\0018";
                 gCafe->textAdvHold = 3;
                 gCafe->bgEvent = CAFE_BG_EV_HELPING;
                 dialogueTask = CAFE_EV_OFFER_CLEAR_02_Y;
@@ -641,7 +643,7 @@ void cafe_print_dialogue(void) {
             // Crazy awesome!!
             string = "\0032" "\001l" "\0051" "\0015" "\n"
                      "Eh bien ˆ¹a,\n"
-                     "c'est parfait‡R!" "\0030" "\001s" "\0054" "\0018";
+                     "c'est parfait !" "\0030" "\001s" "\0054" "\0018";
             gCafe->bgEvent = CAFE_BG_EV_CHEER_02;
             gCafe->textAdvHold = 4;
             dialogue = cafe_dialogue_all_perfects_clear;

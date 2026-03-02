@@ -396,7 +396,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue GFX  */ epilogue_wizards_waltz_gfx_tables,
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "...J'ai peur‡R!",
-            /* OK        */ "Elles seront si jolie apr‡as avoir ‡Qclos‡R!",
+            /* OK        */ "Elles seront si jolies apr‡as avoir ‡Qclos‡R!",
             /* SUPERB    */ "Comment me sentir seule avec toutes ces fleurs‡R?"
         }
     },
