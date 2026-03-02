@@ -76,63 +76,63 @@ return
 @ Rap Men - Text
 
 text text_rap_men_sanji_desu_ka
-    .asciz ".b:1Ｙｏ，　ｃ’ｅｓｔ　ｂｉｅｎｔぞｔ　ｌ’ｈｅｕｒｅ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｙｏ，　ｃ’ｅｓｔ　ｂｉｅｎｔぞｔ　ｌ’ｈｅｕｒｅ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_men_oyatsu_desu_ka
-    .asciz ".b:1Ｙｏ，　ｌ’ｈｅｕｒｅ　ｄｕ　ｇｏとｔｅｒ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｙｏ，　ｌ’ｈｅｕｒｅ　ｄｕ　ｇｏとｔｅｒ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_men_honto_desu_ka
-    .asciz ".b:1Ｊ’ａｉ　ｒａｉｓｏｎ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｊ’ａｉ　ｒａｉｓｏｎ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_men_wakarimasu_ka
-    .asciz ".b:1Ｙｏ，　ｒａｐｐｅ　ａｖｅｃ　ｍｏｉ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｙｏ，　ｒａｐｐｅ　ａｖｅｃ　ｍｏｉ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_men_oishii_kamo_ne
-    .asciz ".9:1Ｄぎｌｉｃｉｅｕｘ，　.9:0ｔｕ　ｃｒｏｉｓ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｄぎｌｉｃｉｅｕｘ，　ｔｕ　ｃｒｏｉｓ　ｐａｓ　？"
 endtext
 
 text text_rap_men_herushii_kamo_ne
-    .asciz ".9:1Ｓａｖｏｕｒｅｕｘ，　.9:0ｔｕ　ｃｒｏｉｓ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｓａｖｏｕｒｅｕｘ，　ｔｕ　ｃｒｏｉｓ　ｐａｓ　？"
 endtext
 
 text text_rap_men_ore_no_sei_kamo_ne
-    .asciz ".9:1Ｑｕｉ　ａ　ｔｏｕｔ　ｐｒｉｓ，　.9:0ｔｕ　ｓａｉｓ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｑｕｉ　ａ　ｔｏｕｔ　ｐｒｉｓ，　ｔｕ　ｓａｉｓ　ｐａｓ　？"
 endtext
 
 text text_rap_men_sore_mo_sou_kamo_ne
-    .asciz ".9:1Ｔｕ　ｐｅｕｘ　ｍｅ　ｄｉｒｅ，　.9:0ｔｕ　ｃｒｏｉｓ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｔｕ　ｐｅｕｘ　ｍｅ　ｄｉｒｅ，　ｔｕ　ｃｒｏｉｓ　ｐａｓ　？"
 endtext
 
 text text_rap_men_tanoshii_kamo_ne
-    .asciz ".9:1Ｅｔ　おａ　ｇｒｏｏｖｅ　！　.9:0Ｔｕ　ｃｒｏｉｓ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｅｔ　おａ　ｇｒｏｏｖｅ　！　Ｔｕ　ｃｒｏｉｓ　ｐａｓ　？"
 endtext
 
 text text_rap_men_oyatsu_wa_saikou
-    .asciz ".a:1Ｃｅｓ　ｓｎａｃｋｓ　ｓｏｎｔ　ｌｅｓ　.a:0ＭＥＩＬＬＥＵＲＳ　！.8:1"
+    .asciz ".a:1Ｃｅｓ　ｓｎａｃｋｓ　ｓｏｎｔ　ｌｅｓ　ＭＥＩＬＬＥＵＲＳ　！"
 endtext
 
 text text_rap_men_kibun_wa_saikou
-    .asciz ".a:1Ｏｎ　ｅｓｔ　ｌｅｓ　.a:0ＭＥＩＬＬＥＵＲＳ　！.8:1"
+    .asciz ".a:1Ｏｎ　ｅｓｔ　ｌｅｓ　ＭＥＩＬＬＥＵＲＳ　！"
 endtext
 
 text text_rap_men_ore_tte_saikou
-    .asciz ".a:1Ｃ’ｅｓｔ　ｍｏｉ　ｌｅ　.a:0ＭＥＩＬＬＥＵＲ　！.8:1"
+    .asciz ".a:1Ｃ’ｅｓｔ　ｍｏｉ　ｌｅ　ＭＥＩＬＬＥＵＲ　！"
 endtext
 
 text text_rap_men_kimi_tte_saikou
-    .asciz ".a:1Ｃ’ｅｓｔ　ｔｏｉ　ｌｅ　.a:0ＭＥＩＬＬＥＵＲ　！.8:0"
+    .asciz ".a:1Ｃ’ｅｓｔ　ｔｏｉ　ｌｅ　ＭＥＩＬＬＥＵＲ　！"
 endtext
 
 text text_rap_men_oyatsu_ga_nai_yo
-    .asciz ".a:1Ｄｏｉｔ　ｙ　ａｖｏｉｒ　ｕｎ　.a:0ＶＯＬＥＵＲ　！.8:1"
+    .asciz ".a:1Ｄｏｉｔ　ｙ　ａｖｏｉｒ　ｕｎ　ＶＯＬＥＵＲ　！"
 endtext
 
 text text_rap_men_ore_shiranai_yo
-    .asciz ".a:1Ｓｉ　ｃ’ｅｓｔ　ｔｏｉ　ｌｅ　.a:0ＶＯＬＥＵＲ　！.8:1"
+    .asciz ".a:1Ｓｉ　ｃ’ｅｓｔ　ｔｏｉ　ｌｅ　ＶＯＬＥＵＲ　！"
 endtext
 
 

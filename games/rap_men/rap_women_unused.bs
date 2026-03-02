@@ -31,51 +31,51 @@ define_gameplay_scene scene_rap_women_unused, script_rap_women_unused_entry
 @ Rap Women (Unused) - Text
 
 text text_rap_women_unused_juji_desu_ka
-    .asciz ".b:1Ｙｏ，　ｌ’ｈｅｕｒｅ　ｄｕ　ｇｏとｔｅｒ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｙｏ，　ｌ’ｈｅｕｒｅ　ｄｕ　ｇｏとｔｅｒ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_women_unused_oyatsu_desu_ka
-    .asciz ".b:1Ｙｏ，　ｃ’ｅｓｔ　ｂｉｅｎｔぞｔ　ｌ’ｈｅｕｒｅ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｙｏ，　ｃ’ｅｓｔ　ｂｉｅｎｔぞｔ　ｌ’ｈｅｕｒｅ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_women_unused_naisho_desu_ka
-    .asciz ".b:1Ｐａｓ　ｕｎ　ｍｏｔ，　.b:0ｈｅｉｎ　？.8:1"
+    .asciz ".b:1Ｐａｓ　ｕｎ　ｍｏｔ，　ｈｅｉｎ　？"
 endtext
 
 text text_rap_women_unused_kare_no_oyatsu_da_ne
-    .asciz ".9:1Ｃ’ｅｓｔ　ｃｅｕｘ　ｄｅｓ　ｇａｒおｏｎｓ，　ｎ’ｅｓｔ－ｃｅ　ｐａｓ。？.8:1"
+    .asciz ".9:1Ｃ’ｅｓｔ　ｃｅｕｘ　ｄｅｓ　ｇａｒおｏｎｓ，　ｎ’ｅｓｔ－ｃｅ　ｐａｓ。？"
 endtext
 
 text text_rap_women_unused_tabeteii_kamo_ne
-    .asciz ".9:1Ｄぎｖｏｒｏｎｓ－ｌｅｓ，　.9:0ｔｕ　ｖｅｕｘ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｄぎｖｏｒｏｎｓ－ｌｅｓ，　ｔｕ　ｖｅｕｘ　ｐａｓ　？"
 endtext
 
 text text_rap_women_unused_aketeii_kamo_ne
-    .asciz ".9:1Ｆａｕｔ　ｌｅｓ　ｏｕｖｒｉｒ，　.9:0ｔｕ　ｖｅｕｘ　ｐａｓ　？.8:1"
+    .asciz ".9:1Ｆａｕｔ　ｌｅｓ　ｏｕｖｒｉｒ，　ｔｕ　ｖｅｕｘ　ｐａｓ　？"
 endtext
 
 text text_rap_women_unused_oyatsu_wa_saikou
-    .asciz ".a:1Ｃｅｓ　ｓｎａｃｋｓ　ｓｏｎｔ　ｌｅｓ　ＭＥＩＬＬＥＵＲＳ　！.8:1"
+    .asciz ".a:1Ｃｅｓ　ｓｎａｃｋｓ　ｓｏｎｔ　ｌｅｓ　ＭＥＩＬＬＥＵＲＳ　！"
 endtext
 
 text text_rap_women_unused_kibun_wa_saikou
-    .asciz ".a:1Ｏｎ　ｅｓｔ　ｌｅｓ　.a:0ＭＥＩＬＬＥＵＲＥＳ　！.8:1"
+    .asciz ".a:1Ｏｎ　ｅｓｔ　ｌｅｓ　ＭＥＩＬＬＥＵＲＥＳ　！"
 endtext
 
 text text_rap_women_unused_amakute_saikou
-    .asciz ".a:1Ｕｎ　ｍｉｌｌｉｏｎ　ｄｅ　.a:0ＳＡＶＥＵＲＳ　！.8:1"
+    .asciz ".a:1Ｕｎ　ｍｉｌｌｉｏｎ　ｄｅ　ＳＡＶＥＵＲＳ　！"
 endtext
 
 text text_rap_women_unused_betsubara_saikou
-    .asciz ".a:1Ｐｒｏｆｉｔｏｎｓ　.a:0ＰＯＵＲ　Ｌ’ＨＥＵＲＥ　！.8:1"
+    .asciz ".a:1Ｐｒｏｆｉｔｏｎｓ　ＰＯＵＲ　Ｌ’ＨＥＵＲＥ　！"
 endtext
 
 text text_rap_women_unused_kare_ni_wa_naisho
-    .asciz ".a:1Ｄｅｓ　ｍｅｃｓ，　ｏｎ　ｎ’ａ　.a:0ＰＡＳ　ＰＥＵＲ　！.8:1"
+    .asciz ".a:1Ｄｅｓ　ｍｅｃｓ，　ｏｎ　ｎ’ａ　ＰＡＳ　ＰＥＵＲ　！"
 endtext
 
 text text_rap_women_unused_dare_ni_mo_naisho
-    .asciz ".a:1Ｎｏｔｒｅ　ｐｌａｎ　ｅｓｔ　.a:0ＭＥＩＬＬＥＵＲ　！.8:1"
+    .asciz ".a:1Ｎｏｔｒｅ　ｐｌａｎ　ｅｓｔ　ＭＥＩＬＬＥＵＲ　！"
 endtext
 
 
