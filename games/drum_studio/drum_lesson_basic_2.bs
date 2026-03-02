@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_basic_2, script_drum_lesson_basic_2_entr
 @ Drum Lesson (Basic 2) - Data
 
 text D_08061998
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -54,10 +54,10 @@ return
 
 
 text D_08061a68
-    .ascii "\n"
-    .ascii "I swapped a bass beat\n"
-    .ascii "out for a snare beat.\n"
-    .asciz "Hear the difference?"
+    .ascii "J'ai remplac‡Q un battement\n"
+    .ascii "de grosse caisse avec un\n"
+    .ascii "battement de caisse claire.\n"
+    .asciz "Tu entends la diff‡Qrence‡R?"
 endtext
 
 
@@ -72,9 +72,10 @@ return
 
 
 text D_08061ae4
-    .ascii "\n"
-    .ascii "Now, another beat swap!\n"
-    .asciz "Think you can do it?\n"
+    .ascii "Un autre battement\n"
+    .ascii "a ‡Qt‡Q remplac‡Q‡R!\n"
+    .ascii "Je sais que tu peux\n"
+    .asciz "y arriver.\n"
 endtext
 
 
@@ -90,9 +91,9 @@ return
 
 text D_08061b64
     .ascii "\n"
-    .ascii "Let's throw in one\n"
-    .ascii "more bass beat!\n"
-    .asciz "You got this!"
+    .ascii "Maintenant, ajoutons un\n"
+    .ascii "nouveau battement de\n"
+    .asciz "grosse caisse."
 endtext
 
 
@@ -109,10 +110,10 @@ return
 
 
 text D_08061c00
-    .ascii "You hear that new bass beat?\n"
-    .ascii "Alternating between both\n"
-    .ascii "‡N and Down on ‡O should\n"
-    .asciz "make it easy!"
+    .ascii "Tu entends ce\n"
+    .ascii "nouveau battement‡R?\n"
+    .ascii "Alterner ‡N et ‡O bas devrait\n"
+    .asciz "t'aider ‡g jouer plus ais‡Qment."
 endtext
 
 
@@ -131,10 +132,10 @@ return
 
 
 text D_08061cb0
-    .ascii "Here's one more new beat!\n"
-    .ascii "This is the last set in this\n"
-    .ascii "lesson, so show me what\n"
-    .asciz "you've learned!"
+    .ascii "Encore un autre battement‡R!\n"
+    .ascii "C'est la derni‡are partie de\n"
+    .ascii "cette leˆ¹on, alors montre-moi\n"
+    .asciz "ce que tu as appris‡R!"
 endtext
 
 
@@ -148,32 +149,32 @@ return
 
 text D_08061d18
     .ascii "\n"
-    .ascii "In this lesson,\n"
-    .ascii "we'll be using two drums:\n"
-    .asciz "the bass and the snare.\n"
+    .ascii "Dans cette leˆ¹on, on va se\n"
+    .ascii "servir ‡g la fois de la grosse\n"
+    .asciz "caisse et de la caisse claire.\n"
 endtext
 
 
 text D_08061d70
     .ascii "\n"
-    .ascii "Hit the bass drum with ‡N\n"
-    .asciz "or by pressing Down on ‡O!\n"
+    .ascii "Frappe la grosse caisse\n"
+    .asciz "avec ‡N ou ‡O bas.\n"
 endtext
 
 
 text D_08061dbc
-    .ascii "If you've played the last\n"
-    .ascii "lesson, you know you can\n"
-    .ascii "hit either ‡M or Left on ‡O\n"
-    .asciz "to play the snare."
+    .ascii "Si tu te souviens de la\n"
+    .ascii "derni‡are leˆ¹on, tu sais que tu\n"
+    .ascii "peux utiliser ‡M ou ‡O gauche\n"
+    .asciz "pour jouer de la caisse claire."
 endtext
 
 
 text D_08061e04
     .ascii "\n"
-    .ascii "Keep all of that in mind\n"
-    .ascii "as you play this set!\n"
-    .ascii "Let's begin, taking it slow.\n"
+    .ascii "Garde bien ˆ¹a en tˆ®te‡R!\n"
+    .ascii "Maintenant, commenˆ¹ons\n"
+    .ascii "en douceur.\n"
 endtext
 
 

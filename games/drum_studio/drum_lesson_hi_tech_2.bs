@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_hi_tech_2, script_drum_lesson_hi_tech_2_
 @ Drum Lesson (Hi-Tech 2) - Data
 
 text D_08065f9c
-    .ascii "Let's not jump into the\n"
-    .ascii "deep end yet - here's\n"
-    .ascii "a bit of a refresher.\n"
-    .asciz "You've got this!"
+    .ascii "Ne commenˆ¹ons pas trop\n"
+    .ascii "compliqu‡Q. Voici de quoi\n"
+    .ascii "se remettre dans le bain.\n"
+    .asciz "Tu vas y arriver‡R!"
 endtext
 
 
@@ -100,9 +100,9 @@ return
 
 text D_08066258
     .ascii "\n"
-    .ascii "Now we start for real!\n"
-    .ascii "Listen carefully and\n"
-    .asciz "follow along closely."
+    .ascii "Maintenant on commence\n"
+    .ascii "pour de vrai‡R! ‡Pcoute\n"
+    .asciz "bien et suis-moi."
 endtext
 
 
@@ -152,9 +152,9 @@ return
 
 text D_08066480
     .ascii "\n"
-    .ascii "Let's add a little more\n"
-    .ascii "of the bass and snare.\n"
-    .asciz "Think you got this?"
+    .ascii "Ajoutons un peu de grosse\n"
+    .ascii "caisse et de caisse claire‡R!\n"
+    .asciz "Tu penses pouvoir y arriver‡R?"
 endtext
 
 
@@ -206,10 +206,10 @@ return
 
 
 text D_080666c0
-    .ascii "Let's throw in another\n"
-    .ascii "bass beat right in there!\n"
-    .ascii "It's in a really tricky spot,\n"
-    .asciz "so give it your all in here!"
+    .ascii "Rajoutons un coup de grosse\n"
+    .ascii "caisse‡R! Je l'ai gliss‡Q ‡g un\n"
+    .ascii "endroit tr‡as fourbe, h‡Qh‡Q.\n"
+    .asciz "Fais de ton mieux‡R!"
 endtext
 
 
@@ -263,10 +263,10 @@ return
 
 
 text D_08066918
-    .ascii "Here comes some more\n"
-    .ascii "bass and snare beats!\n"
-    .ascii "I know you can do it!\n"
-    .asciz "Put your heart into it!"
+    .ascii "Encore un coup de\n"
+    .ascii "grosse caisse, et un\n"
+    .ascii "autre de caisse claire.\n"
+    .asciz "Mets-y du cˆ¸ur‡R!"
 endtext
 
 
@@ -322,10 +322,10 @@ return
 
 
 text D_08066ba4
-    .ascii "\n"
-    .ascii "Add one more bass beat!\n"
-    .ascii "Stay focused and hit it\n"
-    .asciz "like there's no tomorrow!"
+    .ascii "Ajoute un autre coup de\n"
+    .ascii "grosse caisse‡R! Reste\n"
+    .ascii "concentr‡Q et frappe comme\n"
+    .asciz "si ta vie en d‡Qpendait‡R!"
 endtext
 
 
@@ -382,10 +382,10 @@ return
 
 
 text D_08066e20
-    .ascii "Let's stack some cymbals\n"
-    .ascii "on top of the bass and snare\n"
-    .ascii "pattern from before! You're\n"
-    .asciz "doing amazing, keep it up!"
+    .ascii "Rajoutons un coup de\n"
+    .ascii "cymbale sur la grosse caisse\n"
+    .ascii "que tu viens d'ajouter‡R!\n"
+    .asciz "N'abandonne pas‡R!"
 endtext
 
 
@@ -443,10 +443,10 @@ return
 
 
 text D_080670c4
-    .ascii "Okay! Now I've added one\n"
-    .ascii "more snare to the pattern!\n"
-    .ascii "We're so close to the grand\n"
-    .asciz "finale, stay determined!"
+    .ascii "OK, j'ai ajout‡Q un autre coup\n"
+    .ascii "de caisse claire au pattern‡R!\n"
+    .ascii "On s'approche du grand final‡R!\n"
+    .asciz "Fais preuve de d‡Qtermination‡R!"
 endtext
 
 
@@ -505,10 +505,10 @@ return
 
 
 text D_08067370
-    .ascii "This is it! The final pattern!\n"
-    .ascii "Just one more tom beat!\n"
-    .ascii "Ride the rhythm and let it\n"
-    .asciz "flow within your soul!"
+    .ascii "Le voici‡R! Le dernier pattern‡R!\n"
+    .ascii "Juste un coup de tom‡R!\n"
+    .ascii "Sens le rythme traverser\n"
+    .asciz "ton corps et ton ‡ume‡R!"
 endtext
 
 
@@ -568,25 +568,25 @@ return
 
 
 text D_08067638
-    .ascii "\n"
-    .ascii "This final lesson will use all\n"
-    .ascii "the techniques you've learned\n"
-    .asciz "in the previous lessons!\n"
+    .ascii "Ce dernier cours va te tester\n"
+    .ascii "sur toutes les techniques\n"
+    .ascii "que je t'ai apprises dans\n"
+    .asciz "les leˆ¹ons pr‡Qc‡Qdentes‡R!\n"
 endtext
 
 
 text D_08067668
     .ascii "\n"
-    .ascii "This is going to be very\n"
-    .ascii "challenging, especially if\n"
-    .asciz "you've skipped any of them!"
+    .ascii "ˆ»a risque d'ˆ®tre tr‡as difficile\n"
+    .ascii "si tu n'as pas r‡Qussi\n"
+    .asciz "certaines d'entre elles‡R!"
 endtext
 
 
 text D_0806769c
     .ascii "\n"
-    .ascii "Are you all set then?\n"
-    .asciz "Let's get started!"
+    .ascii "Alors tu es prˆ®t‡R?\n"
+    .asciz "C'est parti‡R!"
 endtext
 
 

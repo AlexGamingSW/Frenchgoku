@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_1, script_drum_lesson_short_1_entr
 @ Drum Lesson (Short 1) - Data
 
 text D_0805f114
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -55,9 +55,9 @@ return
 
 text D_0805f1e4
     .ascii "\n"
-    .ascii "Now let's swap one of\n"
-    .ascii "the bass beats for a snare.\n"
-    .asciz "You know what to do!\n"
+    .ascii "Maintenant, ajoutons un\n"
+    .ascii "coup de grosse caisse.\n"
+    .asciz "Tu sais quoi faire‡R!\n"
 endtext
 
 
@@ -75,8 +75,8 @@ return
 
 text D_0805f278
     .ascii "\n"
-    .ascii "New snare beat incoming!\n"
-    .asciz "Think you've got it?\n"
+    .ascii "Nouveau battement sur la\n"
+    .asciz "caisse claire‡R! Tu me suis‡R?\n"
 endtext
 
 
@@ -96,9 +96,9 @@ return
 
 text D_0805f32c
     .ascii "\n"
-    .ascii "One more snare at the end!\n"
-    .ascii "You're getting closer to\n"
-    .asciz "playing like a pro!\n"
+    .ascii "Une autre claisse claire\n"
+    .ascii "‡g la fin‡R! ˆ»a commence ‡g\n"
+    .asciz "sonner vraiment pro‡R!\n"
 endtext
 
 
@@ -120,9 +120,9 @@ return
 
 text D_0805f3f8
     .ascii "\n"
-    .ascii "Let's round this out with\n"
-    .ascii "a bass beat at the start.\n"
-    .asciz "You've got this!\n"
+    .ascii "Pour finir, ajoutons un\n"
+    .ascii "coup de grosse caisse\n"
+    .asciz "au d‡Qbut‡R! Tu vas y arriver‡R!\n"
 endtext
 
 
@@ -136,9 +136,9 @@ return
 
 text D_0805f470
     .ascii "\n"
-    .ascii "Surprise! We've got a\n"
-    .ascii "triple beat at the end!\n"
-    .asciz "Ready?\n"
+    .ascii "Surprise‡R! On a un triple\n"
+    .ascii "battement ‡g la fin‡R! Prˆ®t‡R?\n"
+    .asciz "\n"
 endtext
 
 

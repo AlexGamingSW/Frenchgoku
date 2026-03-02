@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_long_2, script_drum_lesson_long_2_entry
 @ Drum Lesson (Long 2) - Data
 
 text D_08062d98
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -65,9 +65,9 @@ return
 
 text D_08062ee0
     .ascii "\n"
-    .ascii "Time to kick things up a notch!\n"
-    .ascii "Add a crash at the start and a\n"
-    .asciz "snare at the end! Let's go!\n"
+    .ascii "Ajoutons un coup de cymbale\n"
+    .ascii "au d‡Qbut, et un coup de\n"
+    .asciz "caisse claire ‡g la fin‡R!\n"
 endtext
 
 
@@ -102,9 +102,9 @@ return
 
 text D_08063024
     .ascii "\n"
-    .ascii "Let's change the bass a bit.\n"
-    .ascii "Listen carefully and keep\n"
-    .asciz "the rhythm going!"
+    .ascii "Changeons un peu la\n"
+    .ascii "grosse caisse. ‡Pcoute\n"
+    .asciz "bien et suis le rythme‡R!"
 endtext
 
 
@@ -137,10 +137,10 @@ return
 
 
 text D_08063184
-    .ascii "Last but not least, let's add\n"
-    .ascii "one more bass beat in here.\n"
-    .ascii "We're reaching the end, so\n"
-    .asciz "Let's drive it home now!\n"
+    .ascii "Le dernier mais pas des\n"
+    .ascii "moindres‡R: un coup de\n"
+    .ascii "grosse caisse vers la fin.\n"
+    .asciz "Tu touches au but‡R!\n"
 endtext
 
 

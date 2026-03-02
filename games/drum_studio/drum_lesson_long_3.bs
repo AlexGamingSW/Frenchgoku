@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_long_3, script_drum_lesson_long_3_entry
 @ Drum Lesson (Long 3) - Data
 
 text D_08063308
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -63,9 +63,9 @@ return
 
 text D_08063438
     .ascii "\n"
-    .ascii "Let's keep the bass going,\n"
-    .ascii "and add snares to the mix!\n"
-    .asciz "Things are getting groovy!"
+    .ascii "Maintiens ta grosse caisse\n"
+    .ascii "et rajoute de la caisse claire\n"
+    .asciz "au mix‡R! ˆ»a devient groovy‡R!"
 endtext
 
 
@@ -92,10 +92,10 @@ return
 
 
 text D_0806354c
-    .ascii "\n"
-    .ascii "Let's spice things up, and\n"
-    .ascii "hit the crash! We're still\n"
-    .asciz "just warming up, y'know?"
+    .ascii "Rendons ˆ¹a plus int‡Qressant\n"
+    .ascii "en frappant la crash‡R!\n"
+    .ascii "On est toujours ‡g\n"
+    .asciz "l'‡Qchauffement, hein‡R?"
 endtext
 
 
@@ -107,10 +107,10 @@ return
 
 
 text D_080635bc
-    .ascii "\n"
-    .ascii "Alright, time to switch up\n"
-    .ascii "the end with some snares.\n"
-    .asciz "It's starting to take shape!\n"
+    .ascii "OK, maintenant on\n"
+    .ascii "pimente la fin avec de la\n"
+    .ascii "caisse claire. ˆ»a commence\n"
+    .asciz "‡g prendre forme‡R!\n"
 endtext
 
 
@@ -140,10 +140,10 @@ return
 
 
 text D_08063708
-    .ascii "Let's add one more beat\n"
-    .ascii "on top of the last part.\n"
-    .ascii "Yes, it's a bit tricky, but\n"
-    .asciz "I'm sure you've got this!\n"
+    .ascii "Ajoutons un autre coup, un\n"
+    .ascii "peu avant la fin. Oui, c'est\n"
+    .ascii "technique, mais je suis sˆ½r\n"
+    .asciz "que tu vas t'en sortir‡R!\n"
 endtext
 
 
@@ -176,10 +176,10 @@ return
 
 
 text D_08063870
-    .ascii "Okay, last change!\n"
-    .ascii "If you can pull this off,\n"
-    .ascii "you're basically a full-on\n"
-    .asciz "pro drummer in my eyes!"
+    .ascii "OK, dernier changement‡R!\n"
+    .ascii "Si tu y arrives, on pourra\n"
+    .ascii "dire que tu joues dans la\n"
+    .asciz "cour des grands‡R!"
 endtext
 
 

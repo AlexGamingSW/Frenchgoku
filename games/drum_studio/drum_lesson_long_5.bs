@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_long_5, script_drum_lesson_long_5_entry
 @ Drum Lesson (Long 5) - Data
 
 text D_08063e10
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -96,10 +96,10 @@ return
 
 
 text D_080640d8
-    .ascii "Now then, let's add a\n"
-    .ascii "snare and a crash in here.\n"
-    .ascii "Don't get too comfortable,\n"
-    .asciz "and stay focused!\n"
+    .ascii "Maintenant, ajoutons une\n"
+    .ascii "caisse claire et une crash.\n"
+    .ascii "C'est pas l'heure de se\n"
+    .asciz "pr‡Qlasser, reste concentr‡Q‡R!\n"
 endtext
 
 
@@ -164,10 +164,10 @@ return
 
 
 text D_0806439c
-    .ascii "Let's spice it up a little!\n"
-    .ascii "Switch this snare with a tom.\n"
-    .ascii "Just go along with the beat\n"
-    .asciz "and you'll be good to go!\n"
+    .ascii "On pimente un peu le tout,\n"
+    .ascii "en remplaˆ¹ant cette caisse\n"
+    .ascii "claire avec un tom. Ressens\n"
+    .asciz "le rythme et ce sera naturel‡R!\n"
 endtext
 
 
@@ -221,10 +221,10 @@ return
 
 
 text D_080645fc
-    .ascii "To end it off, one last snare!\n"
-    .ascii "Keep your focus on the\n"
-    .ascii "order you hit the drums.\n"
-    .asciz "You've got this!\n"
+    .ascii "Pour finir en beaut‡Q, une\n"
+    .ascii "derni‡are caisse claire‡R!\n"
+    .ascii "Ne t'emmˆ®le pas les\n"
+    .asciz "baguettes, tu peux le faire‡R!\n"
 endtext
 
 

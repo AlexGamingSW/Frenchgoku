@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_basic_1, script_drum_lesson_basic_1_entr
 @ Drum Lesson (Basic 1) - Data
 
 text D_080613e4
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -57,9 +57,9 @@ return
 
 text D_080614cc
     .ascii "\n"
-    .ascii "Here's a new drumbeat!\n"
-    .ascii "Alternate both ‡O and ‡M \n"
-    .asciz "for the fast beats.\n"
+    .ascii "Voil‡g un nouveau battement‡R!\n"
+    .ascii "Alterne ‡M et ‡O pour\n"
+    .asciz "les coups rapides.\n"
 endtext
 
 
@@ -79,9 +79,9 @@ return
 
 text D_08061578
     .ascii "\n"
-    .ascii "Let's add another drumbeat!\n"
-    .ascii "Look out for it!\n"
-    .asciz "I know you can handle it.\n"
+    .ascii "Ajoutons un nouveau\n"
+    .ascii "battement‡R! Pr‡Qpare-toi‡R!\n"
+    .asciz "Je sais que tu peux le faire.\n"
 endtext
 
 
@@ -95,9 +95,9 @@ return
 
 text D_080615e4
     .ascii "\n"
-    .ascii "And now for another\n"
-    .ascii "drumbeat right at the\n"
-    .asciz "end! Can you get it?\n"
+    .ascii "Et voil‡g un nouveau\n"
+    .ascii "battement ‡g la toute fin‡R!\n"
+    .asciz "Tu peux y arriver‡R?\n"
 endtext
 
 
@@ -128,94 +128,95 @@ return
 
 
 text D_08061704
-    .ascii "Welcome to Drum Lessons!\n"
-    .ascii "Let's start off simple\n"
-    .ascii "with just the snare drum.\n"
-    .asciz "We'll add more beats later.\n"
+    .ascii "Bienvenue‡R! Commenˆ¹ons\n"
+    .ascii "simplement avec la caisse\n"
+    .ascii "claire. On ajoutera\n"
+    .asciz "d'autres battements apr‡as.\n"
 endtext
 
 
 text D_08061740
-    .ascii "\n"
-    .ascii "Hit the snare with ‡M or by\n"
-    .asciz "pressing Left on ‡O!\n"
+    .ascii "Frappe la caisse claire\n"
+    .ascii "avec ‡M ou en appuyant\n"
+    .asciz "sur ‡O gauche‡R!\n"
 endtext
 
 
 text D_0806178c
-    .ascii "Don't be discouraged if you\n"
-    .ascii "struggle at first. You can\n"
-    .ascii "try as much as you need.\n"
-    .asciz "With that, let's begin!\n"
+    .ascii "Ne te d‡Qcourage pas si tu\n"
+    .ascii "trouves ˆ¹a difficile au d‡Qbut.\n"
+    .ascii "Tu pourras r‡Qessayer autant\n"
+    .asciz "de fois que n‡Qcessaire.\n"
 endtext
 
 
 text D_080617bc
-    .ascii "\n"
-    .ascii "See the lights up there?\n"
-    .ascii "Those are Timing Lights!\n"
-    .asciz ""
+    .ascii "Tu vois ces lumi‡ares‡R?\n"
+    .ascii "C'est pour t'aider ‡g voir\n"
+    .ascii "le timing. Elles clignotent\n"
+    .asciz "selon ton rythme‡R!"
 endtext
 
 
 text D_080617f0
-    .ascii "The lights blink to your timing:\n"
-    .ascii "Left if you're early,\n"
-    .ascii "Right if you're late,\n"
-    .asciz "Center if you're on beat!"
+    .ascii "‡f gauche si c'est trop tˆ¶t,\n"
+    .ascii "‡g droite si c'est trop tard.\n"
+    .ascii "Pile au centre si\n"
+    .asciz "tu es en rythme‡R!"
 endtext
 
 
 text D_0806183c
-    .ascii "\n"
-    .ascii "If you're struggling to get the\n"
-    .ascii "timing down, look at the lamps\n"
-    .asciz "to help fix your timing."
+    .ascii "Si tu as du mal ‡g trouver\n"
+    .ascii "le bon rythme, regarde les\n"
+    .ascii "lumi‡ares pour pouvoir\n"
+    .asciz "corriger ton timing."
 endtext
 
 
 text D_08061884
     .ascii "\n"
-    .ascii "Now then, let's get on\n"
-    .asciz "with the lesson!"
+    .ascii "‡f pr‡Qsent,\n"
+    .asciz "continuons la leˆ¹on‡R!"
 endtext
 
 
 text D_0806189c
-    .ascii "If I'm going too fast and\n"
-    .ascii "you're having trouble,\n"
-    .ascii "you can press START.\n"
-    .asciz "\n"
+    .ascii "\n"
+    .ascii "Si je vais trop vite ou\n"
+    .ascii "si tu as des difficult‡Qs,\n"
+    .asciz "tu peux appuyer sur START.\n"
 endtext
 
 
 text D_080618d8
     .ascii "\n"
-    .ascii "That will slow down the tempo.\n"
-    .ascii "This way, you can get a good\n"
-    .asciz "feel for the patterns.\n"
+    .ascii "ˆ»a ralentira le tempo.\n"
+    .ascii "Comme ˆ¹a, tu pourras mieux\n"
+    .asciz "comprendre les patterns.\n"
 endtext
 
 
 text D_08061910
-    .ascii "\n"
-    .ascii "Press the START Button\n"
-    .ascii "again to speed it back up\n"
-    .asciz "and try it for real."
+    .ascii "Appuie de nouveau sur\n"
+    .ascii "START pour remettre\n"
+    .ascii "‡g la bonne vitesse et\n"
+    .asciz "essayer pour de vrai."
 endtext
 
 
 text D_08061950
-    .ascii "\n"
-    .ascii "The lesson won't continue in\n"
-    .ascii "slow mode, by the way. You'll\n"
-    .asciz "need to do it at normal speed."
+    .ascii "D'ailleurs, la leˆ¹on\n"
+    .ascii "ne continuera pas en\n"
+    .ascii "mode ralenti. Tu vas devoir\n"
+    .asciz "la faire ‡g la vitesse normale."
 endtext
 
 
 text D_08061980
     .ascii "\n"
-    .asciz "Now, let's finish this lesson!"
+    .ascii "Maintenant,\n"
+    .asciz "terminons la leˆ¹on‡R!"
 endtext
 
 

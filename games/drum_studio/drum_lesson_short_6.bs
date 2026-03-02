@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_6, script_drum_lesson_short_6_entr
 @ Drum Lesson (Short 6) - Data
 
 text D_08060fa0
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -54,10 +54,10 @@ return
 
 
 text D_08061070
-    .ascii "Now, let's add a snare\n"
-    .ascii "right at the very end.\n"
-    .ascii "Keep the bass pattern\n"
-    .asciz "the same, though!"
+    .ascii "Ajoutons une caisse claire\n"
+    .ascii "sur le dernier temps.\n"
+    .ascii "Ne change rien sur\n"
+    .asciz "la grosse caisse‡R!"
 endtext
 
 
@@ -73,10 +73,10 @@ return
 
 
 text D_08061110
-    .ascii "Let's add another snare,\n"
-    .ascii "this time on the 2nd beat.\n"
-    .ascii "Same as before, keep\n"
-    .asciz "the bass as it is!\n"
+    .ascii "Ajoutons une autre caisse\n"
+    .ascii "claire, cette fois sur le\n"
+    .ascii "2e temps. Et on ne change\n"
+    .asciz "rien sur la grosse caisse‡R!\n"
 endtext
 
 
@@ -94,9 +94,9 @@ return
 
 text D_080611c0
     .ascii "\n"
-    .ascii "Let's keep this going!\n"
-    .ascii "This time, a hi-hat.\n"
-    .asciz "Press Up on ‡O for it!\n"
+    .ascii "On continue‡R!\n"
+    .ascii "Cette fois, un charleston.\n"
+    .asciz "Utilise ‡O haut‡R!\n"
 endtext
 
 
@@ -115,10 +115,10 @@ return
 
 
 text D_08061288
-    .ascii "Now for a surprise...\n"
-    .ascii "It's another hi-hat!\n"
-    .ascii "Don't mix up your left\n"
-    .asciz "and right hand, here!"
+    .ascii "J'ai une surprise pour toi...\n"
+    .ascii "H‡Q oui, un autre charley‡R!\n"
+    .ascii "Essaie de ne pas \n"
+    .asciz "t'emmˆ®ler les baguettes‡R!"
 endtext
 
 
@@ -132,9 +132,9 @@ return
 
 text D_08061300
     .ascii "\n"
-    .ascii "One last surprise!\n"
-    .ascii "Just one more hi-hat!\n"
-    .asciz "That's a groovy beat!\n"
+    .ascii "Allez, une autre surprise‡R!\n"
+    .ascii "Juste un dernier charley‡R!\n"
+    .asciz "Et ˆ¹a groove‡R!\n"
 endtext
 
 

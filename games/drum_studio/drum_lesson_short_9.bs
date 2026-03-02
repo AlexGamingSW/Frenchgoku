@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_9, script_drum_lesson_short_9_entr
 @ Drum Lesson (Short 9) - Data
 
 text D_0806090c
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -54,10 +54,10 @@ return
 
 
 text D_080609dc
-    .ascii "\n"
-    .ascii "Kick each bass twice!\n"
-    .ascii "Think you've got this?\n"
-    .asciz "I'd suggest only using ‡N."
+    .ascii "Double chaque coup de\n"
+    .ascii "grosse caisse‡R! ˆ»a va aller\n"
+    .ascii "pour toi‡R? Je te conseille\n"
+    .asciz "de n'utiliser que ‡N."
 endtext
 
 
@@ -86,10 +86,10 @@ return
 
 
 text D_08060af4
-    .ascii "Now let's do a new snare\n"
-    .ascii "beat, right before the end.\n"
-    .ascii "Careful though, the bass\n"
-    .asciz "is still the same as before!"
+    .ascii "Maintenant, on rajoute une\n"
+    .ascii "caisse claire juste avant\n"
+    .ascii "la fin. Attention, la grosse\n"
+    .asciz "caisse ne change pas‡R!"
 endtext
 
 
@@ -111,10 +111,10 @@ return
 
 
 text D_08060be0
-    .ascii "\n"
-    .ascii "Let's add another snare\n"
-    .ascii "right after the last one.\n"
-    .asciz "The bass still hasn't changed!"
+    .ascii "Ajoutons un autre coup de\n"
+    .ascii "caisse claire, juste apr‡as le\n"
+    .ascii "dernier. La grosse caisse\n"
+    .asciz "ne change toujours pas‡R!"
 endtext
 
 
@@ -138,10 +138,10 @@ return
 
 
 text D_08060cd0
-    .ascii "Okay, let's add a bit more\n"
-    .ascii "snare at the beginning.\n"
-    .ascii "Listen carefully and keep\n"
-    .asciz "the beat steady!"
+    .ascii "OK, ajoutons un peu de\n"
+    .ascii "caisse claire au d‡Qbut.\n"
+    .ascii "‡Pcoute bien et garde\n"
+    .asciz "un rythme constant‡R!"
 endtext
 
 
@@ -167,10 +167,10 @@ return
 
 
 text D_08060de4
-    .ascii "\n"
-    .ascii "Another snare beat! It's a\n"
-    .ascii "simple change, but it makes\n"
-    .asciz "things a lot more difficult."
+    .ascii "Un autre coup de\n"
+    .ascii "caisse claire‡R! ‡f lui seul,\n"
+    .ascii "il rend les choses bien\n"
+    .asciz "plus compliqu‡Qes."
 endtext
 
 
@@ -198,10 +198,10 @@ return
 
 
 text D_08060f10
-    .ascii "You're almost done! Now\n"
-    .ascii "another one, at the start.\n"
-    .ascii "It's pretty tricky, but it\n"
-    .asciz "makes it sound great!\n"
+    .ascii "Tu as presque fini‡R! On en\n"
+    .ascii "rajoute un autre au d‡Qbut.\n"
+    .ascii "C'est plutˆ¶t difficile, mais\n"
+    .asciz "ˆ¹a sonne si bien‡R!\n"
 endtext
 
 

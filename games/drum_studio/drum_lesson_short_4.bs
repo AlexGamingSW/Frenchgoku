@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_4, script_drum_lesson_short_4_entr
 @ Drum Lesson (Short 4) - Data
 
 text D_0805f560
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -57,8 +57,9 @@ return
 
 text D_0805f648
     .ascii "\n"
-    .ascii "I slipped in another bass beat!\n"
-    .asciz "We're only just starting!\n"
+    .ascii "J'ai gliss‡Q un coup de\n"
+    .ascii "grosse caisse. ˆ»a ne\n"
+    .asciz "fait que commencer‡R!\n"
 endtext
 
 
@@ -71,9 +72,9 @@ return
 
 text D_0805f6ac
     .ascii "\n"
-    .ascii "There's a new addition to the\n"
-    .ascii "drum set, what could it be?\n"
-    .asciz "Press Up on ‡O to find out!"
+    .ascii "Je rajoute un battement.\n"
+    .ascii "Tu te demandes c'est quoi‡R?\n"
+    .asciz "Utilise ‡O haut pour le savoir‡R!"
 endtext
 
 
@@ -89,9 +90,9 @@ return
 
 text D_0805f740
     .ascii "\n"
-    .ascii "Let's put some syncopation\n"
-    .ascii "at the end here. This one's a\n"
-    .asciz "little technical!\n"
+    .ascii "Rajoutons une syncopette\n"
+    .ascii "‡g la fin. C'est un peu\n"
+    .asciz "technique‡R!\n"
 endtext
 
 
@@ -110,10 +111,10 @@ return
 
 
 text D_0805f7f4
-    .ascii "Now for a tom beat, right\n"
-    .ascii "at the very end!\n"
-    .ascii "Remember where that is?\n"
-    .asciz "(Hint: Right on ‡O!)"
+    .ascii "\n"
+    .ascii "Maintenant, un coup de tom\n"
+    .ascii "‡g la fin‡R! Tu te souviens oˆ·\n"
+    .asciz "il est‡R? C'est sur ‡O droite."
 endtext
 
 
@@ -135,9 +136,9 @@ return
 
 text D_0805f8dc
     .ascii "\n"
-    .ascii "Surprise! One final snare\n"
-    .ascii "here in the middle!\n"
-    .asciz "It's all coming together!\n"
+    .ascii "Surprise‡R! Un coup final de\n"
+    .ascii "caisse claire ici au milieu‡R!\n"
+    .asciz "Tout s'assemble‡R!\n"
 endtext
 
 
@@ -160,25 +161,25 @@ return
 
 
 text D_0805f9cc
-    .ascii "\n"
-    .ascii "That just now was our first\n"
-    .ascii "cymbal, the hi-hat!\n"
-    .asciz "You can hit it with Up on ‡O.\n"
+    .ascii "C'‡Qtait notre premi‡are\n"
+    .ascii "cymbale, le charleston‡R!\n"
+    .ascii "Tu peux la frapper\n"
+    .asciz "avec ‡O haut‡R!\n"
 endtext
 
 
 text D_0805fa10
-    .ascii "\n"
-    .ascii "Up on ‡O can be either the\n"
-    .ascii "hi-hat or the roll, depending\n"
-    .asciz "on the drum set we're using.\n"
+    .ascii "‡O haut peut servir pour le\n"
+    .ascii "charley ou pour le roulement,\n"
+    .ascii "en fonction de la batterie\n"
+    .asciz "qu'on utilise.\n"
 endtext
 
 
 text D_0805fa60
     .ascii "\n"
-    .ascii "Now then, let's get on\n"
-    .asciz "with the lesson!"
+    .ascii "Maintenant,\n"
+    .asciz "continuons la leˆ¹on‡R!"
 endtext
 
 

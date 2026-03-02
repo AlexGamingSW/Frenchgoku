@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_2, script_drum_lesson_short_2_entr
 @ Drum Lesson (Short 2) - Data
 
 text D_08061e24
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -54,10 +54,10 @@ return
 
 
 text D_08061ef4
-    .ascii "\n"
-    .ascii "Now, a snare on the offbeat!\n"
-    .ascii "Makes it feels kind of intense!\n"
-    .asciz "One two, one two!"
+    .ascii "Maintenant j'ajoute\n"
+    .ascii "une caisse claire sur le\n"
+    .ascii "contretemps‡R! ˆ»a devient\n"
+    .asciz "vite plus int‡Qressant‡R!"
 endtext
 
 
@@ -86,10 +86,10 @@ return
 
 
 text D_08061ffc
-    .ascii "Okay, let's mix it up!\n"
-    .ascii "I moved one of the bass\n"
-    .ascii "beats back a little bit.\n"
-    .asciz "It's tricky, but doable!"
+    .ascii "Pimentons un peu en jouant\n"
+    .ascii "un coup de grosse caisse\n"
+    .ascii "l‡Qg‡arement en avance.\n"
+    .asciz "C'est assez technique‡R!"
 endtext
 
 
@@ -112,9 +112,9 @@ return
 
 text D_080620e4
     .ascii "\n"
-    .ascii "I'll squeeze another beat\n"
-    .ascii "into that gap there.\n"
-    .asciz "Do your best!\n"
+    .ascii "Rajoutons un battement\n"
+    .ascii "dans le creux qu'on a cr‡Q‡Q.\n"
+    .asciz "Fais de ton mieux‡R!\n"
 endtext
 
 
@@ -139,9 +139,9 @@ return
 
 text D_080621d4
     .ascii "\n"
-    .ascii "We'll wrap this up by doubling\n"
-    .ascii "up on that second bass beat.\n"
-    .asciz "Let's bring it home!"
+    .ascii "Terminons en doublant le\n"
+    .ascii "deuxi‡ame coup de grosse\n"
+    .asciz "caisse. L‡uche-toi‡R!"
 endtext
 
 

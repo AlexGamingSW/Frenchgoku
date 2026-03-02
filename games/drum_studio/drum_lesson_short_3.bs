@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_3, script_drum_lesson_short_3_entr
 @ Drum Lesson (Short 3) - Data
 
 text D_080622d8
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -57,9 +57,9 @@ return
 
 text D_080623c0
     .ascii "\n"
-    .ascii "Here's a drum we haven't\n"
-    .ascii "given a try yet: the tom!\n"
-    .asciz "Hit it by pressing Right on ‡O!\n"
+    .ascii "Essayons un nouveau\n"
+    .ascii "tambour‡R: j'ai nomm‡Q le tom‡R!\n"
+    .asciz "Frappe-le avec ‡O droite.\n"
 endtext
 
 
@@ -78,10 +78,10 @@ return
 
 
 text D_08062488
-    .ascii "\n"
-    .ascii "Next up, it's the same as\n"
-    .ascii "before but with a drum roll!\n"
-    .asciz "Do it with Up on ‡O!\n"
+    .ascii "Maintenant on remplace\n"
+    .ascii "le tom par un roulement de\n"
+    .ascii "caisse claire. Utilise ‡O haut\n"
+    .asciz "pour le roulement‡R!\n"
 endtext
 
 
@@ -100,10 +100,10 @@ return
 
 
 text D_08062558
-    .ascii "\n"
-    .ascii "Let's work the tom back in,\n"
-    .ascii "but at the end instead.\n"
-    .asciz "Don't mix it up!\n"
+    .ascii "Remettons le tom,\n"
+    .ascii "mais ‡g la fin cette fois‡R!\n"
+    .ascii "Essaie de ne pas\n"
+    .asciz "t'emmˆ®ler les baguettes‡R!\n"
 endtext
 
 

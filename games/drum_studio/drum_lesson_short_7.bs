@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_short_7, script_drum_lesson_short_7_entr
 @ Drum Lesson (Short 7) - Data
 
 text D_08060310
-    .ascii "Listen to my pattern, then\n"
-    .ascii "repeat when you're ready.\n"
-    .ascii "I'll show it to you again\n"
-    .asciz "if you stop playing."
+    .ascii "‡Pcoute mon pattern, et\n"
+    .ascii "r‡Qp‡ate-le quand tu es prˆ®t.\n"
+    .ascii "Je te le jouerai encore\n"
+    .asciz "si tu t'arrˆ®tes de jouer."
 endtext
 
 
@@ -56,9 +56,9 @@ return
 
 text D_080603ec
     .ascii "\n"
-    .ascii "Next up, hit the crash\n"
-    .ascii "with ‡L at the same\n"
-    .asciz "time as the bass!"
+    .ascii "Ajoutons une cymbale crash\n"
+    .ascii "avec ‡L en mˆ®me temps\n"
+    .asciz "que la grosse caisse‡R!"
 endtext
 
 
@@ -71,9 +71,9 @@ return
 
 text D_08060454
     .ascii "\n"
-    .ascii "Now let's add more snares!\n"
-    .ascii "By now, this should be a\n"
-    .asciz "piece of cake for you!"
+    .ascii "Ajoutons davantage de\n"
+    .ascii "caisse claire‡R! Tu devrais y\n"
+    .asciz "arriver les doigts dans le nez‡R!"
 endtext
 
 
@@ -90,10 +90,10 @@ return
 
 
 text D_080604f0
-    .ascii "\n"
-    .ascii "Lets add another bass beat!\n"
-    .ascii "This shouldn't be a problem\n"
-    .asciz "for you, either."
+    .ascii "Ajoutons un coup de\n"
+    .ascii "grosse caisse. L‡g aussi,\n"
+    .ascii "ˆ¹a ne devrait pas te\n"
+    .asciz "poser probl‡ame."
 endtext
 
 
@@ -107,10 +107,10 @@ return
 
 
 text D_08060568
-    .ascii "Would you look at that?\n"
-    .ascii "Yet another bass beat!\n"
-    .ascii "Careful, though, things\n"
-    .asciz "are getting trickier!"
+    .ascii "Mate un peu ˆ¹a maintenant‡R!\n"
+    .ascii "Un autre coup de grosse\n"
+    .ascii "caisse‡R! Attention, ˆ¹a devient\n"
+    .asciz "plus compliqu‡Q‡R!"
 endtext
 
 
@@ -130,8 +130,9 @@ return
 
 text D_08060628
     .ascii "\n"
-    .ascii "One more beat on that bass!\n"
-    .asciz "You're doing great, keep it up!"
+    .ascii "OK, rajoutons encore un coup\n"
+    .ascii "de grosse caisse‡R! Tu t'en\n"
+    .asciz "sors super, n'abandonne pas‡R!"
 endtext
 
 
@@ -152,10 +153,10 @@ return
 
 
 text D_08060700
-    .ascii "\n"
-    .ascii "And another one!\n"
-    .ascii "If you keep this pace,\n"
-    .asciz "you'll be done in no time!"
+    .ascii "Et encore un‡R!\n"
+    .ascii "Si tu continues sur cette\n"
+    .ascii "lanc‡Qe, t'auras fini la leˆ¹on\n"
+    .asciz "en un rien de temps‡R!"
 endtext
 
 
@@ -178,10 +179,10 @@ return
 
 
 text D_080607f0
-    .ascii "Time for the final beat!\n"
-    .ascii "Just add one last snare!\n"
-    .ascii "You'll definitely need both\n"
-    .asciz "hands for this one!\n"
+    .ascii "C'est l'heure du coup final‡R!\n"
+    .ascii "Rajoute juste une derni‡are\n"
+    .ascii "caisse claire‡R! T'auras besoin\n"
+    .asciz "de tes deux mains‡R!\n"
 endtext
 
 
