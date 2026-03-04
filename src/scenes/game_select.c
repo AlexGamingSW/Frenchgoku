@@ -301,17 +301,17 @@ const char *get_campaign_gift_title(s32 id, s32 shortenSongTitle) {
 void start_campaign_notice(s32 id) {
     struct CampaignNotice *notice = &gGameSelect->campaignNotice;
     u32 isSpecialSong = FALSE;
-    u32 isStandardSong = FALSE;
+    u32 isSong = FALSE;
     u32 giftType = campaign_gifts_table[id].type;
     u32 giftID = campaign_gifts_table[id].id;
     struct LevelData *level;
     char *string;
 
     if (giftType == CAMPAIGN_GIFT_SONG) {
-        isStandardSong = TRUE;
+        isSong = TRUE;
         switch (giftID) {
             case STUDIO_SONG_WISH:
-                isStandardSong = FALSE;
+            case STUDIO_SONG_HONEY_SWEET_ANGEL:
                 isSpecialSong = TRUE;
                 break;
         }

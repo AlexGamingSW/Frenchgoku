@@ -72,11 +72,6 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "‚q‚…‚‚‰‚˜@‚P",
         /* Epil. */ TRUE
     },
-    /* Remix 1 (Tempo Up) */ {
-        /* Scene */ &scene_remix_1_extra,
-        /* Label */ "‚q‚…‚‚‰‚˜@‚P@i‚s‚…‚‚‚@‚t‚j",
-        /* Epil. */ TRUE
-    },
     /* The Bon Odori */ {
         /* Scene */ &scene_bon_odori,
         /* Label */ "‚k‚…™‚a‚‚@‚n‚„‚‚’‚‰",
