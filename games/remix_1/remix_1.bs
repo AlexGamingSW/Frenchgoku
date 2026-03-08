@@ -245,16 +245,8 @@ script script_remix_1_main
     beat_anim
     rest 24
     beat_anim
-    #ifdef SFX
-    print_text_f 2
-    rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
-    rest 12
-    play_sfx s_f_boxing_two_sfx_seqData
-    #else
     rest 24
     print_text_f 2
-    #endif
     beat_anim
     rest 24
     clear_text_f
@@ -334,16 +326,8 @@ script script_remix_1_main
     beat_anim
     rest 24
     beat_anim
-    #ifdef SFX
-    print_text_f 2
-    rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
-    rest 12
-    play_sfx s_f_boxing_two_sfx_seqData
-    #else
     rest 24
     print_text_f 2
-    #endif
     beat_anim
     rest 24
     clear_text_f
@@ -772,14 +756,7 @@ script script_remix_1_main
 
     load_karate_man
     print_text_f 5
-    #ifdef SFX
-    rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
-    rest 12
-    play_sfx s_f_boxing_four_sfx_seqData
-    #else
     rest 24
-    #endif
     rest 24
     clear_text_f
     spawn_cue CUE_POT
