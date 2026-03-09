@@ -5,7 +5,7 @@
 /* Game Text - Fireworks */
 
 
-const char D_0805cd60[] = "Quelle animation par ici‡R!";
+const char D_0805cd60[] = "Attention ‡g ce que vous faites‡R!";
 
 const char D_0805cd7c[] = "Ces explosions m'ont coup‡Q le souffle‡R!";
 
