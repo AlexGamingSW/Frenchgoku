@@ -113,7 +113,7 @@ void perfect_scene_start(void *sVar, s32 dArg) {
                 break;
 
             default:
-                strcat(gPerfect->string, "‡g ‡Qcouter.");
+                strcat(gPerfect->string, " (musique)");
                 break;
         }
     }
