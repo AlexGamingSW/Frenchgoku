@@ -99,112 +99,112 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Lesson (Short 1) */ {
         /* Scene */ &scene_drum_lesson_short_1,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　１）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　１）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 4) */ {
         /* Scene */ &scene_drum_lesson_short_4,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　４）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　４）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 8) */ {
         /* Scene */ &scene_drum_lesson_short_8,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　８）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　８）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 5) */ {
         /* Scene */ &scene_drum_lesson_short_5,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　５）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　５）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 7) */ {
         /* Scene */ &scene_drum_lesson_short_7,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　７）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　７）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 6) */ {
         /* Scene */ &scene_drum_lesson_short_6,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　６）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　６）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 9) */ {
         /* Scene */ &scene_drum_lesson_short_9,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　９）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　９）",
         /* Epil. */ FALSE
     },
     /* Lesson (Basic 1) */ {
         /* Scene */ &scene_drum_lesson_basic_1,
-        /* Label */ "Ｌｅおｏｎ　（Ｂａｓｅｓ　１）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｉｎｔｒｏ　１）",
         /* Epil. */ FALSE
     },
     /* Lesson (Basic 2) */ {
         /* Scene */ &scene_drum_lesson_basic_2,
-        /* Label */ "Ｌｅおｏｎ　（Ｂａｓｅｓ　２）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｉｎｔｒｏ　２）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 2) */ {
         /* Scene */ &scene_drum_lesson_short_2,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　２）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　２）",
         /* Epil. */ FALSE
     },
     /* Lesson (Short 3) */ {
         /* Scene */ &scene_drum_lesson_short_3,
-        /* Label */ "Ｌｅおｏｎ　（Ｃｏｕｒｔ　３）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｂａｓｅｓ　３）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 4) */ {
         /* Scene */ &scene_drum_lesson_long_4,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　４）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　４）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 2) */ {
         /* Scene */ &scene_drum_lesson_long_2,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　２）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　２）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 3) */ {
         /* Scene */ &scene_drum_lesson_long_3,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　３）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　３）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 1) */ {
         /* Scene */ &scene_drum_lesson_long_1,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　１）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　１）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 5) */ {
         /* Scene */ &scene_drum_lesson_long_5,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　５）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　５）",
         /* Epil. */ FALSE
     },
     /* Lesson (Long 6) */ {
         /* Scene */ &scene_drum_lesson_long_6,
-        /* Label */ "Ｌｅおｏｎ　（Ｌｏｎｇ　６）",
+        /* Label */ "Ｃｏｕｒｓ　（Ａｖａｎｃぎ　６）",
         /* Epil. */ FALSE
     },
     /* Lesson (High-Tech 1) */ {
         /* Scene */ &scene_drum_lesson_hi_tech_1,
-        /* Label */ "Ｌｅおｏｎ　（Ｔｅｃｈｎｉｑｕｅ　１）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｔｅｃｈｎｉｑｕｅ　１）",
         /* Epil. */ FALSE
     },
     /* Lesson (High-Tech 2) */ {
         /* Scene */ &scene_drum_lesson_hi_tech_2,
-        /* Label */ "Ｌｅおｏｎ　（Ｔｅｃｈｎｉｑｕｅ　２）",
+        /* Label */ "Ｃｏｕｒｓ　（Ｔｅｃｈｎｉｑｕｅ　２）",
         /* Epil. */ FALSE
     },
     /* Studio Drummer */ {
         /* Scene */ &scene_drum_studio_ver0,
-        /* Label */ "Ｂａｔｔｅｒｉｅ　ｅｎ　ｓｔｕｄｉｏ　（Ｖｅｒ．０）",
+        /* Label */ "Ｂａｔｔｅｒｉｅ　ｅｎ　ｓｔｕｄｉｏ　（Ｖ．０）",
         /* Epil. */ FALSE
     },
     /* Studio Drummer */ {
         /* Scene */ &scene_drum_studio_ver2,
-        /* Label */ "Ｂａｔｔｅｒｉｅ　ｅｎ　ｓｔｕｄｉｏ　（Ｖｅｒ．２）",
+        /* Label */ "Ｂａｔｔｅｒｉｅ　ｅｎ　ｓｔｕｄｉｏ　（Ｖ．２）",
         /* Epil. */ FALSE
     },
     /* Rhythm Test */ {
         /* Scene */ &scene_rhythm_test,
-        /* Label */ "Ｔｅｓｔ　ｄｅ　ｒｙｔｈｍｅ",
+        /* Label */ "Ｔｅｓｔ　ｄｅ　Ｒｙｔｈｍｅ",
         /* Epil. */ FALSE
     },
     /* Reading Material */ {
@@ -264,17 +264,17 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Drum Inrto (Unused 1) */ {
         /* Scene */ &scene_drum_intro_unused,
-        /* Label */ "Ｌ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｃ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
         /* Epil. */ TRUE
     },
     /* Drum Intro (Unused 2) */ {
         /* Scene */ &scene_drum_intro_unused_2,
-        /* Label */ "Ｌ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　２）",
+        /* Label */ "Ｃ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　２）",
         /* Epil. */ TRUE
     },
     /* Drum Intro (Unused 3) */ {
         /* Scene */ &scene_drum_intro_unused_3,
-        /* Label */ "Ｌ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　３）",
+        /* Label */ "Ｃ．　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　３）",
         /* Epil. */ TRUE
     },
     /* Tram & Pauline */ {
@@ -569,7 +569,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* R-IQ (Drum Lessons) */ {
         /* Scene */ &scene_lessons_menu,
-        /* Label */ "Ｒ－ＩＱ　（Ｌｅおｏｎｓ　ｄｅ　ｂａｔｔｅｒｉｅ）",
+        /* Label */ "Ｒ－ＩＱ　（Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ）",
         /* Epil. */ FALSE
     },
     /* R-IQ (Rhythm Toys) */ {
@@ -609,17 +609,17 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Snappy Trio (Unused) */ {
         /* Scene */ &scene_snappy_trio_unused,
-        /* Label */ "Ｔｒｉｏ　ｗｅｓｔ．　ｃｌａｐ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｔｒｉｏ　ｗ．　ｃｌａｐ　（Ｕｎｕｓｅｄ）",
         /* Epil. */ TRUE
     },
     /* Bouncy Road (Unused) */ {
         /* Scene */ &scene_bouncy_road_unused,
-        /* Label */ "Ｔｅｍｐｏ　ｍぎｃａｎｏ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｔｅｍｐｏ　ｍぎｃ．　（Ｕｎｕｓｅｄ）",
         /* Epil. */ TRUE
     },
     /* Bouncy Road (Unused 2) */ {
         /* Scene */ &scene_bouncy_road_unused_2,
-        /* Label */ "Ｔｅｍｐｏ　ｍぎｃａｎｏ　（Ｕｎｕｓｅｄ　２）",
+        /* Label */ "Ｔｅｍｐｏ　ｍぎｃ．　（Ｕｎｕｓｅｄ　２）",
         /* Epil. */ TRUE
     },
     /* Spaceball (Unused) */ {
@@ -634,7 +634,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Tap Trial (Unused) */ {
         /* Scene */ &scene_tap_trial_unused,
-        /* Label */ "Ｃｌａｑｕｅｔｔｅｓ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｃｌａｑｕ．　（Ｕｎｕｓｅｄ）",
         /* Epil. */ TRUE
     },
     /* Marching Orders (Unused) */ {
