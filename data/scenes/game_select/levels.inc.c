@@ -756,7 +756,7 @@ struct LevelData level_data_table[] = {
         /* Entry Scene   */ &scene_remix_7,
         /* Level Name    */ "Remix 7",
         /* Level Desc.   */ "C'est parti pour le\n"
-                            "remix des remixes‡R!\n"
+                            "remix des remix‡R!\n"
                             "Ne vous laissez pas\n"
                             "d‡Qconcentrer‡R!",
         /* Level Icon    */ 19,
