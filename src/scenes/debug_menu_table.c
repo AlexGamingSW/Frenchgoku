@@ -294,7 +294,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Drum Girls LIVE */ {
         /* Scene */ &scene_drum_girls_live_unused,
-        /* Label */ "‚c‚’‚•‚@‚f‚‰‚’‚Œ‚“",
+        /* Label */ "‚c‚’‚•‚@‚f‚‰‚’‚Œ‚“@i‚t‚‚•‚“‚…‚„j",
         /* Epil. */ TRUE
     },
     /* Power Calligraphy */ {
