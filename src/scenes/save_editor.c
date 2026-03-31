@@ -6,9 +6,9 @@
 #include "studio.h"
 
 static const struct SaveEditorFlag sAdvanceFlags[] = {
-    { "Save Converted",          0 },
-    { "Use. Alt GS Music",       1 },
-    { "Seen Disclaimer",     2 },
+    { "Sauvegarde r‡Q‡Qcrite",          0 },
+    { "Utiliser autre musique Choix du jeu",       1 },
+    { "Clause de non-confidentialit‡Q vue",     2 },
     END_OF_FLAG
 };
 
@@ -21,99 +21,99 @@ static const struct SaveEditorField sStudioSongFields[] = {
 
 struct SaveEditorMember gSaveEditorMembers[SE_MBR_COUNT] = {
     /* SE_MBR_GAME_SELECT_CURSOR_X */
-    { "Game Select Cursor X",                SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Curseur choix du jeu X ",                SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_GAME_SELECT_CURSOR_Y */
-    { "Game Select Cursor Y",                SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Curseur choix du jeu Y ",                SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_RECENT_LEVEL_X */
-    { "Recent Level X",                      SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Dernier jeu jou‡Q X ",                      SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_RECENT_LEVEL_Y */
-    { "Recent Level Y",                      SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Dernier jeu jou‡Q Y ",                      SE_KIND_S8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_RECENT_LEVEL_STATE */
-    { "Recent Level State",                  SE_KIND_LEVEL_STATE, 0,  -1, 5, NULL,          0, NULL,               0 },
+    { "‡Ptat dernier jeu jou‡Q ",                  SE_KIND_LEVEL_STATE, 0,  -1, 5, NULL,          0, NULL,               0 },
     /* SE_MBR_RECENT_LEVEL_CLEARED_BY_BARISTA */
-    { "Recent Level Cleared By Barista",     SE_KIND_BOOL,        0,   0,  1, NULL,          0, NULL,               0 },
+    { "Dernier jeu jou‡Q termin‡Q par le patron ",     SE_KIND_BOOL,        0,   0,  1, NULL,          0, NULL,               0 },
     /* SE_MBR_LEVEL_STATES */
-    { "Level States",                        SE_KIND_LEVEL_STATE, TOTAL_LEVELS, -1, 5, NULL,        0, NULL,        0 },
+    { "‡Ptat des jeux",                        SE_KIND_LEVEL_STATE, TOTAL_LEVELS, -1, 5, NULL,        0, NULL,        0 },
     /* SE_MBR_RECENT_LEVEL_SCORE */
-    { "Recent Level Score",                  SE_KIND_S16,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Score dernier jeu jou‡Q ",                  SE_KIND_S16,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_LEVEL_SCORES */
-    { "Level Scores",                        SE_KIND_S16, TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
+    { "Score pour chaque jeu",                        SE_KIND_S16, TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
     /* SE_MBR_CURRENT_FLOW */
-    { "Current Flow",                        SE_KIND_U16,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Votre rythme ",                        SE_KIND_U16,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_B0 */
-    { "unkB0",                               SE_KIND_U8,    0,  -1, -1, NULL,   0, NULL,               0 },
+    { "unkB0 ",                               SE_KIND_U8,    0,  -1, -1, NULL,   0, NULL,               0 },
     /* SE_MBR_ADVANCE_FLAGS */
-    { "Advance Flags",                       SE_KIND_BITFLAGS,    0,  -1, -1, sAdvanceFlags, 3, NULL,               0 },
+    { "Flags du patch Advance ",                       SE_KIND_BITFLAGS,    0,  -1, -1, sAdvanceFlags, 3, NULL,               0 },
     /* SE_MBR_TOTAL_SONGS */
-    { "Total Songs",                         SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Total des musiques ",                         SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_B3 */
-    { "unkB3",                               SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
+    { "unkB3 ",                               SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
     /* SE_MBR_STUDIO_SONGS */
-    { "Studio Songs",                        SE_KIND_STRUCT_FIELD, 55, -1, -1, NULL,          0, sStudioSongFields,  4 },
+    { "Musiques du Studio",                        SE_KIND_STRUCT_FIELD, 55, -1, -1, NULL,          0, sStudioSongFields,  4 },
     /* SE_MBR_LEVEL_TOTAL_PLAYS */
-    { "Level Total Plays",                   SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
+    { "Nombre de fois jou‡Qes pour chaque jeu",                   SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
     /* SE_MBR_LEVEL_FIRST_OK */
-    { "Level First OK",                      SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
+    { "Essais avant le 1er OK par jeu",                      SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
     /* SE_MBR_LEVEL_FIRST_SUPERB */
-    { "Level First Superb",                  SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
+    { "Essais avant le 1er Super par jeu",                  SE_KIND_U8,  TOTAL_LEVELS, -1, -1, NULL,        0, NULL,               0 },
     /* SE_MBR_TOTAL_PERFECTS */
-    { "Total Perfects",                      SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Total des Parfaits ",                      SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_CAMPAIGNS_CLEARED */
-    { "Campaigns Cleared",                   SE_KIND_U8,  TOTAL_PERFECT_CAMPAIGNS, -1, -1, NULL, 0, NULL,           0 },
+    { "Parfait atteint pour chaque jeu",                   SE_KIND_U8,  TOTAL_PERFECT_CAMPAIGNS, -1, -1, NULL, 0, NULL,           0 },
     /* SE_MBR_CAMPAIGN_STATE */
-    { "Campaign State",                      SE_KIND_CAMPAIGN_STATE, 0,  0, 2, NULL,          0, NULL,               0 },
+    { "Chance de Parfait ",                      SE_KIND_CAMPAIGN_STATE, 0,  0, 2, NULL,          0, NULL,               0 },
     /* SE_MBR_CAMPAIGN_ATTEMPTS_LEFT */
-    { "Campaign Attempts Left",              SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Essais restants pour un Parfait ",              SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_PLAYS_UNTIL_NEXT_CAMPAIGN */
-    { "Plays Until Next Campaign",           SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Parties avant prochaine chance de Parfait ",           SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_CURRENT_CAMPAIGN */
-    { "Current Campaign",                    SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Chances de viser le Parfait actuellement ",                    SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_26A */
-    { "unk26A",                              SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk26A ",                              SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_READING_MATERIAL_UNLOCKED */
-    { "Reading Material Unlocked",           SE_KIND_U8,         20,  -1, -1, NULL,          0, NULL,               0 },
+    { "Archives d‡Qbloqu‡Qes",           SE_KIND_U8,         20,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_DRUM_KITS_UNLOCKED */
-    { "Drum Kits Unlocked",                  SE_KIND_U8,         15,  -1, -1, NULL,          0, NULL,               0 },
+    { "Batteries d‡Qbloqu‡Qes",                  SE_KIND_U8,         15,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_TOTAL_MEDALS */
-    { "Total Medals",                        SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Total des m‡Qdailles ",                        SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_28F */
-    { "unk28F",                              SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
+    { "unk28F ",                              SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
     /* SE_MBR_MINIMUM_FAILS_FOR_BARISTA_HELP */
-    { "Minimum Fails for Barista's Help",    SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Minimum d'‡Qchecs avant l'aide du patron ",    SE_KIND_U8,          0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_291 */
-    { "unk291",                              SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
+    { "unk291 ",                              SE_KIND_U8,    0,  -1, -1, NULL,   8, NULL,               0 },
     /* SE_MBR_HIGH_SCORE_MR_UPBEAT */
-    { "High Score Mr. Upbeat",               SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Record sur M. Contretemps ",               SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_HIGH_SCORE_MANNEQUIN_FACTORY */
-    { "High Score Mannequin Factory",        SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Record sur Tˆ®te ‡g claques ",        SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_HIGH_SCORE_SICK_BEATS_SP */
-    { "High Score Sick Beats SP",            SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Record sur Tempo labo (Infini) ",            SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_HIGH_SCORE_QUIZ_SHOW_EX */
-    { "High Score Quiz Show EX",             SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Record sur Question de rythme (Infini) ",             SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2A4 */
-    { "unk2A4",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2A4 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2A8 */
-    { "unk2A8",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2A8 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2AC */
-    { "unk2AC",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2AC ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2B0 */
-    { "unk2B0",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2B0 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_SOUND_MODE */
-    { "Sound Mode",                          SE_KIND_U32,         0,  1, -1, NULL,          0, NULL,               0 },
+    { "Sortie audio ",                          SE_KIND_U32,         0,  1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_PERFECT_CLEAR_CAFE_DIALOGUE_PENDING */
-    { "Perfect Clear Cafe Dialogue Pending", SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Dialogues attente Caf‡Q apr‡as Parfait ", SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2BC */
-    { "unk2BC",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2BC ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2C0 */
-    { "unk2C0",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2C0 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2C4 */
-    { "unk2C4",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2C4 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2C8 */
-    { "unk2C8",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2C8 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2CC */
-    { "unk2CC",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "unk2CC ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2D0 */
-    { "unk2D0",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 }
+    { "unk2D0 ",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 }
 };
 
 void save_editor_scene_init_gfx3(void) {
@@ -156,7 +156,7 @@ void save_editor_scene_start(void *sVar, s32 dArg) {
     save_editor_scene_init_gfx1();
 
     save_editor_clear_bg_text();
-    save_editor_draw_bg_text("@–@‚q|‚h‚p@‚r‚‚–‚…@‚d‚„‚‰‚”‚‚’@–", 4, 0, 0);
+    save_editor_draw_bg_text("@‚«‚„‚‰‚”‚…‚•‚’@‚„‚…@‚“‚‚•‚–‚…‚‡‚‚’‚„‚…", 4, 0, 0);
 
     set_next_scene(&scene_debug_menu);
     save_editor_render_page();
@@ -522,9 +522,9 @@ void save_editor_render_page(void) {
     }
     save_editor_draw_line(SE_LINE_HEADER, 0, buf, 8, 24);
 
-    save_editor_draw_line(SE_LINE_HINT_A, 0, "‡K/‡L:Change Current Save Member", 8, 48);
+    save_editor_draw_line(SE_LINE_HINT_A, 0, "‡K/‡L : Naviguer", 8, 48);
 
-    save_editor_draw_line(SE_LINE_HINT_B, 0, "SELECT: Save and Exit", 8, 64);
+    save_editor_draw_line(SE_LINE_HINT_B, 0, "SELECT : Sauvegarder et quitter", 8, 64);
 
     if (m->kind == SE_KIND_BITFLAGS && m->flagCount > 0) {
         void* ptr = save_editor_get_value_ptr(member, arrIdx, 0);
@@ -556,19 +556,19 @@ void save_editor_render_page(void) {
 
         if(m->arrayLen>0){
             if(member == SE_MBR_LEVEL_STATES || member == SE_MBR_LEVEL_SCORES || member == SE_MBR_LEVEL_TOTAL_PLAYS || member == SE_MBR_LEVEL_FIRST_OK || member == SE_MBR_LEVEL_FIRST_SUPERB){
-                snprintf(buf, sizeof(buf), "Level: %s", (arrIdx < TOTAL_LEVELS) ? game_select_get_level_name(arrIdx) : "n/a");
+                snprintf(buf, sizeof(buf), "Mini-jeu : %s", (arrIdx < TOTAL_LEVELS) ? game_select_get_level_name(arrIdx) : "n/a");
                 save_editor_draw_line(SE_LINE_FLAG_0, 0, buf, 32, 80);
             } else if (member == SE_MBR_CAMPAIGNS_CLEARED){
-                snprintf(buf, sizeof(buf), "Campaign: %s", (arrIdx < TOTAL_PERFECT_CAMPAIGNS) ? get_level_name_from_campaign(arrIdx) : "n/a");
+                snprintf(buf, sizeof(buf), "Visez le Parfait : %s", (arrIdx < TOTAL_PERFECT_CAMPAIGNS) ? get_level_name_from_campaign(arrIdx) : "n/a");
                 save_editor_draw_line(SE_LINE_FLAG_0, 0, buf, 32, 80);
             } else if (member == SE_MBR_READING_MATERIAL_UNLOCKED){
-                snprintf(buf, sizeof(buf), "Reading Material: %s", (arrIdx < 20) ? reading_material_table[arrIdx].title : "n/a");
+                snprintf(buf, sizeof(buf), "Archive : %s", (arrIdx < 20) ? reading_material_table[arrIdx].title : "n/a");
                 save_editor_draw_line(SE_LINE_FLAG_0, 0, buf, 32, 80);
             } else if (member == SE_MBR_DRUM_KITS_UNLOCKED){
-                snprintf(buf, sizeof(buf), "Drum Kit: %s", (arrIdx < 20) ? studio_drum_kit_names[arrIdx] : "n/a");
+                snprintf(buf, sizeof(buf), "Batterie : %s", (arrIdx < 20) ? studio_drum_kit_names[arrIdx] : "n/a");
                 save_editor_draw_line(SE_LINE_FLAG_0, 0, buf, 32, 80);
             } else {
-                save_editor_draw_line(SE_LINE_FLAG_0, 0, "shaffy did something wrong :(", 64, 80);
+                save_editor_draw_line(SE_LINE_FLAG_0, 0, "shaffy a merd‡Q quelque part :(", 64, 80);
             }
         }
     }
