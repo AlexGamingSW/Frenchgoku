@@ -9,13 +9,13 @@ const char D_0806a010[] = "Donnez-vous un peu plus de mal...";
 
 const char D_0806a020[] = "C'⑱tait excellent⑲!";
 
-const char D_0806a03c[] = "はんだん　りょくが　かけてます。";
+const char D_0806a03c[] = "Your decisions took too long.";
 
-const char D_0806a060[] = "すばらしい　はんだん　りょくだ！";
+const char D_0806a060[] = "You thought on the spot well!";
 
-const char D_0806a084[] = "もっと　ウデを　みがこう。";
+const char D_0806a084[] = "Keep working on your rhythm.";
 
-const char D_0806a0a0[] = "とても　テクニカルだ！";
+const char D_0806a0a0[] = "You had really great rhythm!";
 
 const char D_0806a0b8[] = "Avis de la f⑱d⑱ration";
 

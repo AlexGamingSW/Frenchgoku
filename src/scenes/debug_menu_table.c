@@ -632,6 +632,26 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@i‚t‚‚•‚“‚…‚„@‚Qj",
         /* Epil. */ TRUE
     },
+    /* Snappy Trio (Unused) */ {
+        /* Scene */ &scene_snappy_trio_unused,
+        /* Label */ "‚s‚ˆ‚…@‚r‚‚‚‚‚™@‚s‚’‚‰‚@i‚t‚‚•‚“‚…‚„j",
+        /* Epil. */ TRUE
+    },
+    /* Rap Women (by KAZU) */ {
+        /* Scene */ &scene_rap_women_unused,
+        /* Label */ "‚q‚`‚o‚v‚n‚l‚d‚m@i‚a‚™@‚j‚`‚y‚tj",
+        /* Epil. */ TRUE
+    },
+    /* Bouncy Road (Unused) */ {
+        /* Scene */ &scene_bouncy_road_unused,
+        /* Label */ "‚a‚‚•‚‚ƒ‚™@‚q‚‚‚„@i‚t‚‚•‚“‚…‚„j",
+        /* Epil. */ TRUE
+    },
+    /* Bouncy Road (Unused 2) */ {
+        /* Scene */ &scene_bouncy_road_unused_2,
+        /* Label */ "‚a‚‚•‚‚ƒ‚™@‚q‚‚‚„@i‚t‚‚•‚“‚…‚„@‚Qj",
+        /* Epil. */ TRUE
+    },
     /* Tap Trial (Unused) */ {
         /* Scene */ &scene_tap_trial_unused,
         /* Label */ "‚b‚Œ‚‚‘‚•D@i‚t‚‚•‚“‚…‚„j",
@@ -688,7 +708,7 @@ void debug_menu_render_table(s32 targetPage, s32 targetRow) {
 
         for (j = 0, i = (targetPage * DEBUG_MENU_ENTRY_PER_PAGE); (i < (targetPage * DEBUG_MENU_ENTRY_PER_PAGE) + DEBUG_MENU_ENTRY_PER_PAGE) && (i < gDebugMenu->totalEntries); j++, i++) {
             textAnim = bmp_font_obj_print_l(gDebugMenu->objFont, debug_menu_entry_table[i].label, 1, 0);
-            gDebugMenu->textLines[j] = sprite_create(gSpriteHandler, textAnim->frames, 0, 32, (j * 18) + 32, 0x800, 0, 0, 0);
+            gDebugMenu->textLines[j] = sprite_create(gSpriteHandler, textAnim->frames, 0, 32, (j * 21) + 32, 0x800, 0, 0, 0);
         }
 
         delete_bmp_font_obj_text_anim(gDebugMenu->objFont, gDebugMenu->counter);
@@ -710,5 +730,5 @@ void debug_menu_render_table(s32 targetPage, s32 targetRow) {
     }
 
     sprite_set_base_palette(gSpriteHandler, gDebugMenu->textLines[gDebugMenu->row], 7);
-    sprite_set_x_y(gSpriteHandler, gDebugMenu->cursor, 16, (gDebugMenu->row * 18) + 32);
+    sprite_set_x_y(gSpriteHandler, gDebugMenu->cursor, 16, (gDebugMenu->row * 21) + 32);
 }
