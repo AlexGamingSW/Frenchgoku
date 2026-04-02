@@ -8,7 +8,7 @@
 static const struct SaveEditorFlag sAdvanceFlags[] = {
     { "Sauvegarde r‡Q‡Qcrite",          0 },
     { "Utiliser autre musique Choix du jeu",       1 },
-    { "Clause de non-confidentialit‡Q vue",     2 },
+    { "Clause de non-responsabilit‡Q vue",     2 },
     END_OF_FLAG
 };
 
