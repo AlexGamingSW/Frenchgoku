@@ -1786,7 +1786,7 @@ void game_select_set_medal_count(u32 total) {
 
     sprite_set_anim_cel(gSpriteHandler, gGameSelect->medalPaneDigit1, total % 10);
     sprite_set_anim_cel(gSpriteHandler, gGameSelect->medalPaneDigit2, (total < 10) ? 10 : (total / 10));
-    sprite_set_x(gSpriteHandler, gGameSelect->medalPaneDigit1, (total < 10) ? 178 : 170);
+    sprite_set_x(gSpriteHandler, gGameSelect->medalPaneDigit1, (total < 10) ? 174 : 177);
 }
 
 
@@ -1797,7 +1797,7 @@ void game_select_init_medal_pane(void) {
     gGameSelect->medalPaneTitle = sprite_create(gSpriteHandler, anim_game_select_medal_text, 0, 161, 151, 0x800, 0, 0, 0);
     gGameSelect->medalPaneDigit1 = sprite_create(gSpriteHandler, anim_game_select_medal_num, 0, 168, 151, 0x800, 0, 0x7f, 0);
     gGameSelect->medalPaneDigit2 = sprite_create(gSpriteHandler, anim_game_select_medal_num, 0, 168, 151, 0x800, 0, 0x7f, 0);
-    sprite_set_x_y(gSpriteHandler, gGameSelect->medalPaneDigit2, 177, 151);
+    sprite_set_x_y(gSpriteHandler, gGameSelect->medalPaneDigit2, 170, 151);
 
     sprite_set_origin_x_y(gSpriteHandler, gGameSelect->medalPaneTitle, &bgOfs->x, &bgOfs->y);
     sprite_set_origin_x_y(gSpriteHandler, gGameSelect->medalPaneDigit1, &bgOfs->x, &bgOfs->y);
