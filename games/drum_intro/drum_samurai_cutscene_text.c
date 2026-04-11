@@ -8,15 +8,15 @@
 const char D_0805df4c[] =
     "Bienvenue dans le\n"
     "merveilleux monde de\n"
-    "Rhythm Paradise Advance !";
+    "Rhythm Paradise Advance‡R!";
 
 const char D_0805df88[] =
     "J'esp‡are que vous vous\n"
-    "amuserez sur ce jeu !";
+    "amuserez sur ce jeu‡R!";
 
 const char D_0805dfcc[] =
     "\n"
-    "Eh bien... ‡g plus tard !";
+    "Eh bien... ‡g plus tard‡R!";
 
 
 /* Game Text - Drumming Intro (Part 1) */
@@ -35,15 +35,15 @@ const char D_0805e03c[] =
 const char D_0805e070[] =
     "Et si on mesurait\n"
     "la puissance de\n"
-    "votre ryhtme ?";
+    "votre ryhtme‡R?";
 
 
 /* Game Text - Drumming Intro (Part 2) */
 
 
 const char D_0805e0a8[] =
-    "Comment vous en ˆ®tes sorti‡S?\n"
-    "Votre score vous suffit‡S?\n"
+    "Comment vous en ˆ®tes sorti‡R?\n"
+    "Votre score vous suffit‡R?\n"
     "";
 
 const char D_0805e0d8[] =
@@ -56,7 +56,7 @@ const char D_0805e10c[] =
     "Jetez-vous dans ces\n"
     "mini-jeux et vous le\n"
     "verrez devenir meilleur\n"
-    "de jour en jour‡S!";
+    "de jour en jour‡R!";
 
 const char D_0805e15c[] =
-    "Allez, ‡g la revoyure‡S!";
+    "Allez, ‡g la revoyure‡R!";
