@@ -72,7 +72,7 @@ const char *results_skill_text_irrelevant_inputs[] = {
 // [D_089d79e8] DEBUG Skill Comments - Accuracy (Lenient)
 const char *results_skill_text_accuracy_lenient[] = {
     "Ｓｔａｂｉｌｉｔぎ",
-    "Ｌｅ　ｃでｕｒ　ｄｅ　ｖｏｔｒｅ　ｒｙｔｈｍｅ",
+    "Ｌｅ　ｃてｕｒ　ｄｅ　ｖｏｔｒｅ　ｒｙｔｈｍｅ",
     "Ｃｏｈぎｒｅｎｃｅ",
     NULL
 };
@@ -103,7 +103,7 @@ const char *results_skill_text_random[] = {
     "Ｍぎｔぎｏ　ｄｅ　ｄｅｍａｉｎ",
     "Ｄごｎｅｒ　ｄ’ｈｉｅｒ",
     "Ｖｏｔｒｅ　ｇｒｏｕｐｅ　ｓａｎｇｕｉｎ",
-    "Ｖｏｔｒｅ　ｎｉｖｅａｕ　ｄ’ぎｄｕｃａｔｉｏｎ",
+    "Ｎｉｖｅａｕ　ｄ’ぎｄｕｃａｔｉｏｎ",
     "Ｖｏｔｒｅ　ｈｕｍａｎｉｔぎ",
     NULL
 };
