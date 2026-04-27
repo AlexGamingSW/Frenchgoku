@@ -7,19 +7,19 @@
 
 const char D_0805c3d4[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　１．　　　　";
 
-const char D_0805c3f0[] = "Ｌｅおｏｎ　１　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c3f0[] = "Le飴on 1 r⑱ussie⑲!";
 
 const char D_0805c40c[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　２．　　　　";
 
-const char D_0805c428[] = "Ｌｅおｏｎ　２　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c428[] = "Le飴on 2 r⑱ussie⑲!";
 
 const char D_0805c444[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　３．　　　　";
 
-const char D_0805c460[] = "Ｌｅおｏｎ　３　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c460[] = "Le飴on 3 r⑱ussie⑲!";
 
 const char D_0805c47c[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　４．　　　　";
 
-const char D_0805c498[] = "Ｌｅおｏｎ　４　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c498[] = "Le飴on 4 r⑱ussie⑲!";
 
 const char D_0805c4b4[] = "Ｓｕｉｖｅｚ　ｍｅｓ　ｐａｓ　　　　";
 
@@ -43,19 +43,19 @@ const char D_0805c58c[] = "ＯＫ，　ｂｏｎ　ｔｒａｖａｉｌ　！　　　　";
 
 const char D_0805c5a4[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　１．　　　　";
 
-const char D_0805c5c0[] = "Ｌｅおｏｎ　１　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c5c0[] = "Le飴on 1 r⑱ussie⑲!";
 
 const char D_0805c5dc[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　２．　　　　";
 
-const char D_0805c5f8[] = "Ｌｅおｏｎ　２　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c5f8[] = "Le飴on 2 r⑱ussie⑲!";
 
 const char D_0805c614[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　３．　　　　";
 
-const char D_0805c630[] = "Ｌｅおｏｎ　３　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c630[] = "Le飴on 3 r⑱ussie⑲!";
 
 const char D_0805c64c[] = "Ｒぎｅｓｓａｙｅｚ　ｌａ　ｌｅおｏｎ　４．　　　　";
 
-const char D_0805c668[] = "Ｌｅおｏｎ　４　ｒぎｕｓｓｉｅ　！　　　　";
+const char D_0805c668[] = "Le飴on 4 r⑱ussie⑲!";
 
 const char D_0805c684[] = "Ｓｕｉｖｅｚ　ｍｅｓ　ｐａｓ　　　　";
 
