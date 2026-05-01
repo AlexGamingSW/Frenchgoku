@@ -43,27 +43,10 @@ struct CompressedData *options_buffered_textures[] = {
     END_OF_BUFFERED_TEXTURES_LIST
 };
 
-
-// [D_08054950] Data Clear Confirmation Options
-        // Erase ALL data?
-        //　　　　　　　Erase
-        //　　　　　　　Cancel
 const char options_data_clear_confirm_text[] =
         "\0023" "\0013" "\001C" "Confirmer⑲?\n"
         "\0021" "\0011" "\001C" "　　  Oui\n"
         "　　 　 Non";
-
-
-// [D_089cfb14] Option Descriptions
-    /* -------------------------------- */
-        // Sound Mode
-        // <Stereo>  For headphones, Nintendo DS, etc.
-        // <Mono>  For GBAs without headphones.
-    /* -------------------------------- */
-        // Clear Save Data
-        // Erase progress, gifts, drum lessons,
-        // <everything>! Think about it!
-    /* -------------------------------- */
 
 const char *options_desc_text[] = {
     /* SOUND MODE ------------------------------------- */
@@ -75,6 +58,41 @@ const char *options_desc_text[] = {
         "\0021" "\0011" "\001C" "Vous allez supprimer " "\0022" "toutes " "\0021" "vos donn⑱es\n"
         "et recommencer du tout d⑱but⑲!!!"
     /* ------------------------------------------------ */
+};
+
+const char *advance_options_label_text[] = {
+    "Ｓｏｕｎｄ　Ｅｆｆｅｃｔｓ",
+    "Ｍｕｓｉｃ",
+#ifdef RUMBLE
+    "Ｒｕｍｂｌｅ",
+#endif
+    "Ｓｈｏｗ　Ｄｉｓｃｌａｉｍｅｒ",
+    "Ａｌｔ．　Ｇａｍｅ　Ｓｅｌｅｃｔ　Ｍｕｓｉｃ",
+};
+
+const char *advance_options_desc_text[] = {
+    /* NON-JP SFX ------------------------------------- */
+        "\0023" "\0013" "\001C" "Sound Effects\n"
+        "\0024" "\0011" "\001L" "English   " "\0021" "Use the localized sound effects.\n"
+        "\0024" "\0011" "\001L" "Japanese  " "\0021" "Use the original sound effects.",
+    /* NON-JP MUSIC ----------------------------------- */
+        "\0023" "\0013" "\001C" "Music\n"
+        "\0024" "\0011" "\001L" "English   " "\0021" "Use the localized music.\n"
+        "\0024" "\0011" "\001L" "Japanese  " "\0021" "Use the original music.",
+    /* RUMBLE ----------------------------------------- */
+#ifdef RUMBLE
+        "\0023" "\0013" "\001C" "Rumble\n"
+        "\0024" "\0011" "\001L" "On        " "\0021" "Rumble is active during gameplay.\n"
+        "\0024" "\0011" "\001L" "Off       " "\0021" "Rumble is disabled.",
+#endif
+    /* SHOW DISCLAIMER -------------------------------- */
+        "\0023" "\0013" "\001C" "Show Disclaimer\n"
+        "\0024" "\0011" "\001L" "Show      " "\0021" "Show the disclaimer at startup.\n"
+        "\0024" "\0011" "\001L" "Skip      " "\0021" "Skip the disclaimer at startup.",
+    /* ALT GAME SELECT MUSIC --------------------------- */
+        "\0023" "\0013" "\001C" "Alt. Game Select Music\n"
+        "\0024" "\0011" "\001L" "On        " "\0021" "Use alternate music in Game Select.\n"
+        "\0024" "\0011" "\001L" "Off       " "\0021" "Use normal music in Game Select.",
 };
 
 

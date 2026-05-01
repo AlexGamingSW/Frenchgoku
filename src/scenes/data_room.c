@@ -2,6 +2,7 @@
 #include "data_room.h"
 #include "graphics/data_room/data_room_graphics.h"
 #include "src/scenes/reading.h"
+#include "src/code_080092cc.h"
 
 
 /* RHYTHM DATA ROOM SCENE */
@@ -47,11 +48,11 @@ void dataroom_scene_init_gfx1(void) {
 
 // Listbox - Get Item Name
 const char *dataroom_listbox_get_item_name(u32 item) {
-    if (item >= 20) {
+    u32 max_items = CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_SAVE_CONVERTED) ? 21 : 20;
+    if (item >= max_items) {
         return NULL;
     }
-
-    return D_030046a8->data.readingMaterialUnlocked[item]
+    return get_reading_material_unlocked(&D_030046a8->data, item)
         ? reading_material_table[item].title : "???";
 }
 
@@ -118,7 +119,9 @@ void dataroom_scene_start(void *sVar, s32 dArg) {
 
     gDataRoom->listbox = create_new_listbox(
             get_current_mem_id(), 10, 128, 30, 0, 1, 3,
-            80, 16, 0x8800, 16, sListSelItem, 20, anim_data_room_cursor, 3, 4, sListSelLine,
+            80, 16, 0x8800, 16, sListSelItem,
+            CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_SAVE_CONVERTED) ? 21 : 20,
+            anim_data_room_cursor, 3, 4, sListSelLine,
             dataroom_listbox_get_item_name, NULL);
     listbox_run_func_on_scroll(gDataRoom->listbox, dataroom_listbox_on_scroll, 0);
     listbox_run_func_on_finish(gDataRoom->listbox, dataroom_listbox_on_finish, 0);
@@ -192,8 +195,9 @@ void dataroom_scene_update(void *sVar, s32 dArg) {
 
     switch (event) {
         case DATAROOM_EV_CONFIRM:
-            if (!D_030046a8->data.readingMaterialUnlocked[listbox_get_sel_item(gDataRoom->listbox)]) {
+            if (!get_reading_material_unlocked(&D_030046a8->data, listbox_get_sel_item(gDataRoom->listbox))) {
                 play_sound(&s_menu_error_seqData);
+                rumble_play_menu_error();
             } else {
                 func_080006f0(get_scene_trans_target(&scene_data_room), get_scene_trans_var(&scene_data_room));
                 set_next_scene(&scene_reading);
@@ -202,21 +206,31 @@ void dataroom_scene_update(void *sVar, s32 dArg) {
                 play_sound(&s_menu_kettei2_seqData);
                 set_pause_beatscript_scene(FALSE);
                 gDataRoom->inputsEnabled = FALSE;
+                rumble_play_menu_confirm();
             }
             break;
 
         case DATAROOM_EV_SCROLL_UP:
-            listbox_scroll_up(gDataRoom->listbox);
+            if (listbox_get_sel_item(gDataRoom->listbox) <= 0) {
+                rumble_play_menu_limit();
+            } else {
+                listbox_scroll_up(gDataRoom->listbox);
+            }
             break;
 
         case DATAROOM_EV_SCROLL_DOWN:
-            listbox_scroll_down(gDataRoom->listbox);
+            if (listbox_get_sel_item(gDataRoom->listbox) >= (gDataRoom->listbox->totalItems - 1)) {
+                rumble_play_menu_limit();
+            } else {
+                listbox_scroll_down(gDataRoom->listbox);
+            }
             break;
 
         case DATAROOM_EV_CANCEL:
             play_sound(&s_menu_cancel3_seqData);
             set_pause_beatscript_scene(FALSE);
             gDataRoom->inputsEnabled = FALSE;
+            rumble_play_menu_cancel();
             break;
     }
 

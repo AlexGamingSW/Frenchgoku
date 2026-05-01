@@ -92,6 +92,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ａｖｅｒｔｉｓｓｅｍｅｎｔ",
         /* Epil. */ FALSE
     },
+    /* GBP Handshake */ {
+        /* Scene */ &scene_gbp_handshake,
+        /* Label */ "ＧＢＰ　Ｈａｎｄｓｈａｋｅ",
+        /* Epil. */ FALSE
+    },
     /* Disclaimer */ {
         /* Scene */ &scene_disclaimer,
         /* Label */ "Ｃｌａｕｓｅ　ｄｅ　ｎｏｎ－ｒｅｓｐｏｎｓａｂｉｌｉｔぎ",
@@ -298,6 +303,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｋａｒａｔぎｋａ　２",
         /* Epil. */ TRUE
     },
+    /* Karate Man (Extra) */ {
+        /* Scene */ &scene_karate_man_extra,
+        /* Label */ "Ｋａｒａｔｅ　Ｍａｎ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Rhythm Tweezers */ {
         /* Scene */ &scene_rhythm_tweezers,
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ",
@@ -308,6 +318,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　２",
         /* Epil. */ TRUE
     },
+    /* Rhythm Tweezers (Extra) */ {
+        /* Scene */ &scene_rhythm_tweezers_extra,
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｗｅｅｚｅｒｓ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Marching Orders */ {
         /* Scene */ &scene_marching_orders,
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！",
@@ -316,6 +331,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     /* Marching Orders 2 */ {
         /* Scene */ &scene_marching_orders_2,
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　２",
+        /* Epil. */ TRUE
+    },
+    /* Marching Orders (Extra) */ {
+        /* Scene */ &scene_marching_orders_extra,
+        /* Label */ "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ　（Ｅｘｔｒａ）",
         /* Epil. */ TRUE
     },
     /* Spaceball */ {
@@ -329,6 +349,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Epil. */ TRUE
 
     },
+    /* Spaceball (Extra) */ {
+        /* Scene */ &scene_spaceball_extra,
+        /* Label */ "Ｓｐａｃｅｂａｌｌ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* The Clappy Trio */ {
         /* Scene */ &scene_clappy_trio,
         /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ",
@@ -338,7 +363,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Scene */ &scene_snappy_trio,
         /* Label */ "Ｔｒｉｏ　ｗｅｓｔｅｒｎ　ｃｌａｐ",
         /* Epil. */ TRUE
-
+    },
+    /* The Clappy Trio (Extra) */ {
+        /* Scene */ &scene_clappy_trio_extra,
+        /* Label */ "Ｔｈｅ　Ｃｌａｐｐｙ　Ｔｒｉｏ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
     },
     /* Sneaky Spirits */ {
         /* Scene */ &scene_sneaky_spirits,
@@ -530,6 +559,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒｅｍｉｘ　８",
         /* Epil. */ TRUE
     },
+    /* Remix 1 (Extra) */ {
+        /* Scene */ &scene_remix_1_extra,
+        /* Label */ "Ｒｅｍｉｘ　１　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Drum Intro (Unused 1) */ {
         /* Scene */ &scene_drum_intro_unused,
         /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
@@ -645,9 +679,14 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒ－ＩＱ　きｄｉｔｅｕｒ　ｄｅ　ｓａｕｖｅｇａｒｄｅ",
         /* Epil. */ FALSE
     },
-    /* Sequence Test */ {
+    /* Sequence Player */ {
+        /* Scene */ &scene_sequence_player,
+        /* Label */ "Ｓｅｑｕｅｎｃｅ　Ｐｌａｙｅｒ",
+        /* Epil. */ FALSE
+    },
+    /* Debug Menu */ {
         /* Scene */ &scene_debug_menu,
-        /* Label */ "　",
+        /* Label */ "Ｄｅｂｕｇ　Ｍｅｎｕ",
         /* Epil. */ FALSE
     },
     END_OF_DEBUG_ENTRIES
