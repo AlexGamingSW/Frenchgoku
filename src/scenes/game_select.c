@@ -289,7 +289,7 @@ void start_campaign_notice(s32 id) {
     if (!isSpecialSong) {
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
     } else {
-        strcat(string, "WISH - Can't Wait\n for You");
+        strcat(string, "Attendre Pour Toi");
     }
     strcat(string, "\n"); // "
     if (isSong) {
@@ -298,7 +298,8 @@ void start_campaign_notice(s32 id) {
     if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
         strcat(string, "en bonus‡R!"); // received as a present!!
     }
-    strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
+    // FR: le merge ? fait des choses bizarres, je laisse ?a l? au cas o?
+    //strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
     text_printer_set_string(notice->printer, string);
 
     sprite_set_visible(gSpriteHandler, gGameSelect->selectionBorderSprite, FALSE);

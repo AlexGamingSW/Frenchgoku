@@ -759,7 +759,6 @@ script script_remix_1_main
     rest 24
 
     load_karate_man
-    #ifdef PLUS
     print_text_f 5
     rest 24
     rest 24
