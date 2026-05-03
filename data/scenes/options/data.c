@@ -61,38 +61,38 @@ const char *options_desc_text[] = {
 };
 
 const char *advance_options_label_text[] = {
-    "‚r‚‚•‚‚„@‚d‚†‚†‚…‚ƒ‚”‚“",
-    "‚l‚•‚“‚‰‚ƒ",
+    "‚d‚†‚†‚…‚”‚“@‚“‚‚‚‚’‚…‚“B",
+    "‚b‚ˆ‚‚‚“‚‚‚“B",
 #ifdef RUMBLE
-    "‚q‚•‚‚‚‚Œ‚…",
+    "‚u‚‰‚‚‚’‚‚”‚‰‚‚‚“B",
 #endif
-    "‚r‚ˆ‚‚—@‚c‚‰‚“‚ƒ‚Œ‚‚‰‚‚…‚’",
-    "‚`‚Œ‚”D@‚f‚‚‚…@‚r‚…‚Œ‚…‚ƒ‚”@‚l‚•‚“‚‰‚ƒ",
+    "‚b‚Œ‚‚•‚“‚…@‚„‚…@‚‚‚|‚’‚…‚“‚DB",
+    "‚l‚•‚“‚‰‚‘‚•‚…@‚„‚•@‚ƒ‚ˆ‚‚‰‚˜@‚„‚•@‚Š‚…‚•B",
 };
 
 const char *advance_options_desc_text[] = {
     /* NON-JP SFX ------------------------------------- */
-        "\0023" "\0013" "\001C" "Sound Effects\n"
-        "\0024" "\0011" "\001L" "English   " "\0021" "Use the localized sound effects.\n"
-        "\0024" "\0011" "\001L" "Japanese  " "\0021" "Use the original sound effects.",
+        "\0023" "\0013" "\001C" "Langue des effets sonores\n"
+        "\0024" "\0011" "\001L" "Franˆ¹ais      " "\0021" "Profiter des voix en franˆ¹ais.\n"
+        "\0024" "\0011" "\001L" "Japonais @     " "\0021" "Profiter des voix originales.",
     /* NON-JP MUSIC ----------------------------------- */
-        "\0023" "\0013" "\001C" "Music\n"
-        "\0024" "\0011" "\001L" "English   " "\0021" "Use the localized music.\n"
-        "\0024" "\0011" "\001L" "Japanese  " "\0021" "Use the original music.",
+        "\0023" "\0013" "\001C" "Langue des chansons\n"
+        "\0024" "\0011" "\001L" "Franˆ¹ais    " "\0021" "Profiter des chansons en franˆ¹ais.\n"
+        "\0024" "\0011" "\001L" "Japonais     " "\0021" "Profiter des chansons originales.",
     /* RUMBLE ----------------------------------------- */
 #ifdef RUMBLE
-        "\0023" "\0013" "\001C" "Rumble\n"
-        "\0024" "\0011" "\001L" "On        " "\0021" "Rumble is active during gameplay.\n"
-        "\0024" "\0011" "\001L" "Off       " "\0021" "Rumble is disabled.",
+        "\0023" "\0013" "\001C" "Vibrations\n"
+        "\0024" "\0011" "\001L" "Avec     " "\0021" "Vibrations actives lorsque vous jouez.\n"
+        "\0024" "\0011" "\001L" "Sans                   " "\0021" "Vibrations d‡Qsactiv‡Qes.",
 #endif
     /* SHOW DISCLAIMER -------------------------------- */
-        "\0023" "\0013" "\001C" "Show Disclaimer\n"
-        "\0024" "\0011" "\001L" "Show      " "\0021" "Show the disclaimer at startup.\n"
-        "\0024" "\0011" "\001L" "Skip      " "\0021" "Skip the disclaimer at startup.",
+        "\0023" "\0013" "\001C" "Clause de non-responsabilit‡Q\n"
+        "\0024" "\0011" "\001L" "Montrer@@" "\0021" "Montrer la clause au lancement du jeu.\n"
+        "\0024" "\0011" "\001L" "Passer      " "\0021" "Passer la clause au lancement du jeu.",
     /* ALT GAME SELECT MUSIC --------------------------- */
-        "\0023" "\0013" "\001C" "Alt. Game Select Music\n"
-        "\0024" "\0011" "\001L" "On        " "\0021" "Use alternate music in Game Select.\n"
-        "\0024" "\0011" "\001L" "Off       " "\0021" "Use normal music in Game Select.",
+        "\0023" "\0013" "\001C" "Musique du choix du jeu â\n"
+        "\0024" "\0011" "\001L" "Changer@@@" "\0021" "Changer la musique du choix du jeu.\n"
+        "\0024" "\0011" "\001L" "D‡Qfaut           " "\0021" "Laisser la musique par d‡Qfaut.",
 };
 
 
