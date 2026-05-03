@@ -90,7 +90,7 @@ const char *advance_options_desc_text[] = {
         "\0024" "\0011" "\001L" "Montrer　　" "\0021" "Montrer la clause au lancement du jeu.\n"
         "\0024" "\0011" "\001L" "Passer      " "\0021" "Passer la clause au lancement du jeu.",
     /* ALT GAME SELECT MUSIC --------------------------- */
-        "\0023" "\0013" "\001C" "Musique du choix du jeu ≫\n"
+        "\0023" "\0013" "\001C" "Musique du choix du jeu\n"
         "\0024" "\0011" "\001L" "Changer　　　" "\0021" "Changer la musique du choix du jeu.\n"
         "\0024" "\0011" "\001L" "D⑱faut           " "\0021" "Laisser la musique par d⑱faut.",
 };
