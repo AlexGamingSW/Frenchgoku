@@ -109,12 +109,12 @@ static const char *sequence_player_get_symbol_name(u32 songIndex) {
     const char *name;
 
     if (songIndex >= SEQUENCE_SYMBOL_COUNT) {
-        return "<unknown>";
+        return "<inconnu>";
     }
 
     name = sSequenceSymbolNames[songIndex];
     if (name == NULL) {
-        return "<unknown>";
+        return "<inconnu>";
     }
 
     if (name[0] == '&') {
@@ -122,7 +122,7 @@ static const char *sequence_player_get_symbol_name(u32 songIndex) {
     }
 
     if (name[0] == '\0') {
-        return "<unknown>";
+        return "<inconnu>";
     }
 
     return name;
@@ -130,7 +130,7 @@ static const char *sequence_player_get_symbol_name(u32 songIndex) {
 
 static const char *sequence_player_get_song_title(const struct SongHeader *song) {
     if ((song == NULL) || (song->title == NULL) || (song->title[0] == '\0')) {
-        return "<empty>";
+        return "<vide>";
     }
 
     return song->title;
@@ -138,16 +138,16 @@ static const char *sequence_player_get_song_title(const struct SongHeader *song)
 
 static const char *sequence_player_get_status_text(void) {
     if (gSequencePlayer->activePlayer != NULL && soundplayer_is_playing(gSequencePlayer->activePlayer)) {
-        return "Playing";
+        return "En cours de lecture";
     }
 
     switch (gSequencePlayer->lastAction) {
-        case SP_ACTION_PLAY_OK:       return "Play request sent";
-        case SP_ACTION_STOPPED:       return "Stopped";
-        case SP_ACTION_SONG_NULL:     return "Song entry is NULL";
-        case SP_ACTION_PLAYER_INVALID:return "Player override is invalid";
-        case SP_ACTION_PLAY_FAILED:   return "Play failed";
-        default:                      return "Idle";
+        case SP_ACTION_PLAY_OK:       return "Lecture demand‡Qe";
+        case SP_ACTION_STOPPED:       return "En pause";
+        case SP_ACTION_SONG_NULL:     return "Entr‡Qe invalide";
+        case SP_ACTION_PLAYER_INVALID:return "Priorit‡Q de lecture invalide";
+        case SP_ACTION_PLAY_FAILED:   return "Lecture echou‡Qe";
+        default:                      return "Inactif";
     }
 }
 
@@ -156,33 +156,33 @@ static void sequence_player_format_option(char *buf, u32 bufSize, u32 optionInde
 
     switch (optionIndex) {
         case 0:
-            snprintf(buf, bufSize, "%s Override Player: %s", marker,
+            snprintf(buf, bufSize, "%s Priorit‡Q de lecture : %s", marker,
                     gSequencePlayer->overridePlayer ? "ON" : "OFF");
             break;
 
         case 1:
-            snprintf(buf, bufSize, "%s Player ID: %u/%u", marker,
+            snprintf(buf, bufSize, "%s ID du lecteur : %u/%u", marker,
                     gSequencePlayer->selectedPlayer,
                     (sound_player_count > 0) ? (u32)(sound_player_count - 1) : 0);
             break;
 
         case 2:
-            snprintf(buf, bufSize, "%s Volume: %u/256", marker,
+            snprintf(buf, bufSize, "%s Volume : %u/256", marker,
                     gSequencePlayer->volume);
             break;
 
         case 3:
-            snprintf(buf, bufSize, "%s Pitch: %+d semitones", marker,
+            snprintf(buf, bufSize, "%s Pitch : %+d demi-tons", marker,
                     gSequencePlayer->pitch);
             break;
 
         case 4:
-            snprintf(buf, bufSize, "%s Stop Others: %s", marker,
+            snprintf(buf, bufSize, "%s Stopper les autres : %s", marker,
                     gSequencePlayer->stopOthers ? "ON" : "OFF");
             break;
 
         default:
-            snprintf(buf, bufSize, "%s <invalid option>", marker);
+            snprintf(buf, bufSize, "%s <option invalide>", marker);
             break;
     }
 }
@@ -496,22 +496,22 @@ void sequence_player_render_page(void) {
     status = sequence_player_get_status_text();
 
     if (songCount == 0) {
-        snprintf(buf, sizeof(buf), "No valid songs.");
+        snprintf(buf, sizeof(buf), "Pas d'audio valide.");
     } else {
-        snprintf(buf, sizeof(buf), "Song [%03u/%03u]", gSequencePlayer->currentSong, songCount - 1);
+        snprintf(buf, sizeof(buf), "Audio [%03u/%03u]", gSequencePlayer->currentSong, songCount - 1);
     }
     sequence_player_draw_line(SP_LINE_HEADER, 0, buf, 8, 10);
 
-    snprintf(buf, sizeof(buf), "Symbol: %.34s", symbol);
+    snprintf(buf, sizeof(buf), "Symbole : %.34s", symbol);
     sequence_player_draw_line(SP_LINE_SYMBOL, 0, buf, 8, 24);
 
-    snprintf(buf, sizeof(buf), "Seq Name: %.30s", title);
+    snprintf(buf, sizeof(buf), "Nom de s‡Qquence : %.30s", title);
     sequence_player_draw_line(SP_LINE_TITLE, 0, buf, 8, 38);
 
     if ((entry != NULL) && (song != NULL)) {
-        snprintf(buf, sizeof(buf), "Default Player:%u  Bank:%u  Vol:%u", entry->player, song->soundBank, song->volume);
+        snprintf(buf, sizeof(buf), "Lecteur par d‡Qfaut : %u - Banque : %u - Vol : %u", entry->player, song->soundBank, song->volume);
     } else {
-        snprintf(buf, sizeof(buf), "Selected entry is NULL; cannot play.");
+        snprintf(buf, sizeof(buf), "Entr‡Qe s‡Qlectionn‡Qe invalide ; lecture impossible.");
     }
     sequence_player_draw_line(SP_LINE_INFO, 0, buf, 8, 52);
 
@@ -532,12 +532,12 @@ void sequence_player_render_page(void) {
         sequence_player_clear_line(SP_LINE_OPTION_0 + i);
     }
 
-    snprintf(buf, sizeof(buf), "Options %u-%u/%u -- ‡O Up/Down: Scroll", optionTop + 1, optionEnd, SP_TOTAL_OPTIONS);
+    snprintf(buf, sizeof(buf), "‡O Haut/Bas : Faire d‡Qfiler les options", optionTop + 1, optionEnd, SP_TOTAL_OPTIONS);
     sequence_player_draw_line(SP_LINE_OPTION_4, 0, buf, 8, 120);
 
-    sequence_player_draw_line(SP_LINE_HINT, 0, "‡K/‡L: Song -- ‡O Left/Right: Edit -- ‡M: Play", 8, 134);
+    sequence_player_draw_line(SP_LINE_HINT, 0, "‡K/‡L : Audio - ‡O Gauche/Droite : Cocher - ‡M : Jouer", 8, 134);
 
-    snprintf(buf, sizeof(buf), "Status: %.32s", status);
+    snprintf(buf, sizeof(buf), "Statut : %.32s", status);
     sequence_player_draw_line(SP_LINE_STATUS, 0, buf, 8, 148);
 }
 
