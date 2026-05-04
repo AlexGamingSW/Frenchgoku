@@ -67,11 +67,6 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "‚q|‚h‚p@i‚o‚‚’‚†‚‚‰‚”j",
         /* Epil. */ FALSE
     },
-    /* R-IQ (Cafe) */ {
-        /* Scene */ &scene_cafe,
-        /* Label */ "‚q|‚h‚p@i‚b‚‚†‚¬j",
-        /* Epil. */ FALSE
-    },
     /* R-IQ (Endless Games) */ {
         /* Scene */ &scene_endless_menu,
         /* Label */ "‚q|‚h‚p@i‚i‚…‚•‚˜@‚‰‚‚†‚‰‚‚‰‚“j",
@@ -87,6 +82,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "‚q|‚h‚p@i‚i‚‚•‚…‚”‚“j",
         /* Epil. */ FALSE
     },
+    /* R-IQ (Cafe) */ {
+        /* Scene */ &scene_cafe,
+        /* Label */ "‚q|‚h‚p@i‚b‚‚†‚¬j",
+        /* Epil. */ FALSE
+    },
     /* Warning */ {
         /* Scene */ &scene_warning,
         /* Label */ "‚`‚–‚…‚’‚”‚‰‚“‚“‚…‚‚…‚‚”",
@@ -94,7 +94,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* GBP Handshake */ {
         /* Scene */ &scene_gbp_handshake,
-        /* Label */ "‚f‚a‚o@‚g‚‚‚„‚“‚ˆ‚‚‹‚…",
+        /* Label */ "‚m‚¬‚‡‚‚ƒ‚‰‚‚”‚‰‚‚@‚f‚a‚o",
         /* Epil. */ FALSE
     },
     /* Disclaimer */ {
@@ -305,7 +305,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Karate Man (Extra) */ {
         /* Scene */ &scene_karate_man_extra,
-        /* Label */ "‚j‚‚’‚‚”‚…@‚l‚‚@i‚d‚˜‚”‚’‚j",
+        /* Label */ "‚j‚‚’‚‚”‚¬‚‹‚@i‚d‚˜‚”‚’‚j",
         /* Epil. */ TRUE
     },
     /* Rhythm Tweezers */ {
@@ -320,7 +320,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Rhythm Tweezers (Extra) */ {
         /* Scene */ &scene_rhythm_tweezers_extra,
-        /* Label */ "‚q‚ˆ‚™‚”‚ˆ‚@‚s‚—‚…‚…‚š‚…‚’‚“@i‚d‚˜‚”‚’‚j",
+        /* Label */ "‚o‚‰‚‚ƒ‚…@‚‚‚‰‚Œ‚‚‚”‚…@i‚d‚˜‚”‚’‚j",
         /* Epil. */ TRUE
     },
     /* Marching Orders */ {
@@ -335,23 +335,23 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Marching Orders (Extra) */ {
         /* Scene */ &scene_marching_orders_extra,
-        /* Label */ "‚l‚‚’‚ƒ‚ˆ‚‰‚‚‡@‚n‚’‚„‚…‚’‚“@i‚d‚˜‚”‚’‚j",
+        /* Label */ "‚d‚@‚‚–‚‚‚”C@‚‚‚’‚ƒ‚ˆ‚…@I@i‚d‚˜‚”‚’‚j",
         /* Epil. */ TRUE
     },
     /* Spaceball */ {
         /* Scene */ &scene_spaceball,
-        /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@‚„‚…@‚Œf‚…‚“‚‚‚ƒ‚…",
+        /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@‚„‚…@‚Œf‚…‚“‚D",
         /* Epil. */ TRUE
     },
     /* Spaceball 2 */ {
         /* Scene */ &scene_spaceball_2,
-        /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@‚„‚…@‚Œf‚…‚“‚‚‚ƒ‚…@‚Q",
+        /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@‚„‚…@‚Œf‚…‚“‚D@‚Q",
         /* Epil. */ TRUE
 
     },
     /* Spaceball (Extra) */ {
         /* Scene */ &scene_spaceball_extra,
-        /* Label */ "‚r‚‚‚ƒ‚…‚‚‚‚Œ‚Œ@i‚d‚˜‚”‚’‚j",
+        /* Label */ "‚a‚‚“‚…‚‚‚‚Œ‚Œ@‚„‚…@‚Œf‚…‚“‚D@i‚d‚˜‚”‚’‚j",
         /* Epil. */ TRUE
     },
     /* The Clappy Trio */ {
@@ -366,7 +366,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* The Clappy Trio (Extra) */ {
         /* Scene */ &scene_clappy_trio_extra,
-        /* Label */ "‚s‚ˆ‚…@‚b‚Œ‚‚‚‚™@‚s‚’‚‰‚@i‚d‚˜‚”‚’‚j",
+        /* Label */ "‚s‚’‚‰‚@‚ƒ‚Œ‚‚@‚ƒ‚Œ‚‚@i‚d‚˜‚”‚’‚j",
         /* Epil. */ TRUE
     },
     /* Sneaky Spirits */ {
@@ -681,12 +681,12 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Sequence Player */ {
         /* Scene */ &scene_sequence_player,
-        /* Label */ "‚r‚…‚‘‚•‚…‚‚ƒ‚…@‚o‚Œ‚‚™‚…‚’",
+        /* Label */ "‚r‚¬‚‘‚•‚…‚‚ƒ‚…‚•‚’",
         /* Epil. */ FALSE
     },
     /* Debug Menu */ {
         /* Scene */ &scene_debug_menu,
-        /* Label */ "‚c‚…‚‚‚•‚‡@‚l‚…‚‚•",
+        /* Label */ "‚l‚…‚‚•@‚„‚…@‚„‚¬‚‚‚‚‡‚‚‡‚…",
         /* Epil. */ FALSE
     },
     END_OF_DEBUG_ENTRIES
