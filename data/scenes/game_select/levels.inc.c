@@ -913,102 +913,103 @@ struct LevelData level_data_table[] = {
     },
     /* KARATE_MAN */ {
         /* Entry Scene   */ &scene_karate_man_extra,
-        /* Level Name    */ "Karate Man",
-        /* Level Desc.   */ "We've increased the\n"
-                            "speed! Do your best,\n"
-                            "as we throw some more\n"
-                            "stuff for you to punch.",
+        /* Level Name    */ "Karat‡Qka",
+        /* Level Desc.   */ "Il faut du rythme\n"
+                            "pour un beau karat‡Q.\n"
+                            "Faites parler vos\n"
+                            "poings en vitesse‡R!",
         /* Level Icon    */ 54,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_karate_man_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "The tournament didn't go so well...",
-            /* OK        */ "I may not have won, but I did really well!",
-            /* SUPERB    */ "I won the tournament and took home the gold"
+            /* TRY_AGAIN */ "Je me suis fait ridiculiser au tournoi...",
+            /* OK        */ "J'ai pas gagn‡Q, mais je me suis bien d‡Qfendu‡R!",
+            /* SUPERB    */ "J'ai remport‡Q le grand tournoi‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* RHYTHM_TWEEZERS */ {
         /* Entry Scene   */ &scene_rhythm_tweezers_extra,
-        /* Level Name    */ "Rhythm Tweezers",
-        /* Level Desc.   */ "My roots are showing!\n"
-                            "Don't let the speed trip\n"
-                            "you up! Pluck them off!\n",
+        /* Level Name    */ "Pince poilante",
+        /* Level Desc.   */ "Ces poils poussent\n"
+                            "‡g une vitesse folle‡R!\n"
+                            "Faites chauffer\n"
+                            "votre pince‡R!",
         /* Level Icon    */ 55,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_rhythm_tweezers_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "I can't pluck anything at this speed!",
-            /* OK        */ "These hairs are pretty tough to pluck.",
-            /* SUPERB    */ "Look at those flowers! They're so relaxing..."
+            /* TRY_AGAIN */ "Je ne peux rien ‡Qpiler ‡g cette vitesse‡R!",
+            /* OK        */ "Pas ‡Qvident de tous les ‡Qpiler...",
+            /* SUPERB    */ "Qu'elles sont jolies, ces fleurs‡R! C'est relaxant..."
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* MARCHING_ORDERS */ {
         /* Entry Scene   */ &scene_marching_orders_extra,
-        /* Level Name    */ "Marching Orders",
-        /* Level Desc.   */ "Ready, march!\n"
-                            "This mission will require\n"
-                            "quick marching, so stay\n"
-							"focused!",
+        /* Level Name    */ "En avant, marche‡R!",
+        /* Level Desc.   */ "Le rythme fait l'union\n"
+                            "...et l'union fait la force‡R!\n"
+                            "Suivez les ordres,\n"
+							"et en vitesse‡R!",
         /* Level Icon    */ 56,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_marching_orders_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "MONSTER! Retreat! Retreat!",
-            /* OK        */ "Ah, there's the lost puppy!",
-            /* SUPERB    */ "We rescued the lost puppy! Hooray!"
+            /* TRY_AGAIN */ "UN MONSTRE‡R! On se replie‡R!",
+            /* OK        */ "On a trouv‡Q un chiot ‡Qgar‡Q‡R!",
+            /* SUPERB    */ "On a sauv‡Q le petit chiot‡R! Hourra‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SPACEBALL */ {
         /* Entry Scene   */ &scene_spaceball_extra,
-        /* Level Name    */ "Spaceball",
-        /* Level Desc.   */ "Ignore the camera's\n"
-                            "zooms! Make the ball\n"
-                            "zoom away!\n"
-                            "Don't lose to the speed!",
+        /* Level Name    */ "Baseball de l'espace",
+        /* Level Desc.   */ "Restez concentr‡Q sur\n"
+                            "la balle et ne vous\n"
+                            "laissez pas d‡Qpasser\n"
+                            "par la vitesse‡R!",
         /* Level Icon    */ 57,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_spaceball_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Ahhh! Nooooooo!",
-            /* OK        */ "Graaaah!",
-            /* SUPERB    */ "A home run! I did it!"
+            /* TRY_AGAIN */ "Haaa‡R? Nooonnn‡R!",
+            /* OK        */ "Et vlan‡R!",
+            /* SUPERB    */ "C'est gagn‡Q‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio_extra,
-        /* Level Name    */ "The Clappy Trio",
-        /* Level Desc.   */ "Clap your hands in\n"
-                            "order! You're the third\n"
-                            "clapper. Watch out\n"
-							"for your fast friends!",
+        /* Level Name    */ "Trio clap clap",
+        /* Level Desc.   */ "Vous ˆ®tes le 3e\n"
+                            "membre d'un trio de\n"
+                            "clappeurs, regardez\n"
+							"vite vos camarades‡R!",
         /* Level Icon    */ 58,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_clappy_trio_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Wait! Don't leave without us!",
-            /* OK        */ "This is one nice space cruise!",
-            /* SUPERB    */ "I've discovered a new planet! Stellar!"
+            /* TRY_AGAIN */ "Stop‡R! Ne partez pas sans nous‡R!",
+            /* OK        */ "Ce voyage s'av‡are plutˆ¶t agr‡Qable‡R!",
+            /* SUPERB    */ "J'ai decouvert une nouvelle plan‡ate‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_1 */ {
         /* Entry Scene   */ &scene_remix_1_extra,
-        /* Level Name    */ "Extra Remix",
-        /* Level Desc.   */ "Let's test your skills!\n"
-                            "This remix is faster\n"
-                            "than ever!\n"
-                            "Think you can beat it?",
+        /* Level Name    */ "Remix extra",
+        /* Level Desc.   */ "Ici vous attendent les\n"
+                            "jeux que vous venez de\n"
+                            "faire, tout en vitesse‡R!\n"
+                            "Vous pensez y arriver‡R?",
         /* Level Icon    */ 59,
         /* Level Type    */ LEVEL_TYPE_REMIX,
         /* Epilogue GFX  */ epilogue_remix1_extra_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "This is going to take a while...",
-            /* OK        */ "Just a normal chick. Cheep-Cheep!",
-            /* SUPERB    */ "You've grown splendidly! You look downright dignified!"
+            /* TRY_AGAIN */ "Il ne veut pas sortir de sa coquille...",
+            /* OK        */ "En voici un beau poussin‡R! Piou piou‡R!",
+            /* SUPERB    */ "Quelle allure‡R! Vous voil‡g aussi fier qu'un coq‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     }
