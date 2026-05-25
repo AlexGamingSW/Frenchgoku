@@ -24,7 +24,7 @@
 - FireChat♂
 - Nolanno
 - AlexGamingSW
-- *Nana*
+- \*Nana\*
 - Elisanya07
 - Voix françaises de Rhythm Paradise
 
