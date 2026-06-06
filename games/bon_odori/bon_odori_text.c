@@ -29,7 +29,7 @@ const char text_bon_odori_don_don_pan_pan[] = ".1:0" "‚c‚‚@‚„‚‚@" ".2:0" "
 
 const char text_bon_odori_dondo_pan_pan[] = ".1:0" "‚c‚‚‚„‚@" ".2:0" "‚‚‚@‚‚‚";
 
-const char text_bon_odori_haa[] = ".0:0" "‚g‚`@‚`‚ˆ`";
+const char text_bon_odori_haa[] = ".0:0" "‚g‚‚`@‚`‚ˆ`";
 
 const char text_bon_odori_kansei_agaru[] = ".0:0" "‚o‚‚’‚”‚‚•‚”@‚ƒ‚…@‚“‚…‚’‚@‚Œ‚@‚Š‚‚‰‚…";
 
@@ -49,7 +49,7 @@ const char text_bon_odori_sore_hikkuri[] = ".0:0" "‚l‚‚‰‚‚”‚…‚‚‚‚”@‚†‚‚‰‚
 
 const char text_bon_odori_kaette[] = ".0:0" "‚…‚”@‚†‚’‚‚‚‚…‚š@@@@@";
 
-const char text_bon_odori_ha_bon_odori[] = ".0:0" "‚g‚`@‚a‚‚@‚n‚„‚‚’‚‰";
+const char text_bon_odori_ha_bon_odori[] = ".0:0" "‚g‚‚`@‚a‚‚@‚n‚„‚‚’‚‰`";
 
 const char text_bon_odori_dondo_panpa[] = ".1:0" "‚c‚‚‚„‚@" ".2:0" "‚‚‚‚‚";
 

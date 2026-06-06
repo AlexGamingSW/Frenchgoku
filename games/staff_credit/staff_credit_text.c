@@ -9,7 +9,7 @@ const char D_08069a48[] = "\0023" "Cr‡Qdits";
 
 const char D_08069a58[] = "\0023" "Producteurs";
 
-const char D_08069a64[] = "TSUNKU‰";
+const char D_08069a64[] = "Tsunku‰";
 
 const char D_08069a70[] = "Y. Sakamoto";
 
@@ -77,7 +77,7 @@ const char D_08069bdc[] = "\0023" "Chanteurs";
 
 const char D_08069be4[] = "Ami Tokito";
 
-const char D_08069bf0[] = "Sohshi Tanaka";
+const char D_08069bf0[] = "Soshi Tanaka";
 
 const char D_08069bfc[] = "\0023" "Voix";
 
@@ -157,7 +157,7 @@ const char D_08069da0[] = "S. Terai";
 
 const char D_08069da8[] = "";
 
-const char D_08069dac[] = "(C)2006 Nintendo / J.P. ROOM";
+const char D_08069dac[] = "(C) 2006 Nintendo / J.P ROOM";
 
 const char D_08069dc8[] =
     "F‡Qlicitations‡R!";

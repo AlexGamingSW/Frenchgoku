@@ -29,11 +29,11 @@ const char text_bon_dance_don_don_pan_pan[] = ".1:0" "‚c‚‚@‚„‚‚@" ".2:0" "
 
 const char text_bon_dance_dondo_pan_pan[] = ".1:0" "‚c‚‚‚„‚@" ".2:0" "‚‚‚@‚‚‚";
 
-const char text_bon_dance_haa[] = ".0:0" "‚g‚`@‚`‚ˆ`";
+const char text_bon_dance_haa[] = ".0:0" "‚g‚‚`@‚`‚ˆ`";
 
 const char text_bon_dance_kansei_agaru[] = ".0:0" "‚o‚‚’‚”‚‚•‚”@‚ƒ‚…@‚“‚…‚’‚@‚Œ‚@‚Š‚‚‰‚…";
 
-const char text_bon_dance_pan_pan_dondo_don[] = ".2:0" "‚o‚‚@‚‚‚@" ".1:0" "‚„‚‚‚„‚@‚„‚‚";
+const char text_bon_dance_pan_pan_dondo_don[] = ".2:0" "‚o‚|‚@‚‚|‚@" ".1:0" "‚„‚‚‚„‚@‚„‚|‚";
 
 const char text_bon_dance_panpa_don_pan[] = ".2:0" "‚o‚‚‚‚@" ".1:0" "‚„‚‚@" ".2:0" "‚‚‚";
 
@@ -53,7 +53,7 @@ const char text_bon_dance_sore_hikkuri[] = ".0:0" "‚l‚‚‰‚‚”‚…‚‚‚‚”@‚†‚‚‰‚
 
 const char text_bon_dance_kaette[] = ".0:0" "‚…‚”@‚†‚’‚‚‚‚…‚š@@@@@";
 
-const char text_bon_dance_ha_bon_odori[] = ".0:0" "‚g‚`@‚a‚‚@‚n‚„‚‚’‚‰";
+const char text_bon_dance_ha_bon_odori[] = ".0:0" "‚g‚‚`@‚a‚‚@‚n‚„‚‚’‚‰`";
 
 const char text_bon_dance_dondo_panpa[] = ".1:0" "‚c‚‚‚„‚@" ".2:0" "‚‚‚‚‚";
 
