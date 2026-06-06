@@ -67,11 +67,6 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒ－ＩＱ　（Ｐａｒｆａｉｔ）",
         /* Epil. */ FALSE
     },
-    /* R-IQ (Cafe) */ {
-        /* Scene */ &scene_cafe,
-        /* Label */ "Ｒ－ＩＱ　（Ｃａｆぎ）",
-        /* Epil. */ FALSE
-    },
     /* R-IQ (Endless Games) */ {
         /* Scene */ &scene_endless_menu,
         /* Label */ "Ｒ－ＩＱ　（Ｊｅｕｘ　ｉｎｆｉｎｉｓ）",
@@ -87,9 +82,19 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒ－ＩＱ　（Ｊｏｕｅｔｓ）",
         /* Epil. */ FALSE
     },
+    /* R-IQ (Cafe) */ {
+        /* Scene */ &scene_cafe,
+        /* Label */ "Ｒ－ＩＱ　（Ｃａｆぎ）",
+        /* Epil. */ FALSE
+    },
     /* Warning */ {
         /* Scene */ &scene_warning,
         /* Label */ "Ａｖｅｒｔｉｓｓｅｍｅｎｔ",
+        /* Epil. */ FALSE
+    },
+    /* GBP Handshake */ {
+        /* Scene */ &scene_gbp_handshake,
+        /* Label */ "Ｎぎｇｏｃｉａｔｉｏｎ　ＧＢＰ",
         /* Epil. */ FALSE
     },
     /* Disclaimer */ {
@@ -298,6 +303,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｋａｒａｔぎｋａ　２",
         /* Epil. */ TRUE
     },
+    /* Karate Man (Extra) */ {
+        /* Scene */ &scene_karate_man_extra,
+        /* Label */ "Ｋａｒａｔぎｋａ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Rhythm Tweezers */ {
         /* Scene */ &scene_rhythm_tweezers,
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ",
@@ -306,6 +316,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     /* Rhythm Tweezers 2 */ {
         /* Scene */ &scene_rhythm_tweezers_2,
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　２",
+        /* Epil. */ TRUE
+    },
+    /* Rhythm Tweezers (Extra) */ {
+        /* Scene */ &scene_rhythm_tweezers_extra,
+        /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　（Ｅｘｔｒａ）",
         /* Epil. */ TRUE
     },
     /* Marching Orders */ {
@@ -318,16 +333,26 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　２",
         /* Epil. */ TRUE
     },
+    /* Marching Orders (Extra) */ {
+        /* Scene */ &scene_marching_orders_extra,
+        /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Spaceball */ {
         /* Scene */ &scene_spaceball,
-        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐａｃｅ",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．",
         /* Epil. */ TRUE
     },
     /* Spaceball 2 */ {
         /* Scene */ &scene_spaceball_2,
-        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐａｃｅ　２",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．　２",
         /* Epil. */ TRUE
 
+    },
+    /* Spaceball (Extra) */ {
+        /* Scene */ &scene_spaceball_extra,
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
     },
     /* The Clappy Trio */ {
         /* Scene */ &scene_clappy_trio,
@@ -338,7 +363,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Scene */ &scene_snappy_trio,
         /* Label */ "Ｔｒｉｏ　ｗｅｓｔｅｒｎ　ｃｌａｐ",
         /* Epil. */ TRUE
-
+    },
+    /* The Clappy Trio (Extra) */ {
+        /* Scene */ &scene_clappy_trio_extra,
+        /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
     },
     /* Sneaky Spirits */ {
         /* Scene */ &scene_sneaky_spirits,
@@ -530,6 +559,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒｅｍｉｘ　８",
         /* Epil. */ TRUE
     },
+    /* Remix 1 (Extra) */ {
+        /* Scene */ &scene_remix_1_extra,
+        /* Label */ "Ｒｅｍｉｘ　１　（Ｅｘｔｒａ）",
+        /* Epil. */ TRUE
+    },
     /* Drum Intro (Unused 1) */ {
         /* Scene */ &scene_drum_intro_unused,
         /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
@@ -645,9 +679,14 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒ－ＩＱ　きｄｉｔｅｕｒ　ｄｅ　ｓａｕｖｅｇａｒｄｅ",
         /* Epil. */ FALSE
     },
-    /* Sequence Test */ {
+    /* Sequence Player */ {
+        /* Scene */ &scene_sequence_player,
+        /* Label */ "Ｓぎｑｕｅｎｃｅｕｒ",
+        /* Epil. */ FALSE
+    },
+    /* Debug Menu */ {
         /* Scene */ &scene_debug_menu,
-        /* Label */ "　",
+        /* Label */ "Ｍｅｎｕ　ｄｅ　ｄぎｂｏｇａｇｅ",
         /* Epil. */ FALSE
     },
     END_OF_DEBUG_ENTRIES

@@ -1,0 +1,66 @@
+// Exported by Yanimator
+
+AnimationCel karate_man_extra_prologue_cel000[] = {
+    /* Len */ 1,
+    /* 000 */ 0x00fb, 0x01fc, 0x0010
+};
+
+AnimationCel karate_man_extra_prologue_cel001[] = {
+    /* Len */ 1,
+    /* 000 */ 0x00bd, 0xc19b, 0x0200
+};
+
+AnimationCel karate_man_extra_prologue_cel002[] = {
+    /* Len */ 3,
+    /* 000 */ 0x00bd, 0xc19b, 0x0200,
+    /* 001 */ 0x80cb, 0xc1de, 0x0208,
+    /* 002 */ 0x80cb, 0xc1f6, 0x020b
+};
+
+AnimationCel karate_man_extra_prologue_cel003[] = {
+    /* Len */ 5,
+    /* 000 */ 0x00bd, 0xc19b, 0x0200,
+    /* 001 */ 0x80cb, 0xc1de, 0x0208,
+    /* 002 */ 0x80cb, 0xc1f6, 0x020b,
+    /* 003 */ 0x80c2, 0xc011, 0x020f,
+    /* 004 */ 0x80c2, 0xc021, 0x0211
+};
+
+AnimationCel karate_man_extra_prologue_cel004[] = {
+    /* Len */ 7,
+    /* 000 */ 0x00bd, 0xc19b, 0x0200,
+    /* 001 */ 0x80cb, 0xc1de, 0x0208,
+    /* 002 */ 0x80cb, 0xc1f6, 0x020b,
+    /* 003 */ 0x80c2, 0xc011, 0x020f,
+    /* 004 */ 0x80c2, 0xc021, 0x0211,
+    /* 005 */ 0x00be, 0xc041, 0x0215,
+    /* 006 */ 0x40f9, 0xc04a, 0x2000
+};
+
+AnimationCel karate_man_extra_prologue_cel005[] = {
+    /* Len */ 2,
+    /* 000 */ 0x00e2, 0x8000, 0x1110,
+    /* 001 */ 0x80e2, 0x8020, 0x1184
+};
+
+AnimationCel karate_man_extra_prologue_cel006[] = {
+    /* Len */ 3,
+    /* 000 */ 0x00e4, 0x8000, 0x110c,
+    /* 001 */ 0x80e4, 0x8020, 0x111c,
+    /* 002 */ 0x00e4, 0x801e, 0x0114
+};
+
+AnimationCel karate_man_extra_prologue_cel007[] = {
+    /* Len */ 4,
+    /* 000 */ 0x00f1, 0x81ff, 0x1118,
+    /* 001 */ 0x80f1, 0x801f, 0x111e,
+    /* 002 */ 0x4011, 0x41ff, 0x11ca,
+    /* 003 */ 0x4011, 0x001f, 0x11be
+};
+
+AnimationCel karate_man_extra_prologue_cel008[] = {
+    /* Len */ 3,
+    /* 000 */ 0x00e4, 0x8000, 0x110c,
+    /* 001 */ 0x80e4, 0x8020, 0x111c,
+    /* 002 */ 0x00e4, 0x801e, 0x0114
+};

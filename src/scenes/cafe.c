@@ -6,6 +6,12 @@
 #include "levels.h"
 #include "src/scenes/game_select.h"
 #include "src/time_keeper.h"
+#include "src/code_080092cc.h"
+
+
+#define CAFE_CLEAR_DIALOGUE_MAIN_PENDING 9
+#define CAFE_CLEAR_DIALOGUE_EXTRA_PENDING 10
+#define CAFE_CLEAR_DIALOGUE_BIG_PENDING 11
 
 
 /* CAFE SCENE */
@@ -259,6 +265,9 @@ void cafe_update_dialogue_inputs(void) {
 
         if (choice != gCafe->queryResult) {
             sprite_set_anim(gSpriteHandler, gCafe->textAdvIcon, cafe_cursor_option_anim[gCafe->queryResult], 0, 1, 0, 0);
+            rumble_play_menu_move();
+        } else if (D_03004afc & (DPAD_UP | DPAD_DOWN)) {
+            rumble_play_menu_limit();
         }
     }
 
@@ -266,6 +275,7 @@ void cafe_update_dialogue_inputs(void) {
         text_printer_set_string(gCafe->printer, NULL);
         sprite_set_visible(gSpriteHandler, gCafe->textAdvIcon, FALSE);
         play_sound(&s_f_cafe_send_mes_seqData);
+        rumble_play_menu_confirm();
         gCafe->textAdvReady = FALSE;
         set_pause_beatscript_scene(FALSE);
     }
@@ -317,7 +327,7 @@ void cafe_print_dialogue(void) {
                 dialogue = cafe_dialogue_first_visit;
                 break;
             }
-            if (D_030046a8->data.unk294[9]) {
+            if (D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_MAIN_PENDING]) {
                 // Oh! You're here, you're here!
                 // I've been waiting, you know!!
                 string = "\n"
@@ -325,10 +335,30 @@ void cafe_print_dialogue(void) {
                          "Je vous attendais‡R!\n"
                          "\n";
                 cafe_session_remove_perfect_levels();
-                D_030046a8->data.unk294[9] = FALSE;
+                D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_MAIN_PENDING] = FALSE;
                 dialogueTask = CAFE_EV_ALL_CAMPAIGNS_CLEAR_00;
                 break;
             }
+#ifdef TEMPOUP
+            if (D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_EXTRA_PENDING]) {
+                string = "\n"
+                         "extra intro\n"
+                         "\n";
+                cafe_session_remove_perfect_levels();
+                D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_EXTRA_PENDING] = FALSE;
+                dialogueTask = CAFE_EV_EXTRA_CAMPAIGNS_CLEAR_00;
+                break;
+            }
+            if (D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_BIG_PENDING]) {
+                string = "\n"
+                         "combined main + extra intro\n"
+                         "\n";
+                cafe_session_remove_perfect_levels();
+                D_030046a8->data.unk294[CAFE_CLEAR_DIALOGUE_BIG_PENDING] = FALSE;
+                dialogueTask = CAFE_EV_ALL_CAMPAIGNS_BIG_CLEAR_00;
+                break;
+            }
+#endif
             if (gCafe->timeSinceLastVisit == 0) {
                 dialogue = cafe_dialogue_come_back_later;
                 break;
@@ -372,7 +402,7 @@ void cafe_print_dialogue(void) {
                     continue;
                 }
 
-                switch (D_030046a8->data.levelStates[activity->levelID]) {
+                switch (get_level_state(&D_030046a8->data, activity->levelID)) {
                     case LEVEL_STATE_OPEN:
                         if ((activity->totalStalePlays >= D_030046a8->data.minFailsForBaristaHelp)
                           && barista_can_clear_level(activity->levelID)) {
@@ -387,8 +417,8 @@ void cafe_print_dialogue(void) {
                         break;
 
                     case LEVEL_STATE_HAS_MEDAL:
-                        if ((D_030046a8->data.totalPerfects < TOTAL_PERFECT_CAMPAIGNS)
-                          && !D_030046a8->data.campaignsCleared[get_campaign_from_level_id(activity->levelID)]
+                        if ((get_total_base_cleared_campaigns(&D_030046a8->data) < BASE_CAMPAIGN_MILESTONE_TOTAL)
+                          && !get_campaign_cleared(&D_030046a8->data, get_campaign_from_level_id(activity->levelID))
                           && (activity->totalStalePlays > 2)) {
                             topic = CAFE_TOPIC_TROUBLE_CLEARING_CAMPAIGN;
                         }
@@ -647,6 +677,29 @@ void cafe_print_dialogue(void) {
             gCafe->bgEvent = CAFE_BG_EV_CHEER_02;
             gCafe->textAdvHold = 4;
             dialogue = cafe_dialogue_all_perfects_clear;
+            break;
+
+        case CAFE_EV_EXTRA_CAMPAIGNS_CLEAR_00:
+            string = "\0032" "\001l" "\0051" "\0015" "\n"
+                     "woohoo extra!" "\0030" "\001s" "\0054" "\0018";
+            gCafe->bgEvent = CAFE_BG_EV_CHEER_02;
+            gCafe->textAdvHold = 4;
+            dialogue = cafe_dialogue_extra_perfects_clear;
+            break;
+
+        case CAFE_EV_ALL_CAMPAIGNS_BIG_CLEAR_00:
+            string = "\n"
+                     "woohoo main & extra!\n"
+                     "\n";
+            dialogueTask++;
+            break;
+
+        case CAFE_EV_ALL_CAMPAIGNS_BIG_CLEAR_01:
+            string = "\0032" "\001l" "\0051" "\0015" "\n"
+                     "woohoo you beat the game!" "\0030" "\001s" "\0054" "\0018";
+            gCafe->bgEvent = CAFE_BG_EV_CHEER_02;
+            gCafe->textAdvHold = 4;
+            dialogue = cafe_dialogue_all_perfects_clear_big;
             break;
 
         case CAFE_EV_CONTINUE_DIALOGUE:

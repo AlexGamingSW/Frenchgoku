@@ -23,9 +23,9 @@ const char D_0805c170[] = "";
 
 const char D_0805c174[] = "Ｄａｎｓｏｎｓ　！";
 
-const char D_0805c18c[] = "Ｊｅ　ｒｅｇａｒｄｅ　おａ　！";
+const char D_0805c18c[] = "Ｊ’ａｄｏｒｅ　ｌｅｓ　ｃｌａｑｕｅｔｔｅｓ．";
 
-const char D_0805c1a8[] = "Ｂｅｌ　ｅｆｆｏｒｔ　！";
+const char D_0805c1a8[] = "Ｑｕｅｌ　ｓｐｅｃｔａｃｌｅ　！";
 
 const char D_0805c1bc[] = "Ｆａｉｓｏｎｓ　ｄｅｓ　ｃｌａｑｕｅｔｔｅｓ　！";
 
@@ -61,9 +61,9 @@ const char D_0805c2ec[] = "Remarques des singes";
 
 const char D_0805c300[] = "Ｄａｎｓｏｎｓ　！";
 
-const char D_0805c318[] = "Ｊｅ　ｒｅｇａｒｄｅ　おａ　！";
+const char D_0805c318[] = "Ｊ’ａｄｏｒｅ　ｌｅｓ　ｃｌａｑｕｅｔｔｅｓ．";
 
-const char D_0805c334[] = "Ｂｅｌ　ｅｆｆｏｒｔ　！";
+const char D_0805c334[] = "Ｑｕｅｌ　ｓｐｅｃｔａｃｌｅ　！";
 
 const char D_0805c348[] = "Ｆａｉｓｏｎｓ　ｄｅｓ　ｃｌａｑｕｅｔｔｅｓ　！";
 

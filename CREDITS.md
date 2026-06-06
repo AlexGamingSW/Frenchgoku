@@ -1,4 +1,45 @@
-# Credits
+# Crédits de l'équipe française
+## Responsables du projet
+### Direction
+- FireChat♂
+### Programmation
+- itaific
+- AlexGamingSW
+
+## Assets
+### Graphiques
+- FireChat♂
+- AlexGamingSW
+- somethingAccurate
+- Tailx
+- VariableN2763
+
+### Traduction / Adaptation
+- FireChat♂
+- Philemax
+- Nolanno
+
+### Voix des effets sonores
+- Bellajenna
+- FireChat♂
+- Nolanno
+- AlexGamingSW
+- \*Nana\*
+- Elisanya07
+- Voix françaises de Rhythm Paradise
+
+### Voix des chansons
+- Bellajenna
+- NicoTap
+
+## Remerciements
+- Toute l'équipe anglaise de Rhythm Heaven Advance
+- Les membres du serveur Discord « Doublage FR Rhythm Paradise »
+- ShaffySwitcher
+- Vous
+
+
+# Crédits de l'équipe anglaise
 ## Programming
 ### Maintainer
 - ShaffySwitcher

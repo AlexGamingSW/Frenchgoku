@@ -30,7 +30,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Je n'arrive pas ág garder la cadence...",
             /* OK        */ "àªa fera l'affaire. Maintenant, ág tableáR!",
             /* SUPERB    */ "Et voilág le travailáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* CLAPPY_TRIO */ {
         /* Entry Scene   */ &scene_clappy_trio,
@@ -62,7 +63,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "C'est l'inconváQnient de jouer dans un western...",
             /* OK        */ "Es-tu sàΩr de vouloir devenir un parfait clappeuráR?",
             /* SUPERB    */ "On est encore meilleurs avec ces costumesáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* POLYRHYTHM */ {
         /* Entry Scene   */ &scene_polyrhythm,
@@ -78,7 +80,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "La production de masse s'aváare plus dure que práQvue.",
             /* OK        */ "On arrive ág en produire de plus en plusáR!",
             /* SUPERB    */ "On en a produit plus qu'on ne peut en stockeráR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* POLYRHYTHM_2 */ {
         /* Entry Scene   */ &scene_polyrhythm_2,
@@ -94,7 +97,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Il nous faut produire beaucoup plus de ces bidules...",
             /* OK        */ "En produire plus ne ferait pas de maláR!",
             /* SUPERB    */ "Nous en produirons toujours plusáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* NIGHT_WALK */ {
         /* Entry Scene   */ &scene_night_walk,
@@ -110,7 +114,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Les trous se confondent dans la nuit...",
             /* OK        */ "Rien de tel qu'une petite promenade ág la belle áQtoileáR!",
             /* SUPERB    */ "J'ai l'impression de ne faire qu'un avec la voie lactáQeáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* NIGHT_WALK_2 */ {
         /* Entry Scene   */ &scene_night_walk_2,
@@ -126,7 +131,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "NooonnnáR! Je suis tombáQáR!",
             /* OK        */ "Rien de tel que la fraà≤cheur de la nuit.",
             /* SUPERB    */ "Me voilág devenu l'ami des áQtoilesáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* RHYTHM_TWEEZERS */ {
         /* Entry Scene   */ &scene_rhythm_tweezers,
@@ -158,7 +164,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Pourquoi il faut qu'ils soient si poilus...áR?",
             /* OK        */ "Pourquoi suis-je le seul ág avoir des oignons poilusáR?",
             /* SUPERB    */ "Il n'y a plus un poil ág l'horizonáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SICK_BEATS */ {
         /* Entry Scene   */ &scene_sick_beats,
@@ -174,7 +181,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Toutes nos recherches... n'ont abouti ág rien...",
             /* OK        */ "L'áQchec pourrait àÆtre la cláQ du succáasáR!",
             /* SUPERB    */ "EuràÆkaáR! Nous avons trouváQ l'antidoteáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* BOUNCY_ROAD */ {
         /* Entry Scene   */ &scene_bouncy_road,
@@ -206,7 +214,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "C'est la catastropheáR!",
             /* OK        */ "On travaille duráR!",
             /* SUPERB    */ "Les doigts dans le nezáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* NINJA_BODYGUARD */ {
         /* Entry Scene   */ &scene_ninja_bodyguard,
@@ -222,7 +231,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "MonseigneuráR! NooonnnáR!",
             /* OK        */ "Je vous prie de m'excuser, MonseigneuráR!",
             /* SUPERB    */ "Inutile de me remercier, MonseigneuráR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* NINJA_REINCARNATE */ {
         /* Entry Scene   */ &scene_ninja_reincarnate,
@@ -238,7 +248,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "N'abandonne pasáR! Elle compte sur toiáR!",
             /* OK        */ "Tu es fort. N'abandonne pas en si bon chemin.",
             /* SUPERB    */ "Tu as prouváQ ta valeur. Reàπois ma báQnáQdiction."
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SNEAKY_SPIRITS */ {
         /* Entry Scene   */ &scene_sneaky_spirits,
@@ -270,7 +281,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "SaperlotteáR! Ils vous ont áQchappáQáR!",
             /* OK        */ "Å·áRS'il vous plaà≤t, ayez pitiáQáR!áRÅ‚",
             /* SUPERB    */ "Vous allez ráQfláQchir ág ce que vous avez faitáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SAMURAI_SLICE */ {
         /* Entry Scene   */ &scene_samurai_slice,
@@ -286,7 +298,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Mon sabre s'est brisáQáR!",
             /* OK        */ "Je dois devenir encore plus fortáR!",
             /* SUPERB    */ "A-t-on dáQjág vu une lame aussi tranchanteáR?"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SPACEBALL */ {
         /* Entry Scene   */ &scene_spaceball,
@@ -302,7 +315,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Mes hommages, cher voisin... Vous voulez un onigiriáR?",
             /* OK        */ "Je dois... encore... m'entraà≤neráR!",
             /* SUPERB    */ "Vous àÆtes le roi du Å·áRspace runáRÅ‚áR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* SPACEBALL_2 */ {
         /* Entry Scene   */ &scene_spaceball_2,
@@ -318,7 +332,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Faites attention, bon sangáR!",
             /* OK        */ "Je n'abandonnerai pasáR!",
             /* SUPERB    */ "Tout le mondeáR! Regardez ce que j'ai gagnáQáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* TAP_TRIAL */ {
         /* Entry Scene   */ &scene_tap_trial,
@@ -350,7 +365,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Oh, nonáR! J'ai donnáQ un coup de talon dans la vitre...",
             /* OK        */ "Claquettes ou pas claquettes... Telle est la question...",
             /* SUPERB    */ "Tu es devenue l'áQgale des plus grands singesáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* MARCHING_ORDERS */ {
         /* Entry Scene   */ &scene_marching_orders,
@@ -382,7 +398,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Tout bonnement inacceptable...",
             /* OK        */ "Il va falloir faire mieux que àπaáR!",
             /* SUPERB    */ "J'ai áQtáQ promu pilote lapináR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* WIZARDS_WALTZ */ {
         /* Entry Scene   */ &scene_wizards_waltz,
@@ -414,7 +431,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Je ne demande pourtant pas la Lune...",
             /* OK        */ "L'important, c'est l'alunissage.",
             /* SUPERB    */ "Je dáQclare la Lune Å·áRplanáate carotteáRÅ‚áR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* FIREWORKS */ {
         /* Entry Scene   */ &scene_fireworks,
@@ -448,7 +466,7 @@ struct LevelData level_data_table[] = {
             /* SUPERB    */ "La calligraphie, c'est vraiment amusantáR!"
         }
     },
-    /* POWER_CALLIGRAPHY_2 */ {
+    /* POWER_CALLIGRAPHY_2 */ { // this still kills me lmao
         /* Entry Scene   */ &scene_power_calligraphy,
         /* Level Name    */ "Power Calligraphy 2",
         /* Level Desc.   */ "haha unused\n"
@@ -462,7 +480,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "",
             /* OK        */ "",
             /* SUPERB    */ ""
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* TOSS_BOYS */ {
         /* Entry Scene   */ &scene_toss_boys,
@@ -494,7 +513,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Notre moral est au plus bas...",
             /* OK        */ "La route est encore longueáR!",
             /* SUPERB    */ "Notre trio, c'est de la balleáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* RAT_RACE */ {
         /* Entry Scene   */ &scene_rat_race,
@@ -574,7 +594,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "ArràÆtez le massacreáR!",
             /* OK        */ "C'est tout ce que vous avezáR?",
             /* SUPERB    */ "Nous sommes des superstars cosmiquesáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* RAP_MEN */ {
         /* Entry Scene   */ &scene_rap_men,
@@ -606,7 +627,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Non... On n'y est pas...",
             /* OK        */ "Je sais qu'on peut rapper mieux que àπaáR!",
             /* SUPERB    */ "Yes, yes, YESáR! On a tout dáQchiráQáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* QUIZ_SHOW */ {
         /* Entry Scene   */ &scene_quiz_show,
@@ -654,7 +676,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Plus jamais àπa...",
             /* OK        */ "Dommage qu'il pleuve.",
             /* SUPERB    */ "Notre Bon Dance est vraiment amusanteáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_1 */ {
         /* Entry Scene   */ &scene_remix_1,
@@ -670,7 +693,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "C'áQtait comme... un reste pour chats.",
             /* OK        */ "C'áQtait comme... une bonne collationáR!",
             /* SUPERB    */ "C'áQtait comme... un dà≤ner 5 áQtoilesáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_2 */ {
         /* Entry Scene   */ &scene_remix_2,
@@ -686,7 +710,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "C'áQtait aussi intense que de jouer seul ág la balle.",
             /* OK        */ "C'áQtait aussi intense que jouer au baseball entre amis.",
             /* SUPERB    */ "C'áQtait aussi intense qu'un tournoi mondial de baseballáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_3 */ {
         /* Entry Scene   */ &scene_remix_3,
@@ -702,7 +727,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Leur amour se termina... en un douloureux chagrin.",
             /* OK        */ "Leur amour se termina... en une bonne amitiáQ.",
             /* SUPERB    */ "Leur amour se termina... en un mariage heureuxáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_4 */ {
         /* Entry Scene   */ &scene_remix_4,
@@ -718,7 +744,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "PráQvision máQtáQoáR: averses toute la journáQe.",
             /* OK        */ "PráQvision máQtáQoáR: ciel nuageux.",
             /* SUPERB    */ "PráQvision máQtáQoáR: ciel dáQgagáQ toute la journáQeáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_5 */ {
         /* Entry Scene   */ &scene_remix_5,
@@ -734,7 +761,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Ces deux-lág sont... dans de beaux drapsáR!",
             /* OK        */ "Ces deux-lág sont... un peu nerveux...",
             /* SUPERB    */ "Ces deux-lág sont... destináQs l'un pour l'autreáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_6 */ {
         /* Entry Scene   */ &scene_remix_6,
@@ -750,7 +778,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Votre aquarium est... plutà∂t vide.",
             /* OK        */ "Votre aquarium est... unique, c'est certaináR!",
             /* SUPERB    */ "Votre aquarium est... tout bonnement incroyableáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_7 */ {
         /* Entry Scene   */ &scene_remix_7,
@@ -766,7 +795,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Cette fois, le dinosaure áQtait... vraiment pas gentiláR!",
             /* OK        */ "Cette fois, le dinosaure áQtait... plutà∂t calme.",
             /* SUPERB    */ "Cette fois, le dinosaure áQtait... super amusantáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* REMIX_8 */ {
         /* Entry Scene   */ &scene_remix_8,
@@ -782,7 +812,8 @@ struct LevelData level_data_table[] = {
             /* TRY_AGAIN */ "Notre voyage fut... oh misáare...",
             /* OK        */ "Notre voyage fut... un peu long.",
             /* SUPERB    */ "Notre voyage fut... super rafraà≤chissantáR!"
-        }
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_NO_PRACTICE
     },
     /* CAFE */ {
         /* Entry Scene   */ &scene_cafe,
@@ -879,5 +910,107 @@ struct LevelData level_data_table[] = {
             /* OK        */ "PropriáQtaireáR: Å·áRMais c'est que vous avez du talentáR!áRÅ‚",
             /* SUPERB    */ "ProducteuráR: Å·áRVous venez jouer quand chez nousáR?áRÅ‚"
         }
+    },
+    /* KARATE_MAN */ {
+        /* Entry Scene   */ &scene_karate_man_extra,
+        /* Level Name    */ "KaratáQka",
+        /* Level Desc.   */ "Il faut du rythme\n"
+                            "pour un beau karatáQ.\n"
+                            "Faites parler vos\n"
+                            "poings en vitesseáR!",
+        /* Level Icon    */ 54,
+        /* Level Type    */ LEVEL_TYPE_GAME,
+        /* Epilogue GFX  */ epilogue_karate_man_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "Je me suis fait ridiculiser au tournoi...",
+            /* OK        */ "J'ai pas gagnáQ, mais je me suis bien dáQfenduáR!",
+            /* SUPERB    */ "J'ai remportáQ le grand tournoiáR!"
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
+    },
+    /* RHYTHM_TWEEZERS */ {
+        /* Entry Scene   */ &scene_rhythm_tweezers_extra,
+        /* Level Name    */ "Pince poilante",
+        /* Level Desc.   */ "Ces poils poussent\n"
+                            "ág une vitesse folleáR!\n"
+                            "Faites chauffer\n"
+                            "votre pinceáR!",
+        /* Level Icon    */ 55,
+        /* Level Type    */ LEVEL_TYPE_GAME,
+        /* Epilogue GFX  */ epilogue_rhythm_tweezers_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "Je ne peux rien áQpiler ág cette vitesseáR!",
+            /* OK        */ "Pas áQvident de tous les áQpiler...",
+            /* SUPERB    */ "Qu'elles sont jolies, ces fleursáR! C'est relaxant..."
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
+    },
+    /* MARCHING_ORDERS */ {
+        /* Entry Scene   */ &scene_marching_orders_extra,
+        /* Level Name    */ "En avant, marcheáR!",
+        /* Level Desc.   */ "Le rythme fait l'union\n"
+                            "...et l'union fait la forceáR!\n"
+                            "Suivez les ordres,\n"
+							"et en vitesseáR!",
+        /* Level Icon    */ 56,
+        /* Level Type    */ LEVEL_TYPE_GAME,
+        /* Epilogue GFX  */ epilogue_marching_orders_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "UN MONSTREáR! On se replieáR!",
+            /* OK        */ "On a trouváQ un chiot áQgaráQáR!",
+            /* SUPERB    */ "On a sauváQ le petit chiotáR! HourraáR!"
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
+    },
+    /* SPACEBALL */ {
+        /* Entry Scene   */ &scene_spaceball_extra,
+        /* Level Name    */ "Baseball de l'espace",
+        /* Level Desc.   */ "Restez concentráQ sur\n"
+                            "la balle et ne vous\n"
+                            "laissez pas dáQpasser\n"
+                            "par la vitesseáR!",
+        /* Level Icon    */ 57,
+        /* Level Type    */ LEVEL_TYPE_GAME,
+        /* Epilogue GFX  */ epilogue_spaceball_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "HaaaáR? NooonnnáR!",
+            /* OK        */ "Et vlanáR!",
+            /* SUPERB    */ "C'est gagnáQáR!"
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
+    },
+    /* CLAPPY_TRIO */ {
+        /* Entry Scene   */ &scene_clappy_trio_extra,
+        /* Level Name    */ "Trio clap clap",
+        /* Level Desc.   */ "Vous àÆtes le 3e\n"
+                            "membre d'un trio de\n"
+                            "clappeurs, regardez\n"
+							"vite vos camaradesáR!",
+        /* Level Icon    */ 58,
+        /* Level Type    */ LEVEL_TYPE_GAME,
+        /* Epilogue GFX  */ epilogue_clappy_trio_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "StopáR! Ne partez pas sans nousáR!",
+            /* OK        */ "Ce voyage s'aváare plutà∂t agráQableáR!",
+            /* SUPERB    */ "J'ai decouvert une nouvelle planáateáR!"
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
+    },
+    /* REMIX_1 */ {
+        /* Entry Scene   */ &scene_remix_1_extra,
+        /* Level Name    */ "Remix extra",
+        /* Level Desc.   */ "Ici vous attendent les\n"
+                            "jeux que vous venez de\n"
+                            "faire, tout en vitesseáR!\n"
+                            "Vous pensez y arriveráR?",
+        /* Level Icon    */ 59,
+        /* Level Type    */ LEVEL_TYPE_REMIX,
+        /* Epilogue GFX  */ epilogue_remix1_extra_gfx_tables,
+        /* Epilogue Text */ {
+            /* TRY_AGAIN */ "Il ne veut pas sortir de sa coquille...",
+            /* OK        */ "En voici un beau poussináR! Piou piouáR!",
+            /* SUPERB    */ "Quelle allureáR! Vous voilág aussi fier qu'un coqáR!"
+        },
+        /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     }
 };

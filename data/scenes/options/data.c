@@ -43,27 +43,10 @@ struct CompressedData *options_buffered_textures[] = {
     END_OF_BUFFERED_TEXTURES_LIST
 };
 
-
-// [D_08054950] Data Clear Confirmation Options
-        // Erase ALL data?
-        //　　　　　　　Erase
-        //　　　　　　　Cancel
 const char options_data_clear_confirm_text[] =
         "\0023" "\0013" "\001C" "Confirmer⑲?\n"
         "\0021" "\0011" "\001C" "　　  Oui\n"
         "　　 　 Non";
-
-
-// [D_089cfb14] Option Descriptions
-    /* -------------------------------- */
-        // Sound Mode
-        // <Stereo>  For headphones, Nintendo DS, etc.
-        // <Mono>  For GBAs without headphones.
-    /* -------------------------------- */
-        // Clear Save Data
-        // Erase progress, gifts, drum lessons,
-        // <everything>! Think about it!
-    /* -------------------------------- */
 
 const char *options_desc_text[] = {
     /* SOUND MODE ------------------------------------- */
@@ -75,6 +58,41 @@ const char *options_desc_text[] = {
         "\0021" "\0011" "\001C" "Vous allez supprimer " "\0022" "toutes " "\0021" "vos donn⑱es\n"
         "et recommencer du tout d⑱but⑲!!!"
     /* ------------------------------------------------ */
+};
+
+const char *advance_options_label_text[] = {
+    "Ｅｆｆｅｔｓ　ｓｏｎｏｒｅｓ。",
+    "Ｃｈａｎｓｏｎｓ。",
+#ifdef RUMBLE
+    "Ｖｉｂｒａｔｉｏｎｓ。",
+#endif
+    "Ｃｌａｕｓｅ　ｄｅ　ｎｏｎ－ｒｅｓｐ．。",
+    "Ｍｕｓｉｑｕｅ　ｄｕ　ｃｈｏｉｘ　ｄｕ　ｊｅｕ。",
+};
+
+const char *advance_options_desc_text[] = {
+    /* NON-JP SFX ------------------------------------- */
+        "\0023" "\0013" "\001C" "Langue des effets sonores\n"
+        "\0024" "\0011" "\001L" "Fran飴ais      " "\0021" "Profiter des voix en fran飴ais.\n"
+        "\0024" "\0011" "\001L" "Japonais 　     " "\0021" "Profiter des voix originales.",
+    /* NON-JP MUSIC ----------------------------------- */
+        "\0023" "\0013" "\001C" "Langue des chansons\n"
+        "\0024" "\0011" "\001L" "Fran飴ais    " "\0021" "Profiter des chansons en fran飴ais.\n"
+        "\0024" "\0011" "\001L" "Japonais     " "\0021" "Profiter des chansons originales.",
+    /* RUMBLE ----------------------------------------- */
+#ifdef RUMBLE
+        "\0023" "\0013" "\001C" "Vibrations\n"
+        "\0024" "\0011" "\001L" "Avec     " "\0021" "Vibrations actives lorsque vous jouez.\n"
+        "\0024" "\0011" "\001L" "Sans                   " "\0021" "Vibrations d⑱sactiv⑱es.",
+#endif
+    /* SHOW DISCLAIMER -------------------------------- */
+        "\0023" "\0013" "\001C" "Clause de non-responsabilit⑱\n"
+        "\0024" "\0011" "\001L" "Montrer　　" "\0021" "Montrer la clause au lancement du jeu.\n"
+        "\0024" "\0011" "\001L" "Passer      " "\0021" "Passer la clause au lancement du jeu.",
+    /* ALT GAME SELECT MUSIC --------------------------- */
+        "\0023" "\0013" "\001C" "Musique du choix du jeu\n"
+        "\0024" "\0011" "\001L" "Changer　　　" "\0021" "Changer la musique du choix du jeu.\n"
+        "\0024" "\0011" "\001L" "D⑱faut           " "\0021" "Laisser la musique par d⑱faut.",
 };
 
 
