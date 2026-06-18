@@ -32,6 +32,10 @@
 - Bellajenna
 - NicoTap
 
+### Testeurs
+- FireChat♂
+- Metal Sunday
+
 ## Remerciements
 - Toute l'équipe anglaise de Rhythm Heaven Advance
 - Les membres du serveur Discord « Doublage FR Rhythm Paradise »
