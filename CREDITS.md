@@ -32,6 +32,11 @@
 - Bellajenna
 - NicoTap
 
+### Mixage
+- FireChat♂
+- Céth Walft
+- Tick
+
 ### Testeurs
 - FireChat♂
 - Metal Sunday
@@ -39,6 +44,7 @@
 ## Remerciements
 - Toute l'équipe anglaise de Rhythm Heaven Advance
 - Les membres du serveur Discord « Doublage FR Rhythm Paradise »
+- Cacathoès
 - ShaffySwitcher
 - Vous
 
