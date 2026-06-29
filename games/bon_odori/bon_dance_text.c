@@ -33,7 +33,7 @@ const char text_bon_dance_haa[] = ".0:0" "Ｈａａ～　Ａｈ～";
 
 const char text_bon_dance_kansei_agaru[] = ".0:0" "Ｐａｒｔｏｕｔ　ｃｅ　ｓｅｒａ　ｌａ　ｊｏｉｅ";
 
-const char text_bon_dance_pan_pan_dondo_don[] = ".2:0" "Ｐａ－ｎ　ｐａ－ｎ　" ".1:0" "ｄｏｎｄｏ　ｄｏ－ｎ";
+const char text_bon_dance_pan_pan_dondo_don[] = ".2:0" "Ｐａｎ　ｐａｎ　" ".1:0" "ｄｏｎｄｏ　ｄｏｎ";
 
 const char text_bon_dance_panpa_don_pan[] = ".2:0" "Ｐａｎｐａ　" ".1:0" "ｄｏｎ　" ".2:0" "ｐａｎ";
 

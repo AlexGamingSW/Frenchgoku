@@ -247,6 +247,7 @@ script script_bon_dance_main
     spawn_cue CUE_SIDE_CLAP
     beat_anim
     rest 24
+    bon_odori_lyrics_clear_line 1
     bon_odori_start_input_check
     bon_odori_lyrics_start_highlight 2, 88
     bon_odori_animate_npc ANIM_CLAP_F
@@ -265,7 +266,6 @@ script script_bon_dance_main
     rest 8
     spawn_cue CUE_FORWARD_CLAP
     rest 8
-    bon_odori_lyrics_clear_line 1
     bon_odori_lyrics_start_highlight 3, 54
     bon_odori_animate_npc ANIM_CLAP_S
     beat_anim
@@ -614,6 +614,7 @@ script script_bon_dance_main
     rest 24
     beat_anim
     rest 24
+    bon_odori_lyrics_clear_line 1
     bon_odori_start_input_check
     bon_odori_lyrics_start_highlight 2, 88
     bon_odori_lyrics_print_right 3, text_bon_dance_dondo_pan_pan
@@ -630,7 +631,6 @@ script script_bon_dance_main
     bon_odori_animate_npc ANIM_CLAP_F
     beat_anim
     rest 24
-    bon_odori_lyrics_clear_line 1
     bon_odori_lyrics_start_highlight 3, 54
     spawn_cue CUE_FORWARD_CLAP
     beat_anim
@@ -670,6 +670,7 @@ script script_bon_dance_main
     spawn_cue CUE_SIDE_CLAP
     beat_anim
     rest 24
+    bon_odori_lyrics_clear_line 1
     bon_odori_start_input_check
     bon_odori_lyrics_start_highlight 2, 88
     bon_odori_lyrics_print_right 3, text_bon_dance_panpa_don_pan
@@ -689,7 +690,6 @@ script script_bon_dance_main
     rest 8
     spawn_cue CUE_FORWARD_CLAP
     rest 8
-    bon_odori_lyrics_clear_line 1
     bon_odori_lyrics_start_highlight 3, 54
     bon_odori_animate_npc ANIM_CLAP_S
     beat_anim
@@ -741,8 +741,6 @@ script script_bon_dance_main
     rest 8
     spawn_cue CUE_SIDE_CLAP
     rest 8
-    bon_odori_lyrics_print_left 1, text_bon_dance_korezo
-    bon_odori_lyrics_print_center 2, text_bon_dance_meido
     bon_odori_animate_npc ANIM_CLAP_F
     beat_anim
     rest 8
@@ -752,6 +750,8 @@ script script_bon_dance_main
     bon_odori_lyrics_clear_line 3
     rest 4
     set_marking_criteria 2
+    bon_odori_lyrics_print_left 1, text_bon_dance_korezo
+    bon_odori_lyrics_print_center 2, text_bon_dance_meido
     bon_odori_lyrics_print_right 3, text_bon_dance_in_japan
     bon_odori_lyrics_start_highlight 1, 45
     beat_anim
