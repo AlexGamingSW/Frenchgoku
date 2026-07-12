@@ -26,7 +26,6 @@
 - AlexGamingSW
 - \*Nana\*
 - Elisanya07
-- Voix françaises de Rhythm Paradise
 
 ### Voix des chansons
 - Bellajenna
@@ -48,6 +47,7 @@
 - ShaffySwitcher
 - Vous
 
+*Ce patch de traduction réutilise certains éléments de texte, d'images et de voix en français provenant des jeux de la série Rhythm Paradise.*
 
 # Crédits de l'équipe anglaise
 ## Programming
