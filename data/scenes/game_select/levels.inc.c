@@ -769,7 +769,7 @@ struct LevelData level_data_table[] = {
         /* Level Name    */ "Remix 6",
         /* Level Desc.   */ "On y est‡R! Tous les\n"
                             "mini-jeux sont l‡g‡R!\n"
-                            "montrez-nous ce dont\n"
+                            "Montrez-nous ce dont\n"
                             "vous ˆ®tes capable‡R!",
         /* Level Icon    */ 2,
         /* Level Type    */ LEVEL_TYPE_REMIX,
