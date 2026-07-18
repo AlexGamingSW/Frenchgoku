@@ -252,9 +252,9 @@ script script_remix_1_main
     #ifdef SFX
     print_text_f 2
     rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
+    play_sfx s_f_boxing_hit2_deux_seqData
     rest 12
-    play_sfx s_f_boxing_two_sfx_seqData
+    play_sfx s_f_boxing_hit2_coups_seqData
     #else
     rest 24
     print_text_f 2
@@ -341,9 +341,9 @@ script script_remix_1_main
     #ifdef SFX
     print_text_f 2
     rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
+    play_sfx s_f_boxing_hit2_deux_seqData
     rest 12
-    play_sfx s_f_boxing_two_sfx_seqData
+    play_sfx s_f_boxing_hit2_coups_seqData
     #else
     rest 24
     print_text_f 2
@@ -782,9 +782,9 @@ script script_remix_1_main
     #endif
     #ifdef SFX
     rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
+    play_sfx s_f_boxing_hit4_quatre_seqData
     rest 12
-    play_sfx s_f_boxing_four_sfx_seqData
+    play_sfx s_f_boxing_hit4_coups_seqData
     #else
     rest 24
     #endif

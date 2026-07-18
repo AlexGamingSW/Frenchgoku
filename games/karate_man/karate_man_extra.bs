@@ -368,9 +368,9 @@ script karate_man_extra_sub_089ee9cc
     print_text_f 3
     #ifdef SFX
     rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
+    play_sfx s_f_boxing_hit3_trois_seqData
     rest 12
-    play_sfx s_f_boxing_three_sfx_seqData
+    play_sfx s_f_boxing_hit3_coups_seqData
     #else
     rest 24
     #endif
@@ -442,9 +442,9 @@ script karate_man_extra_sub_089ee9cc
     #ifdef SFX
     print_text_f 2
     rest 12
-    play_sfx s_f_boxing_hit_sfx_seqData
+    play_sfx s_f_boxing_hit2_deux_seqData
     rest 12
-    play_sfx s_f_boxing_two_sfx_seqData
+    play_sfx s_f_boxing_hit2_coups_seqData
     #else
     rest 24
     print_text_f 2

@@ -6162,19 +6162,27 @@
             "pitch": "C5"
         },
         {
-            "sample": "hit.wav",
+            "sample": "karate_hit3_trois.wav",
             "pitch": "C5"
         },
         {
-            "sample": "three.wav",
+            "sample": "karate_hit3_coups.wav",
             "pitch": "C5"
         },
         {
-            "sample": "two.wav",
+            "sample": "karate_hit2_deux.wav",
             "pitch": "C5"
         },
         {
-            "sample": "four.wav",
+            "sample": "karate_hit2_coups.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "karate_hit4_quatre.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "karate_hit4_coups.wav",
             "pitch": "C5"
         },
         {

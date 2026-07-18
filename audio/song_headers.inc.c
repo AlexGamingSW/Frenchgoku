@@ -9164,52 +9164,76 @@ struct SongHeader s_rat_paw_seqData = {
     /* Song Number   */ 1935
 };
 
-extern const u8 s_f_boxing_hit_sfx_mid[];
-struct SongHeader s_f_boxing_hit_sfx_seqData = {
-    /* MIDI Sequence */ s_f_boxing_hit_sfx_mid,
+extern const u8 s_f_boxing_hit3_trois_mid[];
+struct SongHeader s_f_boxing_hit3_trois_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit3_trois_mid,
     /* Sound Player  */ SFX_PLAYER_5,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 120,
     /* Priority      */ 90,
     /* unk8          */ 0xff,
     /* Song Title    */ s_f_boxing_hit_sfx_seqName,
-    /* Song Number   */ 1937
+    /* Song Number   */ 1833
 };
 
-extern const u8 s_f_boxing_three_sfx_mid[];
-struct SongHeader s_f_boxing_three_sfx_seqData = {
-    /* MIDI Sequence */ s_f_boxing_three_sfx_mid,
+extern const u8 s_f_boxing_hit3_coups_mid[];
+struct SongHeader s_f_boxing_hit3_coups_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit3_coups_mid,
     /* Sound Player  */ SFX_PLAYER_5,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 120,
     /* Priority      */ 90,
     /* unk8          */ 0xff,
-    /* Song Title    */ s_f_boxing_three_sfx_seqName,
-    /* Song Number   */ 1938
+    /* Song Title    */ s_f_boxing_hit_sfx_seqName,
+    /* Song Number   */ 1834
 };
 
-extern const u8 s_f_boxing_two_sfx_mid[];
-struct SongHeader s_f_boxing_two_sfx_seqData = {
-    /* MIDI Sequence */ s_f_boxing_two_sfx_mid,
+extern const u8 s_f_boxing_hit2_deux_mid[];
+struct SongHeader s_f_boxing_hit2_deux_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit2_deux_mid,
     /* Sound Player  */ SFX_PLAYER_5,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 120,
     /* Priority      */ 90,
     /* unk8          */ 0xff,
-    /* Song Title    */ s_f_boxing_two_sfx_seqName,
-    /* Song Number   */ 1939
+    /* Song Title    */ s_f_boxing_hit_sfx_seqName,
+    /* Song Number   */ 1835
 };
 
-extern const u8 s_f_boxing_four_sfx_mid[];
-struct SongHeader s_f_boxing_four_sfx_seqData = {
-    /* MIDI Sequence */ s_f_boxing_four_sfx_mid,
+extern const u8 s_f_boxing_hit2_coups_mid[];
+struct SongHeader s_f_boxing_hit2_coups_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit2_coups_mid,
     /* Sound Player  */ SFX_PLAYER_5,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 120,
     /* Priority      */ 90,
     /* unk8          */ 0xff,
-    /* Song Title    */ s_f_boxing_four_sfx_seqName,
-    /* Song Number   */ 1940
+    /* Song Title    */ s_f_boxing_hit_sfx_seqName,
+    /* Song Number   */ 1836
+};
+
+extern const u8 s_f_boxing_hit4_quatre_mid[];
+struct SongHeader s_f_boxing_hit4_quatre_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit4_quatre_mid,
+    /* Sound Player  */ SFX_PLAYER_5,
+    /* Bank Number   */ INST_BANK_56,
+    /* Volume        */ 120,
+    /* Priority      */ 90,
+    /* unk8          */ 0xff,
+    /* Song Title    */ s_f_boxing_hit_sfx_seqName,
+    /* Song Number   */ 1837
+};
+
+extern const u8 s_f_boxing_hit4_coups_mid[];
+struct SongHeader s_f_boxing_hit4_coups_seqData = {
+    /* MIDI Sequence */ s_f_boxing_hit4_coups_mid,
+    /* Sound Player  */ SFX_PLAYER_5,
+    /* Bank Number   */ INST_BANK_56,
+    /* Volume        */ 120,
+    /* Priority      */ 90,
+    /* unk8          */ 0xff,
+    /* Song Title    */ s_f_boxing_hit_sfx_seqName,
+    /* Song Number   */ 1838
 };
 
 extern const u8 s_guntai_v_susume_2_mid[];
