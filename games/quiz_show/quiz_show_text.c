@@ -31,7 +31,7 @@ const char D_0805ece8[] =
     "‡Qcoutez.\n";
 
 const char D_0805ecf8[] =
-    "Seconde question.\n"
+    "Deuxi‡ame question.\n"
     "Concentrez-vous‡R!\n"
     "\n";
 
