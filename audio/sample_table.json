@@ -5762,6 +5762,11 @@
             "pitch": "C5"
         },
         {
+            "sample": "sample_136_FR.wav",
+            "pitch": "C5"
+
+        },
+        {
             "sample": "RAPMEN_EN_sample_241.wav",
             "pitch": "C5"
         },
