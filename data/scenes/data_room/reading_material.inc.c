@@ -325,7 +325,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Paroles - chanson ‡@",
         /* BODY ----------------------------------------------------------- */
             "Le™Bon Odori\n"
-            "Chant‡R: Orionn\n"
+            "Chant‡R: Shirayukiw\n"
             "Musique‡R: TSUNKU\n"
             "\n"
             "Haa~\n"
