@@ -882,7 +882,7 @@ const char *cafe_dialogue_ranks_and_medals[] = {
         "\n",
     /* ------------------------------------------------ */
         "\n"
-        "Il y a trois notes que vous pouvez avoir‡R:\n"
+        "Il y a trois rangs que vous pouvez avoir‡R:\n"
         "Essayez encore, OK, et Super.\n"
         "\n",
     /* ------------------------------------------------ */
