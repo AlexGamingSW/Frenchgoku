@@ -26,6 +26,7 @@
 - AlexGamingSW
 - \*Nana\*
 - Elisanya07
+- Dodosaurus
 
 ### Voix des chansons
 - Bellajenna
