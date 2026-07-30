@@ -540,13 +540,18 @@ struct InstrumentPCM instrument_pcm_1731 = {
     /* ADSR Rel  */ 0x1FC000,
 };
 
+extern struct SampleData RAPWOMEN_EN_sample_953_data;
 extern struct SampleData sample_953_data;
 struct InstrumentPCM instrument_pcm_1732 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
+    #ifdef SFX
+    /* Sample    */ &RAPWOMEN_EN_sample_953_data,
+    #else
     /* Sample    */ &sample_953_data,
+    #endif
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,

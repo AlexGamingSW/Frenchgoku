@@ -8188,9 +8188,14 @@ struct SongHeader s_f_rapW_v_KibunnwaSaiko_seqData = {
     /* Song Number   */ 608
 };
 
+extern const u8 s_f_rapW_v_AmakuteSaiko_FR_mid[];
 extern const u8 s_f_rapW_v_AmakuteSaiko_mid[];
 struct SongHeader s_f_rapW_v_AmakuteSaiko_seqData = {
+    #ifdef SFX
+    /* MIDI Sequence */ s_f_rapW_v_AmakuteSaiko_FR_mid,
+    #else
     /* MIDI Sequence */ s_f_rapW_v_AmakuteSaiko_mid,
+    #endif
     /* Sound Player  */ SFX_PLAYER_4,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 103,
@@ -8200,9 +8205,14 @@ struct SongHeader s_f_rapW_v_AmakuteSaiko_seqData = {
     /* Song Number   */ 609
 };
 
+extern const u8 s_f_rapW_v_BetubaraSaiko_FR_mid[];
 extern const u8 s_f_rapW_v_BetubaraSaiko_mid[];
 struct SongHeader s_f_rapW_v_BetubaraSaiko_seqData = {
+    #ifdef SFX
+    /* MIDI Sequence */ s_f_rapW_v_BetubaraSaiko_FR_mid,
+    #else
     /* MIDI Sequence */ s_f_rapW_v_BetubaraSaiko_mid,
+    #endif
     /* Sound Player  */ SFX_PLAYER_4,
     /* Bank Number   */ INST_BANK_56,
     /* Volume        */ 103,
