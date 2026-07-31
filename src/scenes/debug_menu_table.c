@@ -303,13 +303,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｋａｒａｔぎｋａ　２",
         /* Epil. */ TRUE
     },
-    #ifdef TEMPOUP
     /* Karate Man (Extra) */ {
         /* Scene */ &scene_karate_man_extra,
-        /* Label */ "Ｋａｒａｔぎｋａ　（Ｅｘｔｒａ）",
+        /* Label */ "Ｋａｒａｔぎｋａ　（Ｅｘｔｒａ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
-    #endif
     /* Rhythm Tweezers */ {
         /* Scene */ &scene_rhythm_tweezers,
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ",
@@ -320,13 +318,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　２",
         /* Epil. */ TRUE
     },
-    #ifdef TEMPOUP
     /* Rhythm Tweezers (Extra) */ {
         /* Scene */ &scene_rhythm_tweezers_extra,
         /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　（Ｅｘｔｒａ）",
         /* Epil. */ TRUE
     },
-    #endif
     /* Marching Orders */ {
         /* Scene */ &scene_marching_orders,
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！",
@@ -337,13 +333,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　２",
         /* Epil. */ TRUE
     },
-    #ifdef TEMPOUP
     /* Marching Orders (Extra) */ {
         /* Scene */ &scene_marching_orders_extra,
         /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　（Ｅｘｔｒａ）",
         /* Epil. */ TRUE
     },
-    #endif
     /* Spaceball */ {
         /* Scene */ &scene_spaceball,
         /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．",
@@ -355,13 +349,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Epil. */ TRUE
 
     },
-    #ifdef TEMPOUP
     /* Spaceball (Extra) */ {
         /* Scene */ &scene_spaceball_extra,
         /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．　（Ｅｘｔｒａ）",
         /* Epil. */ TRUE
     },
-    #endif
     /* The Clappy Trio */ {
         /* Scene */ &scene_clappy_trio,
         /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ",
@@ -372,13 +364,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｔｒｉｏ　ｗｅｓｔｅｒｎ　ｃｌａｐ",
         /* Epil. */ TRUE
     },
-    #ifdef TEMPOUP
     /* The Clappy Trio (Extra) */ {
         /* Scene */ &scene_clappy_trio_extra,
-        /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ　（Ｅｘｔｒａ）",
+        /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ　（Ｅｘｔｒａ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
-    #endif
     /* Sneaky Spirits */ {
         /* Scene */ &scene_sneaky_spirits,
         /* Label */ "Ｅｓｐｒｉｔｓ　ｅｓｐｉぐｇｌｅｓ",
@@ -569,13 +559,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｒｅｍｉｘ　８",
         /* Epil. */ TRUE
     },
-    #ifdef TEMPOUP
     /* Remix 1 (Extra) */ {
         /* Scene */ &scene_remix_1_extra,
-        /* Label */ "Ｒｅｍｉｘ　１　（Ｅｘｔｒａ）",
+        /* Label */ "Ｒｅｍｉｘ　１　（Ｅｘｔｒａ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
-    #endif
     /* Drum Intro (Unused 1) */ {
         /* Scene */ &scene_drum_intro_unused,
         /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
