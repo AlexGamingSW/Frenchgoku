@@ -48,7 +48,9 @@
 - ShaffySwitcher
 - Vous
 
-*Ce patch de traduction réutilise certains éléments de texte, d'images et de voix en français provenant des jeux de la série Rhythm Paradise.*
+*Ce patch réutilise certains éléments de texte, d'images et de voix en français provenant des jeux de la série Rhythm Paradise.*
+
+*Il réutilise également certains éléments de voix du mod « Paradis du Rythme Mégamix » développé en 2024 par la même équipe que ce patch.*
 
 # Crédits de l'équipe anglaise
 ## Programming
