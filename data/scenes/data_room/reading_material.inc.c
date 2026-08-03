@@ -1053,7 +1053,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Voici donc les noms de tous ceux ayant contribuáQ\n"
             "ág la ráQalisation de cette version franàπaise !\n"
 			"\n"
-            "\001C" "\0031" "Direction\n"
+            "\001C" "\0031" "Direction & modding\n"
             "FireChatÅâ\n"
 			"\n"
             "\0031" "Programmation\n"

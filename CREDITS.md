@@ -1,6 +1,6 @@
 # Crédits de l'équipe française
 ## Responsables du projet
-### Direction
+### Direction & modding
 - FireChat♂
 ### Programmation
 - itaific
@@ -42,8 +42,8 @@
 - Metal Sunday
 
 ## Remerciements
-- Toute l'équipe anglaise de Rhythm Heaven Advance
-- Les membres du serveur Discord « Doublage FR Rhythm Paradise »
+- L'équipe anglaise de Rhythm Heaven Advance
+- Les membres du serveur Discord français
 - Cacathoès
 - ShaffySwitcher
 - Vous
@@ -97,7 +97,7 @@
 - Nabix (& his family)
 - itaific
 - SesuRescue
-- FireChat��
+- FireChat♂
 - Kievit
 
 ## Playtesting
