@@ -7,7 +7,7 @@
 
 const char D_0805df4c[] =
     "Bienvenue dans le\n"
-    "merveilleux monde de\n"
+    "monde merveilleux de\n"
     "Rhythm Paradise Advance‡R!";
 
 const char D_0805df88[] =
@@ -42,9 +42,9 @@ const char D_0805e070[] =
 
 
 const char D_0805e0a8[] =
-    "Comment vous en ˆ®tes sorti‡R?\n"
-    "Votre score vous suffit‡R?\n"
-    "";
+    "Comment ˆ¹a s'est pass‡Q‡R?\n"
+    "Est-ce que votre\n"
+    "score vous suffit‡R?";
 
 const char D_0805e0d8[] =
     "Dans tous les cas, votre\n"

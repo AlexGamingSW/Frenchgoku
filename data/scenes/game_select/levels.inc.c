@@ -469,7 +469,7 @@ struct LevelData level_data_table[] = {
     /* POWER_CALLIGRAPHY_2 */ { // this still kills me lmao
         /* Entry Scene   */ &scene_power_calligraphy,
         /* Level Name    */ "Calligraphie 2",
-        /* Level Desc.   */ "haha unused\n"
+        /* Level Desc.   */ "non utilis‡Q\n"
                             "\n"
                             "\n"
                             "",
