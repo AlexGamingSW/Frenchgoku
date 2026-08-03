@@ -9,14 +9,15 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Salutations‡R!\n"
             "\n"
             "Nous vous remercions d'avoir achet‡Q\n"
-            "Rhythm Paradise Advance.\n"
+			"Rhythm Paradise Advance.\n"
             "Oh... un ami vous l'a prˆ®t‡Q‡R? Et... i-il est d'occasion‡R?!\n"
-            "Bref, nous sommes tr‡as honor‡Qs de voir\n"
-            "que vous vous ˆ®tes int‡Qress‡Q ‡g notre jeu‡R!\n"
-            "Nous sommes tr‡as heureux d'avoir fait votre\n"
-            "connaissance et esp‡Qrons que vous passerez\n"
-            "beaucoup de bons moments avec ce jeu et que\n"
-			"vous continuerez d'y jouer longtemps‡R!\n"
+            "Dans tous les cas, nous sommes tr‡as honor‡Qs de\n"
+            "voir que vous vous ˆ®tes int‡Qress‡Q ‡g notre jeu.\n"
+			"\n"
+            "Ravis d'avoir fait votre connaissance‡R!\n"
+            "Nous esp‡Qrons que vous passerez beaucoup\n"
+            "de bons moments avec ce jeu et que vous\n"
+			"continuerez d'y jouer longtemps‡R!\n"
             "Merci beaucoup‡R!",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_mail_gfx_table,
