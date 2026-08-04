@@ -44,7 +44,7 @@ const char D_0805e070[] =
 const char D_0805e0a8[] =
     "Comment ˆ¹a s'est pass‡Q‡R?\n"
     "Est-ce que votre\n"
-    "score vous suffit‡R?";
+    "score vous convient‡R?";
 
 const char D_0805e0d8[] =
     "Dans tous les cas, votre\n"
