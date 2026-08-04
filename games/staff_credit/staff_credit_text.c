@@ -160,7 +160,9 @@ const char D_08069da8[] = "";
 const char D_08069dac[] = "(C) 2006 Nintendo / J.P ROOM";
 
 const char D_08069dc8[] =
-    "F‡Qlicitations‡R!";
+    "Hey‡R! F‡Qlicitations\n"
+    "pour avoir r‡Qussi\n"
+    "le Remix 6‡R!";
 
 const char D_08069ddc[] =
     "Vous avez travaill‡Q dur‡R!\n"
@@ -169,9 +171,9 @@ const char D_08069ddc[] =
     "s'est affˆ½t‡Q‡R?";
 
 const char D_08069e24[] =
-    "Mais ce n'est pas fini\n"
+    "Ce n'est pas fini\n"
     "pour autant‡R! Il reste\n"
-    "encore des jeux\n"
+    "encore des mini-jeux\n"
     "‡g d‡Qcouvrir‡R!";
 
 const char D_08069e78[] =

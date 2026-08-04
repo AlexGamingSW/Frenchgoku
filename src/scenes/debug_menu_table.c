@@ -150,7 +150,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Ending (from clearing Remix 6) */ {
         /* Scene */ &scene_staff_credit_remix_6,
-        /* Label */ "Ｆｉｎ　（Ｔｅｒｍｉｎぎ）",
+        /* Label */ "Ｆｉｎ　（１ん　ｆｏｉｓ）",
         /* Epil. */ FALSE
     },
     /* Ending (from Game Select) */ {
