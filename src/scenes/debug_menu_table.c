@@ -155,7 +155,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Ending (from Game Select) */ {
         /* Scene */ &scene_staff_credit,
-        /* Label */ "Ｆｉｎ　（Ｅｘｔｒａ）",
+        /* Label */ "Ｆｉｎ　らるれ）",
         /* Epil. */ FALSE
     },
     /* Lesson (Basic 1) */ {
@@ -305,7 +305,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Karate Man (Extra) */ {
         /* Scene */ &scene_karate_man_extra,
-        /* Label */ "Ｋａｒａｔぎｋａ　（Ｅｘｔｒａ）　ＷＩＰ",
+        /* Label */ "Ｋａｒａｔぎｋａ　らるれ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
     /* Rhythm Tweezers */ {
@@ -320,7 +320,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Rhythm Tweezers (Extra) */ {
         /* Scene */ &scene_rhythm_tweezers_extra,
-        /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　（Ｅｘｔｒａ）",
+        /* Label */ "Ｐｉｎｃｅ　ｐｏｉｌａｎｔｅ　らるれ）",
         /* Epil. */ TRUE
     },
     /* Marching Orders */ {
@@ -335,23 +335,23 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Marching Orders (Extra) */ {
         /* Scene */ &scene_marching_orders_extra,
-        /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　（Ｅｘｔｒａ）",
+        /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　らるれ）",
         /* Epil. */ TRUE
     },
     /* Spaceball */ {
         /* Scene */ &scene_spaceball,
-        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐａｃｅ",
         /* Epil. */ TRUE
     },
     /* Spaceball 2 */ {
         /* Scene */ &scene_spaceball_2,
-        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．　２",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐａｃｅ　２",
         /* Epil. */ TRUE
 
     },
     /* Spaceball (Extra) */ {
         /* Scene */ &scene_spaceball_extra,
-        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐ．　（Ｅｘｔｒａ）",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ｄｅ　ｌ’ｅｓｐａｃｅ　らるれ）",
         /* Epil. */ TRUE
     },
     /* The Clappy Trio */ {
@@ -366,7 +366,7 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* The Clappy Trio (Extra) */ {
         /* Scene */ &scene_clappy_trio_extra,
-        /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ　（Ｅｘｔｒａ）　ＷＩＰ",
+        /* Label */ "Ｔｒｉｏ　ｃｌａｐ　ｃｌａｐ　らるれ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
     /* Sneaky Spirits */ {
@@ -561,62 +561,62 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Remix 1 (Extra) */ {
         /* Scene */ &scene_remix_1_extra,
-        /* Label */ "Ｒｅｍｉｘ　１　（Ｅｘｔｒａ）　ＷＩＰ",
+        /* Label */ "Ｒｅｍｉｘ　１　らるれ）　ＷＩＰ",
         /* Epil. */ TRUE
     },
     /* Drum Intro (Unused 1) */ {
         /* Scene */ &scene_drum_intro_unused,
-        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Drum Intro (Unused 2) */ {
         /* Scene */ &scene_drum_intro_unused_2,
-        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　２）",
+        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　ろゎわｄ　２）",
         /* Epil. */ TRUE
     },
     /* Drum Intro (Unused 3) */ {
         /* Scene */ &scene_drum_intro_unused_3,
-        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　（Ｕｎｕｓｅｄ　３）",
+        /* Label */ "Ｃｏｕｒｓ　ｄｅ　ｂａｔｔｅｒｉｅ　ろゎわｄ　３）",
         /* Epil. */ TRUE
     },
     /* Tanuki and Monkey */ {
         /* Scene */ &scene_tanuki_and_monkey,
-        /* Label */ "Ｓｉｎｇｅ　＆　Ｔａｎｕｋｉ",
+        /* Label */ "Ｓｉｎｇｅ　＆　Ｔａｎｕｋｉ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Metronome */ {
         /* Scene */ &scene_metronome,
-        /* Label */ "Ｍぎｔｒｏｎｏｍｅ",
+        /* Label */ "Ｍぎｔｒｏｎｏｍｅ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Drum Girls LIVE */ {
         /* Scene */ &scene_drum_girls_live_unused,
-        /* Label */ "Ｄｒｕｍ　Ｇｉｒｌｓ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｄｒｕｍ　Ｇｉｒｌｓ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Horse Machine (Unused) */ {
         /* Scene */ &scene_mechanical_horse_unused,
-        /* Label */ "Ｃｈｅｖａｌ　ｍぎｃａｎｉｑｕｅ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｃｈｅｖａｌ　ｍぎｃａｎｉｑｕｅ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Marching Orders (Unused) */ {
         /* Scene */ &scene_marching_orders_unused,
-        /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｅｎ　ａｖａｎｔ，　ｍａｒｃｈｅ　！　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Spaceball (Unused) */ {
         /* Scene */ &scene_spaceball_unused,
-        /* Label */ "Ｂａｓｅｂａｌｌ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Spaceball (Unused 2) */ {
         /* Scene */ &scene_spaceball_unused_2,
-        /* Label */ "Ｂａｓｅｂａｌｌ　（Ｕｎｕｓｅｄ　２）",
+        /* Label */ "Ｂａｓｅｂａｌｌ　ろゎわｄ　２）",
         /* Epil. */ TRUE
     },
     /* Snappy Trio (Unused) */ {
         /* Scene */ &scene_snappy_trio_unused,
-        /* Label */ "Ｔｒｉｏ　ｗｅｓｔ．　ｃｌａｐ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｔｒｉｏ　ｗｅｓｔｅｒｎ　ｃｌａｐ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Rap Women (by KAZU) */ {
@@ -626,22 +626,22 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
     },
     /* Bouncy Road (Unused) */ {
         /* Scene */ &scene_bouncy_road_unused,
-        /* Label */ "Ｔｅｍｐｏ　ｍぎｃ．　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｔｅｍｐｏ　ｍぎｃａｎｏ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Bouncy Road (Unused 2) */ {
         /* Scene */ &scene_bouncy_road_unused_2,
-        /* Label */ "Ｔｅｍｐｏ　ｍぎｃ．　（Ｕｎｕｓｅｄ　２）",
+        /* Label */ "Ｔｅｍｐｏ　ｍぎｃａｎｏ　ろゎわｄ　２）",
         /* Epil. */ TRUE
     },
     /* Tap Trial (Unused) */ {
         /* Scene */ &scene_tap_trial_unused,
-        /* Label */ "Ｃｌａｑｕｅｔｔｅｓ　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｃｌａｑｕｅｔｔｅｓ　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* Dance Lesson 1 */ {
         /* Scene */ &scene_remix_1_unused,
-        /* Label */ "Ｌｅおｏｎ　ｄｅ　ｄａｎｓｅ　１　（Ｕｎｕｓｅｄ）",
+        /* Label */ "Ｌｅおｏｎ　ｄｅ　ｄａｎｓｅ　１　ろゎわゐ",
         /* Epil. */ TRUE
     },
     /* RIQ Data Check */ {
@@ -669,11 +669,11 @@ struct DebugMenuEntry debug_menu_entry_table[] = {
         /* Label */ "Ｔｅｍｐｌａｔｅ　ｄｅ　ｓｃぐｎｅ",
         /* Epil. */ FALSE  
     },
-    /* Data Clear */ {
-        /* Scene */ &scene_data_clear,
-        /* Label */ "Ｅｆｆａｃｅｒ　ｌｅｓ　ｄｏｎｎぎｅｓ",
-        /* Epil. */ FALSE
-    },
+    ///* Data Clear */ {
+    //    /* Scene */ &scene_data_clear,
+    //    /* Label */ "Ｅｆｆａｃｅｒ　ｌｅｓ　ｄｏｎｎぎｅｓ",
+    //    /* Epil. */ FALSE
+    //},
     /* R-IQ Save Editor */ {
         /* Scene */ &scene_save_editor,
         /* Label */ "Ｒ－ＩＱ　きｄｉｔｅｕｒ　ｄｅ　ｓａｕｖｅｇａｒｄｅ",
