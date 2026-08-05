@@ -496,7 +496,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "C'‡Qtait pas fou du tout‡R!",
             /* OK        */ "On est capables de mieux‡R!",
-            /* SUPERB    */ "Championnat Mondial du Ballon, nous voil‡g‡R!"
+            /* SUPERB    */ "Championnat mondial du ballon, nous voil‡g‡R!"
         }
     },
     /* TOSS_BOYS_2 */ {
