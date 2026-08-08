@@ -220,7 +220,7 @@ extern u8 haveSeenDisclaimer;
 
 // since no cart reseller with 2 functioning braincells will fall for this, i took the liberty
 // of replacing the messages with stuff that won't traumatize people!!!
-char* badBoyMessages[15] = {
+char* badBoyMessages[20] = {
     "ah zut antipiratage",
     "quoicoubeh",
     "rythme rythme rythme",
@@ -235,7 +235,12 @@ char* badBoyMessages[15] = {
     "vive le catch",
     "e621.net",
     "combo qui badaboum",
-    "squid game"
+    "squid game",
+    "macron explosion",
+    "itadakimasu bismillah",
+    "monpetitsodapop",
+    "awooo furry OwO",
+    "amogus"
 };
 
 // Print Formatted Line to VRAM (return width in pixels)
