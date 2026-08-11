@@ -116,8 +116,8 @@ return
 
 text D_08061288
     .ascii "J'ai une surprise pour toi...\n"
-    .ascii "H‡Q oui, un autre charley‡R!\n"
-    .ascii "Essaie de ne pas \n"
+    .ascii "Eh oui, un autre charley‡R!\n"
+    .ascii "Essaie de ne pas\n"
     .asciz "t'emmˆ®ler les baguettes‡R!"
 endtext
 

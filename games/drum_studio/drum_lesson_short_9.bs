@@ -200,8 +200,8 @@ return
 text D_08060f10
     .ascii "Tu as presque fini‡R! On en\n"
     .ascii "rajoute un autre au d‡Qbut.\n"
-    .ascii "C'est plutˆ¶t difficile, mais\n"
-    .asciz "ˆ¹a sonne si bien‡R!\n"
+    .ascii "C'est plutˆ¶t difficile,\n"
+    .asciz "mais ˆ¹a sonne si bien‡R!\n"
 endtext
 
 

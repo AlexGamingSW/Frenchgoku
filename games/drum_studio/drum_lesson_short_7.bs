@@ -70,10 +70,10 @@ return
 
 
 text D_08060454
-    .ascii "\n"
-    .ascii "Ajoutons davantage de\n"
-    .ascii "caisse claire‡R! Tu devrais y\n"
-    .asciz "arriver les doigts dans le nez‡R!"
+    .ascii "Ajoutons davantage\n"
+    .ascii "de caisse claire‡R!\n"
+    .ascii "Tu devrais y arriver\n"
+    .asciz "les doigts dans le nez‡R!"
 endtext
 
 
@@ -109,8 +109,8 @@ return
 text D_08060568
     .ascii "Mate un peu ˆ¹a maintenant‡R!\n"
     .ascii "Un autre coup de grosse\n"
-    .ascii "caisse‡R! Attention, ˆ¹a devient\n"
-    .asciz "plus compliqu‡Q‡R!"
+    .ascii "caisse‡R! Attention, ˆ¹a\n"
+    .asciz "devient plus compliqu‡Q‡R!"
 endtext
 
 
@@ -129,10 +129,10 @@ return
 
 
 text D_08060628
-    .ascii "\n"
-    .ascii "OK, rajoutons encore un coup\n"
-    .ascii "de grosse caisse‡R! Tu t'en\n"
-    .asciz "sors super, n'abandonne pas‡R!"
+    .ascii "OK, rajoutons encore\n"
+    .ascii "un coup de grosse caisse‡R!\n"
+    .ascii "Tu t'en sors super,\n"
+    .asciz "n'abandonne pas‡R!"
 endtext
 
 

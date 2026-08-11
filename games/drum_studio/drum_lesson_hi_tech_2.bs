@@ -384,7 +384,7 @@ return
 text D_08066e20
     .ascii "Rajoutons un coup de\n"
     .ascii "cymbale sur la grosse caisse\n"
-    .ascii "que tu viens d'ajouter‡R!\n"
+    .ascii "qu'on vient d'ajouter‡R!\n"
     .asciz "N'abandonne pas‡R!"
 endtext
 
@@ -445,7 +445,7 @@ return
 text D_080670c4
     .ascii "OK, j'ai ajout‡Q un autre coup\n"
     .ascii "de caisse claire au pattern‡R!\n"
-    .ascii "On s'approche du grand final‡R!\n"
+    .ascii "On s'approche du grand final.\n"
     .asciz "Fais preuve de d‡Qtermination‡R!"
 endtext
 
@@ -576,10 +576,10 @@ endtext
 
 
 text D_08067668
-    .ascii "\n"
-    .ascii "ˆ»a risque d'ˆ®tre tr‡as difficile\n"
-    .ascii "si tu n'as pas r‡Qussi\n"
-    .asciz "certaines d'entre elles‡R!"
+    .ascii "ˆ»a risque d'ˆ®tre tr‡as\n"
+    .ascii "difficile si tu n'as pas\n"
+    .ascii "r‡Qussi certaines\n"
+    .asciz "d'entre elles‡R!"
 endtext
 
 
