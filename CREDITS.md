@@ -62,6 +62,7 @@
 - Deni_iguess
 - patataofcourse
 - Conhlee
+- iestyn129
 - Everyone who has worked on the [decompilation](https://github.com/arthurtilly/rhythmtengoku).
 
 ## Assets
