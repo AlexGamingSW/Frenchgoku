@@ -16,8 +16,9 @@
 
 ### Traduction / Adaptation
 - FireChat♂
-- Philemax
 - Nolanno
+- Philemax
+
 
 ### Voix des effets sonores
 - Bellajenna
@@ -26,14 +27,16 @@
 - AlexGamingSW
 - \*Nana\*
 - Elisanya07
-- Dodosaurus
+- Dodo
 
 ### Voix des chansons
 - Bellajenna
 - NicoTap
+- Shirayuki♥
 
 ### Mixage
 - FireChat♂
+- Shirayuki♥
 - Céth Walft
 - Tick
 
@@ -46,6 +49,7 @@
 - Les membres du serveur Discord français
 - Cacathoès
 - ShaffySwitcher
+- Matteo1304
 - Vous
 
 *Ce patch réutilise certains éléments de texte, d'images et de voix en français provenant des jeux de la série Rhythm Paradise.*
