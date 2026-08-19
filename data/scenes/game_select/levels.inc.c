@@ -560,7 +560,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue GFX  */ epilogue_showtime_gfx_tables,
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "Nous avons d‡Qˆ¹u tout le public...",
-            /* OK        */ "Je sais qu'on est capable de faire mieux...",
+            /* OK        */ "Je sais qu'on est capables de faire mieux...",
             /* SUPERB    */ "Youpi‡R! Le public a ador‡Q‡R!"
         }
     },

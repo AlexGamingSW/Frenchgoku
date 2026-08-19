@@ -285,21 +285,18 @@ void start_campaign_notice(s32 id) {
     memcpy(string, "\001C" "Visez le Parfait dans\n", 45); // [Right now]
     strcat(string, level->name); // "<game_name>"
     strcat(string, "\npour recevoir\n"); // Get a perfect on this
-    strcat(string, ""); // "
-    if (!isSpecialSong) {
     strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
-    } else {
-        strcat(string, "Attendre Pour Toi");
-    }
-    strcat(string, "\n"); // "
-    if (isSong) {
-        strcat(string, "‡g ‡Qcouter‡R!"); // 's song
-    }
     if (giftType == CAMPAIGN_GIFT_DRUM_KIT || giftType == CAMPAIGN_GIFT_READING_MATERIAL) {
-        strcat(string, "en bonus‡R!"); // received as a present!!
+        strcat(string, "\nen bonus‡R!"); // received as a present!!
     }
-    // FR: le merge a fait des choses bizarres, je laisse ca la au cas ou
-    //strcat(string, get_campaign_gift_title(id, FALSE)); // "<gift>"
+    strcat(string, "\n");
+        if (isSong) {
+        if(isSpecialSong) {
+            strcat(string, "‡g ‡Qcouter‡R!\n");
+        } else {
+            strcat(string, "‡g ‡Qcouter‡R!\n");
+    }
+    }
     text_printer_set_string(notice->printer, string);
 
     sprite_set_visible(gSpriteHandler, gGameSelect->selectionBorderSprite, FALSE);
