@@ -301,7 +301,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Mec‡R: Juste á‡RCes snacks sont les MEILLEURS‡R!‡Râ\n"
 			"\n"
             "DJ‡R: Oh wow. Pas cool...\n"
-            "Mec‡R: T'as vu‡R? J'avais envie d'hurler.\n"
+            "Mec‡R: T'as vu‡R? J'avais envie de hurler.\n"
 			"\n"
             "DJ‡R: Tu devais ˆ®tre en mode á‡RDoit y avoir\n"
 			"un VOLEUR‡R!‡Râ\n"
