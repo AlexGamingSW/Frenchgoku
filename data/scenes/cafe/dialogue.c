@@ -630,7 +630,7 @@ const char *cafe_dialogue_adhd[] = {
     /* ------------------------------------------------ */
         "\n"
         "Je suis rest‡Q r‡Qveill‡Q hier soir pour jouer\n"
-        "pendant je-ne-sais combien de temps...\n"
+        "pendant je ne sais combien de temps...\n"
         "\n",
     /* ------------------------------------------------ */
         "\n"
