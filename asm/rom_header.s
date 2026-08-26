@@ -48,10 +48,10 @@
 /* 0800009c */ .byte 0x21, 0xD4, 0xF8, 0x07
 
 @ Game Title
-/* 080000a0 */ .ascii "RHYTHMADVANC"
+/* 080000a0 */ .ascii "RPADVANCEFRA"
 
 @ Game Code
-/* 080000ac */ .ascii "BRIE" // shoutout to shaffy for this one
+/* 080000ac */ .ascii "BRIF" // shoutout to shaffy for this one
 
 @ Maker Code
 /* 080000b0 */ .ascii "01"
