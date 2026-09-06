@@ -346,7 +346,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Matsuri da wasshoi!\n"
             "Nippon chuu ga wasshoi!\n"
             "\n"
-            "Sore hikkuri kaette Dondo pa-n pan\n"
+            "Sore hikkuri kaette Dondo pan pan\n"
             "Haa~ Bon Odori~\n"
             "\n"
             "Haa~\n"
@@ -358,7 +358,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Hora! Matsuri da wasshoi!\n"
             "Korezo made in JaPAN\n"
             "\n"
-            "Sore hikkuri kaette Dondo pa-n pan\n"
+            "Sore hikkuri kaette Dondo pan pan\n"
             "Haa~ Bon Odori~\n",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_sea_gfx_table,
