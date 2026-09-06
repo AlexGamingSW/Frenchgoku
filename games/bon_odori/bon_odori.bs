@@ -737,7 +737,7 @@ script script_bon_odori_main
         rest 8
         spawn_cue CUE_SIDE_CLAP
         rest 8
-        bon_odori_lyrics_print_left 1, text_bon_odori_korezo
+        bon_odori_lyrics_print_left 1, text_bon_odori_korezo_fr
         bon_odori_lyrics_print_center 2, text_bon_odori_meido
         bon_odori_animate_npc ANIM_CLAP_F
         beat_anim
