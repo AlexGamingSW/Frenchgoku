@@ -68,6 +68,7 @@
 #include "instruments/instruments_bank62.inc.c"
 #include "instruments/instruments_bank63.inc.c"
 #include "instruments/instruments_space_dance_en.inc.c"
+#include "instruments/instruments_bon_odori_fr.inc.c"
 #include "instruments/instruments_bank69.inc.c"
 #include "instrument_banks.inc.c"
 #include "instrument_bank_list.inc.c"

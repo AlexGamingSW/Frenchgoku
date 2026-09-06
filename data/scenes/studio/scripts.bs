@@ -122,7 +122,7 @@ script script_studio_bon_odori
     rest 24
     run play_studio_mus_count_in
     rest 24
-    play_music s_bon_odori_bgm_seqData
+    play_music_localized s_bon_odori_bgm_seqData, s_bon_odori_bgm_fr_seqData
     rest 24
     run play_studio_mus_count_in
     rest 24

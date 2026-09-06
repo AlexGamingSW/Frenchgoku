@@ -1108,7 +1108,7 @@
 /* 1093 */ DEFINE_SONG( &L8_pat12_seqData,                   MUSIC_PLAYER_0 )
 /* 1094 */ DEFINE_SONG( &L8_pat_end_seqData,                 MUSIC_PLAYER_0 )
 /* 1095 */ DEFINE_SONG( &L8_pat_honki_seqData,               MUSIC_PLAYER_0 )
-/* 1096 */ DEFINE_SONG( NULL, 0 )
+/* 1096 */ DEFINE_SONG( &s_bon_odori_bgm_fr_seqData,         MUSIC_PLAYER_0 )
 /* 1097 */ DEFINE_SONG( NULL, 0 )
 /* 1098 */ DEFINE_SONG( NULL, 0 )
 /* 1099 */ DEFINE_SONG( NULL, 0 )

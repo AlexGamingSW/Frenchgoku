@@ -71,6 +71,7 @@ extern struct SongHeader s_manza_bgm_seqData;
 extern struct SongHeader s_hitmegeton1_bgm_seqData;
 extern struct SongHeader s_hitmegeton2_bgm_seqData;
 extern struct SongHeader s_bon_odori_bgm_seqData;
+extern struct SongHeader s_bon_odori_bgm_fr_seqData;
 extern struct SongHeader s_bon_dance_bgm_seqData;
 extern struct SongHeader s_4beat_bgm_seqData;
 extern struct SongHeader s_toss_bgm_seqData;

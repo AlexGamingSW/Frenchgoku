@@ -164,5 +164,6 @@ struct TempoTable sound_tempo_table[] = {
     { &spaceball_tempo_mpart_seqData, 165 },
     { &spaceball_tempo_cymbal_seqData, 165 },
     { &rhythmtweezers_tempo_seqData, 144 },
+    { &s_bon_odori_bgm_fr_seqData, 121 },
     { NULL, 0 }
 };
