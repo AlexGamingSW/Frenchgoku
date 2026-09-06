@@ -768,23 +768,28 @@ AnimationCel marching_orders_cel052[] = {
 };
 
 AnimationCel marching_orders_cel053[] = {
-    /* Len */ 1,
-    /* 000 */ 0x40f8, 0xc1e8, 0x1236
+    /* Len */ 2,
+    /* 000 */ 0x40f8, 0x81e8, 0x1236,
+    /* 001 */ 0x00f8, 0x4008, 0x123a
 };
 
 AnimationCel marching_orders_cel054[] = {
-    /* Len */ 1,
-    /* 000 */ 0x40f8, 0xc1e8, 0x1220
+    /* Len */ 2,
+    /* 000 */ 0x40f8, 0x81e8, 0x1220,
+    /* 001 */ 0x0000, 0x0008, 0x1244
 };
 
 AnimationCel marching_orders_cel055[] = {
-    /* Len */ 1,
-    /* 000 */ 0x40f6, 0xc1d5, 0x1226
+    /* Len */ 2,
+    /* 000 */ 0x40f6, 0x81e5, 0x1228,
+    /* 001 */ 0x00f6, 0x4005, 0x122c
 };
 
 AnimationCel marching_orders_cel056[] = {
-    /* Len */ 1,
-    /* 000 */ 0x40f6, 0xc1e5, 0x122e
+    /* Len */ 3,
+    /* 000 */ 0x40f6, 0x81e5, 0x122e,
+    /* 001 */ 0x40f6, 0x81fd, 0x1231,
+    /* 002 */ 0x4006, 0x01f5, 0x1270
 };
 
 AnimationCel marching_orders_cel057[] = {

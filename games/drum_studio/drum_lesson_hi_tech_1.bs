@@ -97,7 +97,7 @@ text D_0806582c
     .ascii "\n"
     .ascii "Faisons en sorte que\n"
     .ascii "ˆ¹a groove avec un peu\n"
-    .asciz "du charleston‡R!\n"
+    .asciz "de charleston‡R!\n"
 endtext
 
 

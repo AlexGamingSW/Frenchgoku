@@ -74,8 +74,8 @@ return
 text D_08061ae4
     .ascii "Un autre battement\n"
     .ascii "a ‡Qt‡Q remplac‡Q‡R!\n"
-    .ascii "Je sais que tu peux\n"
-    .asciz "y arriver.\n"
+    .ascii "Je sais que tu\n"
+    .asciz "peux y arriver.\n"
 endtext
 
 

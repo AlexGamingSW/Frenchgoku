@@ -128,10 +128,10 @@ return
 
 
 text D_08061704
-    .ascii "Bienvenue‡R! Commenˆ¹ons\n"
-    .ascii "simplement avec la caisse\n"
-    .ascii "claire. On ajoutera\n"
-    .asciz "d'autres battements apr‡as.\n"
+    .ascii "Bienvenue‡R! Pour cette\n"
+    .ascii "premi‡are leˆ¹on, on se\n"
+    .ascii "concentrera uniquement\n"
+    .asciz "sur la caisse claire.\n"
 endtext
 
 
@@ -206,10 +206,10 @@ endtext
 
 
 text D_08061950
-    .ascii "D'ailleurs, la leˆ¹on\n"
-    .ascii "ne continuera pas en\n"
-    .ascii "mode ralenti. Tu vas devoir\n"
-    .asciz "la faire ‡g la vitesse normale."
+    .ascii "N'oublie pas que pour\n"
+    .ascii "pour passer au niveau\n"
+    .ascii "sup‡Qrieur, tu dois jouer\n"
+    .asciz "‡g la vitesse normale."
 endtext
 
 

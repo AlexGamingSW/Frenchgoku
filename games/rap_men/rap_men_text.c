@@ -5,13 +5,13 @@
 /* Game Text - Rap Men */
 
 
-const char D_0805e914[] = "Les ≪⑲hein⑲?⑲≫ ⑱taient confus.";
+const char D_0805e914[] = "Les ≪⑲hein⑲≫ ⑱taient confus.";
 
-const char D_0805e938[] = "Les ≪⑲hein⑲?⑲≫ ⑱taient groovy⑲!";
+const char D_0805e938[] = "Les ≪⑲hein⑲≫ ⑱taient groovy⑲!";
 
 const char D_0805e960[] = "T'as mal g⑱r⑱, ≪⑲tu crois pas⑲?⑲≫";
 
-const char D_0805e988[] = "T'as tr㌢s bien g⑱r⑱ les ≪⑲tu crois pas⑲?⑲≫";
+const char D_0805e988[] = "T'as tr㌢s bien g⑱r⑱ les ≪⑲tu crois pas⑲≫⑲!";
 
 const char D_0805e9ac[] = "Les ≪⑲MEILLEURS⑲≫ pouvaient 旭tre meilleurs...";
 
@@ -37,15 +37,15 @@ const char D_0805eac4[] = "Ｔ’ａｓ　ｃｏｍｐｒｉｓ　？";
 
 const char D_0805ead0[] = "Ｍａｉｎｔｅｎａｎｔ　ｅｓｓａｙｅ　！";
 
-const char D_0805eae8[] = "Ｃｏｎｔｉｎｕｅ　ｃｏｍｍｅ　おａ　！";
+const char D_0805eae8[] = "Ｎｅ　ｌあｃｈｅ　ｒｉｅｎ　！";
 
 const char D_0805eaf8[] = "Ｃ’ｅｓｔ　ｓｕｒ　ｌｅ　《　Ｏｕｈ　！　》";
 
-const char D_0805eb14[] = "Ｔｕ　ｄｏｉｓ　ａｐｐｕｙｅｒ　ｓｕｒ　ゝ　ａｕ　ｍｏｍｅｎｔ　ｄｕ　《　Ｏｕｈ　！　》";
+const char D_0805eb14[] = "Ａｐｐｕｉｅ　ｓｕｒ　ゝ　ａｕ　ｍｏｍｅｎｔ　ｄｕ　《　Ｏｕｈ　！　》";
 
 const char D_0805eb34[] = "ＯＫ　！　Ｔ’ａｓ　ｃｏｍｐｒｉｓ　！";
 
-const char D_0805eb3c[] = "Ｔ’ａｓ　ａｐｐｒｉｓ　ｌ’ａｃｃｏｒｄ　ｅｎ　《　.bＨｅｉｎ.8　》．";
+const char D_0805eb3c[] = "Ｔ’ａｓ　ａｐｐｒｉｓ　ｌ’ａｃｃｏｒｄ　ｅｎ　《　.bｈｅｉｎ.8　》．";
 
 const char D_0805eb6c[] = "Ｍａｉｎｔｅｎａｎｔ，　ｅｓｓａｙｅ　ｌｅ　《　.9ｔｕ　ｃｒｏｉｓ　ｐａｓ.8　》．";
 

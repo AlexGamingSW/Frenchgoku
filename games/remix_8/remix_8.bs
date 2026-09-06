@@ -283,8 +283,16 @@ script script_remix_8_main
     rest 24
     spawn_cue CUE_POT
     beat_anim
+    #ifdef SFX
+    print_text_f 3
+    rest 12
+    play_sfx s_f_boxing_hit3_trois_seqData
+    rest 12
+    play_sfx s_f_boxing_hit3_coups_seqData
+    #else
     rest 24
     print_text_f 3
+    #endif
     beat_anim
     rest 24
     clear_text_f
@@ -440,8 +448,17 @@ script script_remix_8_main
     rest 24
     rest 24
     spawn_cue CUE_ROCK
+    #ifdef SFX
+    print_text_f 3
+    rest 12
+    play_sfx s_f_boxing_hit3_trois_seqData
+    rest 12
+    play_sfx s_f_boxing_hit3_coups_seqData
+    #else
     rest 24
     print_text_f 3
+    #endif
+    beat_anim
     rest 24
     clear_text_f
     spawn_cue CUE_ROCK

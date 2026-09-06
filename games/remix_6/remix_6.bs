@@ -183,7 +183,7 @@ text text_remix_6_honto_desu_ka
 endtext
 
 text text_remix_6_kimi_tte_saikou
-    .asciz ".a:1‚bf‚…‚“‚”@‚”‚‚‰@‚Œ‚…@‚l‚d‚h‚k‚k‚d‚t‚q@I"
+    .asciz ".a:1‚n‚@‚…‚“‚”@‚Œ‚…‚“@‚l‚d‚h‚k‚k‚d‚t‚q‚r@I"
 endtext
 
 

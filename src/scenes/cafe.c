@@ -501,8 +501,7 @@ void cafe_print_dialogue(void) {
                     strcat(s, "\0051" "\0015");
                     strcat(s, levelName);
                     strcat(s, "\0054" "\0018" ", hein‡R?\n");
-                    strcat(s, "Vous n'arrˆ®tez pas d'y jouer‡R?\n"
-                              " ");
+                    strcat(s, "Vous n'arrˆ®tez pas d'y jouer‡R?\n");
                     string = s;
                     activity->levelID = LEVEL_NULL;
                     dialogueTask = CAFE_EV_CAMPAIGN_ADVICE_00;

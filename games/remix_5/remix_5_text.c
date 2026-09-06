@@ -9,13 +9,13 @@ const char D_0806a230[] = "Donnez-vous un peu plus de mal...";
 
 const char D_0806a240[] = "C'‡Qtait excellent‡R!";
 
-const char D_0806a25c[] = "Your decisions took too long.";
+const char D_0806a25c[] = "Vous mettez trop longtemps ‡g r‡Qagir.";
 
-const char D_0806a280[] = "You thought on the spot well!";
+const char D_0806a280[] = "Vous r‡Qagissez au bon moment‡R!";
 
-const char D_0806a2a4[] = "Keep working on your rhythm.";
+const char D_0806a2a4[] = "Peaufinez votre technique.";
 
-const char D_0806a2c0[] = "You had really great rhythm!";
+const char D_0806a2c0[] = "Vous avez pris le coup de main‡R!";
 
 const char D_0806a2d8[] = "Avis de la f‡Qd‡Qration";
 

@@ -59,6 +59,7 @@ const char *cafe_dialogue_first_visit[] = {
         "parlerons plus tard.",
     /* ------------------------------------------------ */
         "\n"
+        "\n"
         "Revenez vite‡R!\n"
         "\n",
     /* ------------------------------------------------ */
@@ -117,8 +118,8 @@ const char *cafe_dialogue_keep_trying[] = {
     /* ------------------------------------------------ */
         "\n"
         "Essayez de ne pas trop vous frustrer.\n"
-        "Assurez-vous de passer\n"
-        "un bon moment.\n",
+        "Assurez-vous de passer un bon moment.\n"
+        "\n",
     /* ------------------------------------------------ */
     END_OF_DIALOGUE
 };
@@ -245,12 +246,14 @@ const char *cafe_dialogue_all_perfects_clear[] = {
 const char *cafe_dialogue_extra_perfects_clear[] = {
     /* ------------------------------------------------ */
         "\n"
-        "blabla you finished the extra campaign!\n"
-        "\n",
+        "ˆ»a alors !\n"
+        "Vous avez vraiment obtenu tous\n"
+        "les Parfaits de l'‡Qtape Extra ?!\n",
     /* ------------------------------------------------ */
         "\n"
-        "it's so AWESOME!!\n"
-        "\n",
+        "Toutes mes f‡Qlicitations !\n"
+        "‡f ce rythme, obtenir" "\0051" "\0015" "tous" "\0054" "\0018" " les Parfaits\n"
+        "ne devrait pas vous poser probl‡ame !\n",
     /* ------------------------------------------------ */
     END_OF_DIALOGUE
 };
@@ -260,12 +263,14 @@ const char *cafe_dialogue_extra_perfects_clear[] = {
 const char *cafe_dialogue_all_perfects_clear_big[] = {
     /* ------------------------------------------------ */
         "\n"
-        "woohoo main & extra!\n"
-        "\n",
+        "Vous l'avez vraiment fait, alors ?\n"
+        "Tous les Parfaits du jeu, dont les\n"
+        "exclusivit‡Qs de cette version PLUS ?\n",
     /* ------------------------------------------------ */
-        "\n"
-        "you finished the campaign!\n"
-        "\n",
+        "Je ne sais pas quels mots seraient\n"
+        "appropri‡Qs pour vous t‡Qmoigner mon\n"
+        "admiration. Ce jeu n'a plus aucun secret\n"
+        "pour vous ! Vous ˆ®tes le MEILLEUR !\n",
     /* ------------------------------------------------ */
     END_OF_DIALOGUE
 };
@@ -516,7 +521,7 @@ const char *cafe_dialogue_rhythm_test[] = {
         "soit ma limite.\n",
     /* ------------------------------------------------ */
         "\n"
-        "Le second test me donne un peu\n"
+        "Le deuxi‡ame test me donne un peu\n"
         "de fil ‡g retordre.\n"
         "\n",
     /* ------------------------------------------------ */
@@ -565,7 +570,7 @@ const char *cafe_dialogue_rhythm_test[] = {
 const char *cafe_dialogue_drum_lessons[] = {
     /* ------------------------------------------------ */
         "\n"
-        "Avez-vous d‡Qj‡g essay‡Q les leˆ¹ons\n"
+        "Avez-vous d‡Qj‡g essay‡Q les cours\n"
         "de batterie dans le coin bonus‡R?\n"
         "\n",
     /* ------------------------------------------------ */
@@ -625,7 +630,7 @@ const char *cafe_dialogue_adhd[] = {
     /* ------------------------------------------------ */
         "\n"
         "Je suis rest‡Q r‡Qveill‡Q hier soir pour jouer\n"
-        "pendant je-ne-sais combien de temps...\n"
+        "pendant je ne sais combien de temps...\n"
         "\n",
     /* ------------------------------------------------ */
         "\n"
@@ -667,6 +672,7 @@ const char *cafe_dialogue_adhd[] = {
 
 const char *cafe_dialogue_coffee[] = {
     /* ------------------------------------------------ */
+        "\n"
         "\n"
         "D'ailleurs, je vous ai pr‡Qpar‡Q un caf‡Q.\n"
         "\n",
@@ -715,6 +721,7 @@ const char *cafe_dialogue_coffee[] = {
 
 const char *cafe_dialogue_dog_barista[] = {
     /* ------------------------------------------------ */
+        "\n"
         "\n"
         "D'ailleurs, je suis en r‡Qalit‡Q un chien.\n"
         "\n",
@@ -882,7 +889,7 @@ const char *cafe_dialogue_ranks_and_medals[] = {
         "\n",
     /* ------------------------------------------------ */
         "\n"
-        "Il y a trois notes que vous pouvez avoir‡R:\n"
+        "Il y a trois rangs que vous pouvez avoir‡R:\n"
         "Essayez encore, OK, et Super.\n"
         "\n",
     /* ------------------------------------------------ */

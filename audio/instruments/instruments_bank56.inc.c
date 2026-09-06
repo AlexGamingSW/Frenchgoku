@@ -1465,13 +1465,13 @@ struct InstrumentPCM instrument_pcm_1576 = {
     /* ADSR Rel  */ 0x16554D,
 };
 
-extern struct SampleData hit_data;
+extern struct SampleData karate_hit3_trois_data;
 struct InstrumentPCM instrument_pcm_1577 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &hit_data,
+    /* Sample    */ &karate_hit3_trois_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -1480,13 +1480,13 @@ struct InstrumentPCM instrument_pcm_1577 = {
     /* ADSR Rel  */ 0x16554D,
 };
 
-extern struct SampleData three_data;
+extern struct SampleData karate_hit3_coups_data;
 struct InstrumentPCM instrument_pcm_1578 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &three_data,
+    /* Sample    */ &karate_hit3_coups_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -1495,13 +1495,13 @@ struct InstrumentPCM instrument_pcm_1578 = {
     /* ADSR Rel  */ 0x16554D,
 };
 
-extern struct SampleData two_data;
+extern struct SampleData karate_hit2_deux_data;
 struct InstrumentPCM instrument_pcm_1579 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &two_data,
+    /* Sample    */ &karate_hit2_deux_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -1510,13 +1510,43 @@ struct InstrumentPCM instrument_pcm_1579 = {
     /* ADSR Rel  */ 0x16554D,
 };
 
-extern struct SampleData four_data;
+extern struct SampleData karate_hit2_coups_data;
 struct InstrumentPCM instrument_pcm_4000 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &four_data,
+    /* Sample    */ &karate_hit2_coups_data,
+    /* ADSR Init */ 0x7F0000,
+    /* ADSR Sus  */ 0x7F0000,
+    /* ADSR Atk  */ 0x600000,
+    /* ADSR Dec  */ 0x208000,
+    /* ADSR Fade */ 0x000000,
+    /* ADSR Rel  */ 0x16554D,
+};
+
+extern struct SampleData karate_hit4_quatre_data;
+struct InstrumentPCM instrument_pcm_4001 = {
+    /* Type      */ INSTRUMENT_PCM_ALIGNED,
+    /* Key       */ 0x3C,
+    /* Fast Read */ FALSE,
+    /* Panning   */ 127,
+    /* Sample    */ &karate_hit4_quatre_data,
+    /* ADSR Init */ 0x7F0000,
+    /* ADSR Sus  */ 0x7F0000,
+    /* ADSR Atk  */ 0x600000,
+    /* ADSR Dec  */ 0x208000,
+    /* ADSR Fade */ 0x000000,
+    /* ADSR Rel  */ 0x16554D,
+};
+
+extern struct SampleData karate_hit4_coups_data;
+struct InstrumentPCM instrument_pcm_4002 = {
+    /* Type      */ INSTRUMENT_PCM_ALIGNED,
+    /* Key       */ 0x3C,
+    /* Fast Read */ FALSE,
+    /* Panning   */ 127,
+    /* Sample    */ &karate_hit4_coups_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,

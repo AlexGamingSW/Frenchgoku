@@ -1,6 +1,6 @@
 # Crédits de l'équipe française
 ## Responsables du projet
-### Direction
+### Direction & modding
 - FireChat♂
 ### Programmation
 - itaific
@@ -16,8 +16,9 @@
 
 ### Traduction / Adaptation
 - FireChat♂
-- Philemax
 - Nolanno
+- Philemax
+
 
 ### Voix des effets sonores
 - Bellajenna
@@ -26,18 +27,34 @@
 - AlexGamingSW
 - \*Nana\*
 - Elisanya07
-- Voix françaises de Rhythm Paradise
+- Dodo
 
 ### Voix des chansons
 - Bellajenna
 - NicoTap
+- Shirayuki♥
+
+### Mixage
+- FireChat♂
+- Shirayuki♥
+- Céth Walft
+- Tick
+
+### Testeurs
+- FireChat♂
+- Metal Sunday
 
 ## Remerciements
-- Toute l'équipe anglaise de Rhythm Heaven Advance
-- Les membres du serveur Discord « Doublage FR Rhythm Paradise »
+- L'équipe anglaise de Rhythm Heaven Advance
+- Les membres du serveur Discord français
+- Cacathoès
 - ShaffySwitcher
+- Matteo1304
 - Vous
 
+*Ce patch réutilise certains éléments de texte, d'images et de voix en français provenant des jeux de la série Rhythm Paradise.*
+
+*Il réutilise également certains éléments de voix du mod « Paradis du Rythme Mégamix » développé en 2024 par la même équipe que ce patch.*
 
 # Crédits de l'équipe anglaise
 ## Programming
@@ -49,6 +66,7 @@
 - Deni_iguess
 - patataofcourse
 - Conhlee
+- iestyn129
 - Everyone who has worked on the [decompilation](https://github.com/arthurtilly/rhythmtengoku).
 
 ## Assets
@@ -78,17 +96,47 @@
 - castIe
 - patataofcourse
 - Various Rhythm Heaven games
+- Inspiration from Rhythm Heaven Silver
 
 ### Sound Effect
 - Various Rhythm Heaven games
 - Cherryberryfaygo
 - Nabix (& his family)
 - itaific
-- SesuRescue
-- FireChat
+- FireChat♂
 - Kievit
 
-## Special Thanks
+## Playtesting
+We are holding a playtesting competition on our [Discord Server](https://discord.gg/8PET8w8PU8).
+
+Those that report the most problems or complete playthroughs on unique pieces of hardware will get special credit!
+
+First Ever Playtesters:
 - nwqol
+- pokedart9001
+- MacBass24
+- GamblingGambit 
+- UriaOfFlames
+- FernandoLemon 
+- KingDragoon24
+- IloGaming4
+- Feder-28
+- The Eggo55
+- Sammie the Moron
+- taylor
+- Bluefus
+- 0blivion
+- Funk
+- Borists
+- WilliamDavi
+- Spooky Jumpropes
+- Lilynell
+- acerbt
+- Lemonici
+
+Top Playtesters will be added when advance gets a proper release
+
+## Special Thanks
 - The decomp folks again
+- Everyone in the Rhythm Heaven Advance Discord Server
 - ...and you! 

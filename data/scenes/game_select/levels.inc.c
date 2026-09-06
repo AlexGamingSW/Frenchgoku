@@ -468,8 +468,8 @@ struct LevelData level_data_table[] = {
     },
     /* POWER_CALLIGRAPHY_2 */ { // this still kills me lmao
         /* Entry Scene   */ &scene_power_calligraphy,
-        /* Level Name    */ "Power Calligraphy 2",
-        /* Level Desc.   */ "haha unused\n"
+        /* Level Name    */ "Calligraphie 2",
+        /* Level Desc.   */ "non utilis‡Q\n"
                             "\n"
                             "\n"
                             "",
@@ -496,7 +496,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "C'‡Qtait pas fou du tout‡R!",
             /* OK        */ "On est capables de mieux‡R!",
-            /* SUPERB    */ "Championnat Mondial du Ballon, nous voil‡g‡R!"
+            /* SUPERB    */ "Championnat mondial du ballon, nous voil‡g‡R!"
         }
     },
     /* TOSS_BOYS_2 */ {
@@ -560,7 +560,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue GFX  */ epilogue_showtime_gfx_tables,
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "Nous avons d‡Qˆ¹u tout le public...",
-            /* OK        */ "Je sais qu'on est capable de faire mieux...",
+            /* OK        */ "Je sais qu'on est capables de faire mieux...",
             /* SUPERB    */ "Youpi‡R! Le public a ador‡Q‡R!"
         }
     },
@@ -769,7 +769,7 @@ struct LevelData level_data_table[] = {
         /* Level Name    */ "Remix 6",
         /* Level Desc.   */ "On y est‡R! Tous les\n"
                             "mini-jeux sont l‡g‡R!\n"
-                            "montrez-nous ce dont\n"
+                            "Montrez-nous ce dont\n"
                             "vous ˆ®tes capable‡R!",
         /* Level Icon    */ 2,
         /* Level Type    */ LEVEL_TYPE_REMIX,
