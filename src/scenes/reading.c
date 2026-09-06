@@ -60,7 +60,14 @@ void reading_scene_start(void *sVar, s32 dArg) {
     struct ReadingMaterial *material;
     struct TextPrinter *titlePrinter;
 
-    material = &reading_material_table[get_current_scene_trans_var()];
+    // On regarde si les chansons sont en francais et qu'une archive de paroles est selectionnee
+    // La condition peut etre mieux mais ca fonctionne, donc j'y touche plus
+    // (Du premier coup, yay) - AlexGamingSW
+    if (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_MUSIC) && (get_current_scene_trans_var() == 9 || get_current_scene_trans_var() == 10 || get_current_scene_trans_var() == 11)) {
+        material = &reading_material_table_fr[get_current_scene_trans_var() - 9];
+    } else {
+        material = &reading_material_table[get_current_scene_trans_var()];
+    }
 
     if (material == NULL) {
         material = &reading_material_error;
