@@ -326,7 +326,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Paroles - chanson á@",
         /* BODY ----------------------------------------------------------- */
 			"\n"
-            "LeÅôBon Odori\n"
+            "TheÅôBon Odori\n"
 			"\n"
             "ChantáR: Ami Tokito\n"
             "MusiqueáR: TSUNKU\n"
@@ -346,7 +346,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Matsuri da wasshoi!\n"
             "Nippon chuu ga wasshoi!\n"
             "\n"
-            "Sore hikkuri kaette Dondo pan pan\n"
+            "Sore hikkuri kaette Dondo pa-n pan\n"
             "Haa~ Bon Odori~\n"
             "\n"
             "Haa~\n"
@@ -358,7 +358,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Hora! Matsuri da wasshoi!\n"
             "Korezo made in JaPAN\n"
             "\n"
-            "Sore hikkuri kaette Dondo pan pan\n"
+            "Sore hikkuri kaette Dondo pa-n pan\n"
             "Haa~ Bon Odori~\n",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_sea_gfx_table,
@@ -370,12 +370,12 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
         /* TITLE ---------------------------------------------------------- */
             "Paroles - chanson áA",
         /* BODY ----------------------------------------------------------- */
-            "Petit Ange SucráQ\n"
+            "\n"
+            "Koi no Honey Sweet Angel\n"
             "\n"
             "ChantáR: Ami Tokito\n"
             "MusiqueáR: TSUNKU\n"
             "ArrangementáR: Hideyuki \"Daichi\" Suzuki\n"
-            "\n"
             "\n"
             "(Cette chanson fait partie du jeu Remix 3.)\n"
             "\n"
@@ -383,18 +383,18 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Koi no fushigi\n"
             "Koi no katachi\n"
             "Koi no nyuansu\n"
-            "Han? Sui~to Enjeru\n"
+            "Hanàü Sui~to Enjeru\n"
             "\n"
             "Gyaku no imi de\n"
-            "\"suki\" ttenani yo!\n"
-            "Ch? waka n'na~i\n"
+            "\"Suki\" tte nani yo!\n"
+            "Chà† waka n'na~i\n"
             "Sarani gyaku ni\n"
             "Iikaeru to\n"
-            "Suki mitaina ndesu yo\n"
+            "Suki Mitai nandesu yo\n"
             "\n"
             "Metcha amazuppai\n"
-            "Itchi go miruku\n"
-            "Son'na kanji ne watashitachi\n"
+            "Itchigo miruku\n"
+            "Son'na kanji ne Watashitachi\n"
             "I LOVE U\n"
             "\n"
             "Koi no miryoku\n"
@@ -402,7 +402,7 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Koi no katachi\n"
             "Koi no nyuansu\n"
             "\n"
-            "Han? Sui~to Enjeru",
+            "Hanàü Sui~to Enjeru",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_sea_gfx_table,
             /* BGM */ &reading_style_sea_bgm
@@ -413,23 +413,23 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
         /* TITLE ---------------------------------------------------------- */
             "Paroles - chanson áB",
         /* BODY ----------------------------------------------------------- */
+            "\n"
             "WISH Kimi o Matenakute\n"
             "\n"
             "ChantáR: Soshi Tanaka\n"
             "MusiqueáR: TSUNKU\n"
             "ArrangementáR: Koichi Yuasa\n"
             "\n"
-            "\n"
             "(Cette chanson fait partie du jeu Remix 5.)\n"
             "\n"
             "\n"
             "Kimi o matenakute\n"
             "Kon'ya sayonara\n"
-            "Motto aishi aitakatta\n"
+            "Motto aishiaitakatta\n"
             "\n"
             "Kodokuna yoru ga\n"
-            "Shiawasedatta koro o\n"
-            "Takusan omoide sa seru\n"
+            "Shiawase datta koro o\n"
+            "Takusan omoi dasaseru\n"
             "\n"
             "Kono machi de deatte\n"
             "Hageshiku koi o shita\n"
@@ -437,34 +437,33 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Dakishime atteta\n"
             "\n"
             "Sore wa kimagureda ne\n"
-            "Surechigatte ku omoi\n"
+            "Surechigatteku omoi\n"
             "Itsunomanika tsumetai\n"
             "Kisu o shite ita\n"
             "\n"
             "\n"
-            "Yume ga kasunde iku\n"
-            "Kimi ga kasunde iku\n"
-            "Atsui Atsui\n"
+            "Yume ga kasunde yuku\n"
+            "Kimi ga kasunde yuku\n"
+            "Atsui atsui\n"
             "Mune no itami\n"
             "Gaman dekinai ne\n"
             "\n"
             "\n"
             "Kimi o matenakute\n"
             "Kon'ya sayonara\n"
-            "Motto aishi aitakatta\n"
+            "Motto aishiaitakatta\n"
             "Kodokuna yoru ga\n"
-            "Shiawasedatta koro o\n"
-            "Takusan omoide sa seru\n"
+            "Shiawase datta koro o\n"
+            "Takusan omoidasaseru\n"
             "\n"
-            "OhhháR!\n"
-            "\n"
+            "Ohhh!\n"
             "\n"
             "\n"
             "Kimi o matenakute\n"
             "Kon'ya sayonara\n"
             "Futari yume tsukamitakatta\n"
-            "Itsumo no eki ga shiawasedatta koro o\n"
-            "Sabishiku omoide sa seru\n",
+            "Itsumo no eki ga Shiawasedatta koro o\n"
+            "Sabishiku omoidasaseru\n",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_sea_gfx_table,
             /* BGM */ &reading_style_sea_bgm
