@@ -479,7 +479,7 @@ script script_bon_dance_main
     bon_odori_stop_input_check
     bon_odori_lyrics_print_center 2, text_bon_dance_kaette
     bon_odori_lyrics_clear_line 3
-    bon_odori_lyrics_start_highlight 1, 84 //Maintenant faites 70
+    bon_odori_lyrics_start_highlight 1, 83 //Maintenant faites 70
     beat_anim
     rest 24
     beat_anim
@@ -788,7 +788,7 @@ script script_bon_dance_main
     set_marking_criteria 1
     bon_odori_lyrics_print_left 1, text_bon_dance_sore_hikkuri
     bon_odori_lyrics_print_center 2, text_bon_dance_kaette
-    bon_odori_lyrics_start_highlight 1, 84 //Maintenant faites
+    bon_odori_lyrics_start_highlight 1, 83 //Maintenant faites
     beat_anim
     rest 24
     bon_odori_lyrics_clear_line 3
