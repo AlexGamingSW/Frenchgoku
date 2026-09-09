@@ -31,6 +31,9 @@ const char D_0806a314[] =
 const char D_0806a314_fr[] =
     "\x01\x4c" "　 Chant⑲:　　　NicoTap";
 
+const char D_0806a315[] =
+    "\x01\x4c" "　Vocals:　　Roxby";
+
 const char D_0806a32c[] =
     "\x01\x4c" "Musique⑲:\n"
     "　　　　　　　　TSUNKU♂\n"

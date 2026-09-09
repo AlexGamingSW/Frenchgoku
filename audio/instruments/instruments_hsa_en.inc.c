@@ -1,5 +1,5 @@
 extern struct SampleData ange_fr_sample_672_data;
-struct InstrumentPCM instrument_pcm_fr_1320 = {
+struct InstrumentPCM instrument_pcm_11320 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -14,7 +14,7 @@ struct InstrumentPCM instrument_pcm_fr_1320 = {
 };
 
 extern struct SampleData ange_fr_sample_673_data;
-struct InstrumentPCM instrument_pcm_fr_1321 = {
+struct InstrumentPCM instrument_pcm_11321 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -29,7 +29,7 @@ struct InstrumentPCM instrument_pcm_fr_1321 = {
 };
 
 extern struct SampleData ange_fr_sample_674_data;
-struct InstrumentPCM instrument_pcm_fr_1322 = {
+struct InstrumentPCM instrument_pcm_11322 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -44,7 +44,7 @@ struct InstrumentPCM instrument_pcm_fr_1322 = {
 };
 
 extern struct SampleData ange_fr_sample_675_data;
-struct InstrumentPCM instrument_pcm_fr_1323 = {
+struct InstrumentPCM instrument_pcm_11323 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -59,7 +59,7 @@ struct InstrumentPCM instrument_pcm_fr_1323 = {
 };
 
 extern struct SampleData ange_fr_sample_676_data;
-struct InstrumentPCM instrument_pcm_fr_1324 = {
+struct InstrumentPCM instrument_pcm_11324 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -74,7 +74,7 @@ struct InstrumentPCM instrument_pcm_fr_1324 = {
 };
 
 extern struct SampleData ange_fr_sample_677_data;
-struct InstrumentPCM instrument_pcm_fr_1325 = {
+struct InstrumentPCM instrument_pcm_11325 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -89,7 +89,7 @@ struct InstrumentPCM instrument_pcm_fr_1325 = {
 };
 
 extern struct SampleData ange_fr_sample_678_data;
-struct InstrumentPCM instrument_pcm_fr_1326 = {
+struct InstrumentPCM instrument_pcm_11326 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -104,7 +104,7 @@ struct InstrumentPCM instrument_pcm_fr_1326 = {
 };
 
 extern struct SampleData ange_fr_sample_679_data;
-struct InstrumentPCM instrument_pcm_fr_1327 = {
+struct InstrumentPCM instrument_pcm_11327 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -119,7 +119,7 @@ struct InstrumentPCM instrument_pcm_fr_1327 = {
 };
 
 extern struct SampleData ange_fr_sample_680_data;
-struct InstrumentPCM instrument_pcm_fr_1328 = {
+struct InstrumentPCM instrument_pcm_11328 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -134,7 +134,7 @@ struct InstrumentPCM instrument_pcm_fr_1328 = {
 };
 
 extern struct SampleData ange_fr_sample_681_data;
-struct InstrumentPCM instrument_pcm_fr_1329 = {
+struct InstrumentPCM instrument_pcm_11329 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -149,7 +149,7 @@ struct InstrumentPCM instrument_pcm_fr_1329 = {
 };
 
 extern struct SampleData ange_fr_sample_682_data;
-struct InstrumentPCM instrument_pcm_fr_1330 = {
+struct InstrumentPCM instrument_pcm_11330 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -164,7 +164,7 @@ struct InstrumentPCM instrument_pcm_fr_1330 = {
 };
 
 extern struct SampleData ange_fr_sample_683_data;
-struct InstrumentPCM instrument_pcm_fr_1331 = {
+struct InstrumentPCM instrument_pcm_11331 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -179,7 +179,7 @@ struct InstrumentPCM instrument_pcm_fr_1331 = {
 };
 
 extern struct SampleData ange_fr_sample_684_data;
-struct InstrumentPCM instrument_pcm_fr_1332 = {
+struct InstrumentPCM instrument_pcm_11332 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -194,7 +194,7 @@ struct InstrumentPCM instrument_pcm_fr_1332 = {
 };
 
 extern struct SampleData ange_fr_sample_685_data;
-struct InstrumentPCM instrument_pcm_fr_1333 = {
+struct InstrumentPCM instrument_pcm_11333 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -209,7 +209,7 @@ struct InstrumentPCM instrument_pcm_fr_1333 = {
 };
 
 extern struct SampleData ange_fr_sample_686_data;
-struct InstrumentPCM instrument_pcm_fr_1334 = {
+struct InstrumentPCM instrument_pcm_11334 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -224,7 +224,7 @@ struct InstrumentPCM instrument_pcm_fr_1334 = {
 };
 
 extern struct SampleData ange_fr_sample_687_data;
-struct InstrumentPCM instrument_pcm_fr_1335 = {
+struct InstrumentPCM instrument_pcm_11335 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -239,7 +239,7 @@ struct InstrumentPCM instrument_pcm_fr_1335 = {
 };
 
 extern struct SampleData ange_fr_sample_688_data;
-struct InstrumentPCM instrument_pcm_fr_1336 = {
+struct InstrumentPCM instrument_pcm_11336 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -254,7 +254,7 @@ struct InstrumentPCM instrument_pcm_fr_1336 = {
 };
 
 extern struct SampleData ange_fr_sample_689_data;
-struct InstrumentPCM instrument_pcm_fr_1337 = {
+struct InstrumentPCM instrument_pcm_11337 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -269,7 +269,7 @@ struct InstrumentPCM instrument_pcm_fr_1337 = {
 };
 
 extern struct SampleData ange_fr_sample_690_data;
-struct InstrumentPCM instrument_pcm_fr_1338 = {
+struct InstrumentPCM instrument_pcm_11338 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -284,7 +284,7 @@ struct InstrumentPCM instrument_pcm_fr_1338 = {
 };
 
 extern struct SampleData ange_fr_sample_691_data;
-struct InstrumentPCM instrument_pcm_fr_1339 = {
+struct InstrumentPCM instrument_pcm_11339 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -299,7 +299,7 @@ struct InstrumentPCM instrument_pcm_fr_1339 = {
 };
 
 extern struct SampleData ange_fr_sample_692_data;
-struct InstrumentPCM instrument_pcm_fr_1340 = {
+struct InstrumentPCM instrument_pcm_11340 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -314,7 +314,7 @@ struct InstrumentPCM instrument_pcm_fr_1340 = {
 };
 
 extern struct SampleData ange_fr_sample_693_data;
-struct InstrumentPCM instrument_pcm_fr_1341 = {
+struct InstrumentPCM instrument_pcm_11341 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -329,7 +329,7 @@ struct InstrumentPCM instrument_pcm_fr_1341 = {
 };
 
 extern struct SampleData ange_fr_sample_694_data;
-struct InstrumentPCM instrument_pcm_fr_1342 = {
+struct InstrumentPCM instrument_pcm_11342 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -344,7 +344,7 @@ struct InstrumentPCM instrument_pcm_fr_1342 = {
 };
 
 extern struct SampleData ange_fr_sample_695_data;
-struct InstrumentPCM instrument_pcm_fr_1343 = {
+struct InstrumentPCM instrument_pcm_11343 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -359,7 +359,7 @@ struct InstrumentPCM instrument_pcm_fr_1343 = {
 };
 
 extern struct SampleData ange_fr_sample_696_data;
-struct InstrumentPCM instrument_pcm_fr_1344 = {
+struct InstrumentPCM instrument_pcm_11344 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -374,7 +374,7 @@ struct InstrumentPCM instrument_pcm_fr_1344 = {
 };
 
 extern struct SampleData ange_fr_sample_697_data;
-struct InstrumentPCM instrument_pcm_fr_1345 = {
+struct InstrumentPCM instrument_pcm_11345 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -389,7 +389,7 @@ struct InstrumentPCM instrument_pcm_fr_1345 = {
 };
 
 extern struct SampleData ange_fr_sample_698_data;
-struct InstrumentPCM instrument_pcm_fr_1346 = {
+struct InstrumentPCM instrument_pcm_11346 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -404,7 +404,7 @@ struct InstrumentPCM instrument_pcm_fr_1346 = {
 };
 
 extern struct SampleData ange_fr_sample_699_data;
-struct InstrumentPCM instrument_pcm_fr_1347 = {
+struct InstrumentPCM instrument_pcm_11347 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -419,7 +419,7 @@ struct InstrumentPCM instrument_pcm_fr_1347 = {
 };
 
 extern struct SampleData ange_fr_sample_700_data;
-struct InstrumentPCM instrument_pcm_fr_1348 = {
+struct InstrumentPCM instrument_pcm_11348 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -434,7 +434,7 @@ struct InstrumentPCM instrument_pcm_fr_1348 = {
 };
 
 extern struct SampleData ange_fr_sample_701_data;
-struct InstrumentPCM instrument_pcm_fr_1349 = {
+struct InstrumentPCM instrument_pcm_11349 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -449,7 +449,7 @@ struct InstrumentPCM instrument_pcm_fr_1349 = {
 };
 
 extern struct SampleData ange_fr_sample_702_data;
-struct InstrumentPCM instrument_pcm_fr_1350 = {
+struct InstrumentPCM instrument_pcm_11350 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -464,7 +464,7 @@ struct InstrumentPCM instrument_pcm_fr_1350 = {
 };
 
 extern struct SampleData ange_fr_sample_703_data;
-struct InstrumentPCM instrument_pcm_fr_1351 = {
+struct InstrumentPCM instrument_pcm_11351 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -479,7 +479,7 @@ struct InstrumentPCM instrument_pcm_fr_1351 = {
 };
 
 extern struct SampleData ange_fr_sample_704_data;
-struct InstrumentPCM instrument_pcm_fr_1352 = {
+struct InstrumentPCM instrument_pcm_11352 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -494,7 +494,7 @@ struct InstrumentPCM instrument_pcm_fr_1352 = {
 };
 
 extern struct SampleData ange_fr_sample_705_data;
-struct InstrumentPCM instrument_pcm_fr_1353 = {
+struct InstrumentPCM instrument_pcm_11353 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -509,7 +509,7 @@ struct InstrumentPCM instrument_pcm_fr_1353 = {
 };
 
 extern struct SampleData ange_fr_sample_706_data;
-struct InstrumentPCM instrument_pcm_fr_1354 = {
+struct InstrumentPCM instrument_pcm_11354 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -524,7 +524,7 @@ struct InstrumentPCM instrument_pcm_fr_1354 = {
 };
 
 extern struct SampleData ange_fr_sample_707_data;
-struct InstrumentPCM instrument_pcm_fr_1355 = {
+struct InstrumentPCM instrument_pcm_11355 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -539,7 +539,7 @@ struct InstrumentPCM instrument_pcm_fr_1355 = {
 };
 
 extern struct SampleData ange_fr_sample_708_data;
-struct InstrumentPCM instrument_pcm_fr_1356 = {
+struct InstrumentPCM instrument_pcm_11356 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -554,7 +554,7 @@ struct InstrumentPCM instrument_pcm_fr_1356 = {
 };
 
 extern struct SampleData ange_fr_sample_709_data;
-struct InstrumentPCM instrument_pcm_fr_1357 = {
+struct InstrumentPCM instrument_pcm_11357 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -569,7 +569,7 @@ struct InstrumentPCM instrument_pcm_fr_1357 = {
 };
 
 extern struct SampleData ange_fr_sample_710_data;
-struct InstrumentPCM instrument_pcm_fr_1358 = {
+struct InstrumentPCM instrument_pcm_11358 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -584,7 +584,7 @@ struct InstrumentPCM instrument_pcm_fr_1358 = {
 };
 
 extern struct SampleData ange_fr_sample_711_data;
-struct InstrumentPCM instrument_pcm_fr_1359 = {
+struct InstrumentPCM instrument_pcm_11359 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -599,7 +599,7 @@ struct InstrumentPCM instrument_pcm_fr_1359 = {
 };
 
 extern struct SampleData ange_fr_sample_712_data;
-struct InstrumentPCM instrument_pcm_fr_1360 = {
+struct InstrumentPCM instrument_pcm_11360 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -614,7 +614,7 @@ struct InstrumentPCM instrument_pcm_fr_1360 = {
 };
 
 extern struct SampleData ange_fr_sample_713_data;
-struct InstrumentPCM instrument_pcm_fr_1361 = {
+struct InstrumentPCM instrument_pcm_11361 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
