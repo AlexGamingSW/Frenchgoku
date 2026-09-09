@@ -1625,7 +1625,7 @@ script script_studio_wish
     run play_studio_mus_count_in
     rest 24
     dms_start_bg_monitor 0
-    play_music s_wish_bgm_seqData
+    play_music_localized s_wish_bgm_seqData, s_wish_bgm_fr_seqData
     rest_beats 16
     rest_beats 16
     rest_beats 16

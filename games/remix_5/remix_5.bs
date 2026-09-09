@@ -128,7 +128,7 @@ script script_remix_5_main
     rest 24
     enable_pause_menu
     bouncy_road_set_bounce_height 192
-    play_music s_wish_bgm_seqData
+    play_music_localized s_wish_bgm_seqData, s_wish_bgm_fr_seqData
     rest 24
     rest 24
     rest 24

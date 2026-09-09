@@ -1,10 +1,10 @@
-extern struct SampleData sample_732_data;
-struct InstrumentPCM instrument_pcm_1380 = {
+extern struct SampleData WISH_sample_732_data;
+struct InstrumentPCM instrument_pcm_fr_1380 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_732_data,
+    /* Sample    */ &WISH_sample_732_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -13,13 +13,13 @@ struct InstrumentPCM instrument_pcm_1380 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_733_data;
-struct InstrumentPCM instrument_pcm_1381 = {
+extern struct SampleData WISH_sample_733_data;
+struct InstrumentPCM instrument_pcm_fr_1381 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_733_data,
+    /* Sample    */ &WISH_sample_733_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -28,13 +28,13 @@ struct InstrumentPCM instrument_pcm_1381 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_734_data;
-struct InstrumentPCM instrument_pcm_1382 = {
+extern struct SampleData WISH_sample_734_data;
+struct InstrumentPCM instrument_pcm_fr_1382 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_734_data,
+    /* Sample    */ &WISH_sample_734_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -43,13 +43,13 @@ struct InstrumentPCM instrument_pcm_1382 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_735_data;
-struct InstrumentPCM instrument_pcm_1383 = {
+extern struct SampleData WISH_sample_735_data;
+struct InstrumentPCM instrument_pcm_fr_1383 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_735_data,
+    /* Sample    */ &WISH_sample_735_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -58,13 +58,13 @@ struct InstrumentPCM instrument_pcm_1383 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_736_data;
-struct InstrumentPCM instrument_pcm_1384 = {
+extern struct SampleData WISH_sample_736_data;
+struct InstrumentPCM instrument_pcm_fr_1384 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_736_data,
+    /* Sample    */ &WISH_sample_736_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -73,13 +73,13 @@ struct InstrumentPCM instrument_pcm_1384 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_737_data;
-struct InstrumentPCM instrument_pcm_1385 = {
+extern struct SampleData WISH_sample_737_data;
+struct InstrumentPCM instrument_pcm_fr_1385 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_737_data,
+    /* Sample    */ &WISH_sample_737_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -88,13 +88,13 @@ struct InstrumentPCM instrument_pcm_1385 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_738_data;
-struct InstrumentPCM instrument_pcm_1386 = {
+extern struct SampleData WISH_sample_738_data;
+struct InstrumentPCM instrument_pcm_fr_1386 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_738_data,
+    /* Sample    */ &WISH_sample_738_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -103,13 +103,13 @@ struct InstrumentPCM instrument_pcm_1386 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_739_data;
-struct InstrumentPCM instrument_pcm_1387 = {
+extern struct SampleData WISH_sample_739_data;
+struct InstrumentPCM instrument_pcm_fr_1387 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_739_data,
+    /* Sample    */ &WISH_sample_739_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -118,13 +118,13 @@ struct InstrumentPCM instrument_pcm_1387 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_740_data;
-struct InstrumentPCM instrument_pcm_1388 = {
+extern struct SampleData WISH_sample_740_data;
+struct InstrumentPCM instrument_pcm_fr_1388 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_740_data,
+    /* Sample    */ &WISH_sample_740_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -133,13 +133,13 @@ struct InstrumentPCM instrument_pcm_1388 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_741_data;
-struct InstrumentPCM instrument_pcm_1389 = {
+extern struct SampleData WISH_sample_741_data;
+struct InstrumentPCM instrument_pcm_fr_1389 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_741_data,
+    /* Sample    */ &WISH_sample_741_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -148,13 +148,13 @@ struct InstrumentPCM instrument_pcm_1389 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_742_data;
-struct InstrumentPCM instrument_pcm_1390 = {
+extern struct SampleData WISH_sample_742_data;
+struct InstrumentPCM instrument_pcm_fr_1390 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_742_data,
+    /* Sample    */ &WISH_sample_742_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -163,13 +163,13 @@ struct InstrumentPCM instrument_pcm_1390 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_743_data;
-struct InstrumentPCM instrument_pcm_1391 = {
+extern struct SampleData WISH_sample_743_data;
+struct InstrumentPCM instrument_pcm_fr_1391 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_743_data,
+    /* Sample    */ &WISH_sample_743_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -178,13 +178,13 @@ struct InstrumentPCM instrument_pcm_1391 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_744_data;
-struct InstrumentPCM instrument_pcm_1392 = {
+extern struct SampleData WISH_sample_744_data;
+struct InstrumentPCM instrument_pcm_fr_1392 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_744_data,
+    /* Sample    */ &WISH_sample_744_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -193,13 +193,13 @@ struct InstrumentPCM instrument_pcm_1392 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_745_data;
-struct InstrumentPCM instrument_pcm_1393 = {
+extern struct SampleData WISH_sample_745_data;
+struct InstrumentPCM instrument_pcm_fr_1393 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_745_data,
+    /* Sample    */ &WISH_sample_745_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -208,13 +208,13 @@ struct InstrumentPCM instrument_pcm_1393 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_746_data;
-struct InstrumentPCM instrument_pcm_1394 = {
+extern struct SampleData WISH_sample_746_data;
+struct InstrumentPCM instrument_pcm_fr_1394 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_746_data,
+    /* Sample    */ &WISH_sample_746_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -223,13 +223,13 @@ struct InstrumentPCM instrument_pcm_1394 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_747_data;
-struct InstrumentPCM instrument_pcm_1395 = {
+extern struct SampleData WISH_sample_747_data;
+struct InstrumentPCM instrument_pcm_fr_1395 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_747_data,
+    /* Sample    */ &WISH_sample_747_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -238,13 +238,13 @@ struct InstrumentPCM instrument_pcm_1395 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_748_data;
-struct InstrumentPCM instrument_pcm_1396 = {
+extern struct SampleData WISH_sample_748_data;
+struct InstrumentPCM instrument_pcm_fr_1396 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_748_data,
+    /* Sample    */ &WISH_sample_748_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -253,13 +253,13 @@ struct InstrumentPCM instrument_pcm_1396 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_749_data;
-struct InstrumentPCM instrument_pcm_1397 = {
+extern struct SampleData WISH_sample_749_data;
+struct InstrumentPCM instrument_pcm_fr_1397 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_749_data,
+    /* Sample    */ &WISH_sample_749_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -268,13 +268,13 @@ struct InstrumentPCM instrument_pcm_1397 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_750_data;
-struct InstrumentPCM instrument_pcm_1398 = {
+extern struct SampleData WISH_sample_750_data;
+struct InstrumentPCM instrument_pcm_fr_1398 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_750_data,
+    /* Sample    */ &WISH_sample_750_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -283,13 +283,13 @@ struct InstrumentPCM instrument_pcm_1398 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_751_data;
-struct InstrumentPCM instrument_pcm_1399 = {
+extern struct SampleData WISH_sample_751_data;
+struct InstrumentPCM instrument_pcm_fr_1399 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_751_data,
+    /* Sample    */ &WISH_sample_751_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -298,13 +298,13 @@ struct InstrumentPCM instrument_pcm_1399 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_752_data;
-struct InstrumentPCM instrument_pcm_1400 = {
+extern struct SampleData WISH_sample_752_data;
+struct InstrumentPCM instrument_pcm_fr_1400 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_752_data,
+    /* Sample    */ &WISH_sample_752_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -313,13 +313,13 @@ struct InstrumentPCM instrument_pcm_1400 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_753_data;
-struct InstrumentPCM instrument_pcm_1401 = {
+extern struct SampleData WISH_sample_753_data;
+struct InstrumentPCM instrument_pcm_fr_1401 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_753_data,
+    /* Sample    */ &WISH_sample_753_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -328,13 +328,13 @@ struct InstrumentPCM instrument_pcm_1401 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_754_data;
-struct InstrumentPCM instrument_pcm_1402 = {
+extern struct SampleData WISH_sample_754_data;
+struct InstrumentPCM instrument_pcm_fr_1402 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_754_data,
+    /* Sample    */ &WISH_sample_754_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -343,13 +343,13 @@ struct InstrumentPCM instrument_pcm_1402 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_755_data;
-struct InstrumentPCM instrument_pcm_1403 = {
+extern struct SampleData WISH_sample_755_data;
+struct InstrumentPCM instrument_pcm_fr_1403 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_755_data,
+    /* Sample    */ &WISH_sample_755_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -358,13 +358,13 @@ struct InstrumentPCM instrument_pcm_1403 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_756_data;
-struct InstrumentPCM instrument_pcm_1404 = {
+extern struct SampleData WISH_sample_756_data;
+struct InstrumentPCM instrument_pcm_fr_1404 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_756_data,
+    /* Sample    */ &WISH_sample_756_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -373,13 +373,13 @@ struct InstrumentPCM instrument_pcm_1404 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_757_data;
-struct InstrumentPCM instrument_pcm_1405 = {
+extern struct SampleData WISH_sample_757_data;
+struct InstrumentPCM instrument_pcm_fr_1405 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_757_data,
+    /* Sample    */ &WISH_sample_757_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -388,13 +388,13 @@ struct InstrumentPCM instrument_pcm_1405 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_758_data;
-struct InstrumentPCM instrument_pcm_1406 = {
+extern struct SampleData WISH_sample_758_data;
+struct InstrumentPCM instrument_pcm_fr_1406 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_758_data,
+    /* Sample    */ &WISH_sample_758_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -404,7 +404,7 @@ struct InstrumentPCM instrument_pcm_1406 = {
 };
 
 extern struct SampleData sample_759_data;
-struct InstrumentPCM instrument_pcm_1407 = {
+struct InstrumentPCM instrument_pcm_fr_1407 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -418,13 +418,13 @@ struct InstrumentPCM instrument_pcm_1407 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_760_data;
-struct InstrumentPCM instrument_pcm_1408 = {
+extern struct SampleData WISH_sample_760_data;
+struct InstrumentPCM instrument_pcm_fr_1408 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_760_data,
+    /* Sample    */ &WISH_sample_760_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -433,13 +433,13 @@ struct InstrumentPCM instrument_pcm_1408 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_761_data;
-struct InstrumentPCM instrument_pcm_1409 = {
+extern struct SampleData WISH_sample_761_data;
+struct InstrumentPCM instrument_pcm_fr_1409 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_761_data,
+    /* Sample    */ &WISH_sample_761_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -448,13 +448,13 @@ struct InstrumentPCM instrument_pcm_1409 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_762_data;
-struct InstrumentPCM instrument_pcm_1410 = {
+extern struct SampleData WISH_sample_762_data;
+struct InstrumentPCM instrument_pcm_fr_1410 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_762_data,
+    /* Sample    */ &WISH_sample_762_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -463,13 +463,13 @@ struct InstrumentPCM instrument_pcm_1410 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_763_data;
-struct InstrumentPCM instrument_pcm_1411 = {
+extern struct SampleData WISH_sample_763_data;
+struct InstrumentPCM instrument_pcm_fr_1411 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_763_data,
+    /* Sample    */ &WISH_sample_763_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -478,13 +478,13 @@ struct InstrumentPCM instrument_pcm_1411 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_764_data;
-struct InstrumentPCM instrument_pcm_1412 = {
+extern struct SampleData WISH_sample_764_data;
+struct InstrumentPCM instrument_pcm_fr_1412 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_764_data,
+    /* Sample    */ &WISH_sample_764_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -493,13 +493,13 @@ struct InstrumentPCM instrument_pcm_1412 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_765_data;
-struct InstrumentPCM instrument_pcm_1413 = {
+extern struct SampleData WISH_sample_765_data;
+struct InstrumentPCM instrument_pcm_fr_1413 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_765_data,
+    /* Sample    */ &WISH_sample_765_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -508,13 +508,13 @@ struct InstrumentPCM instrument_pcm_1413 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_766_data;
-struct InstrumentPCM instrument_pcm_1414 = {
+extern struct SampleData WISH_sample_766_data;
+struct InstrumentPCM instrument_pcm_fr_1414 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_766_data,
+    /* Sample    */ &WISH_sample_766_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -523,13 +523,13 @@ struct InstrumentPCM instrument_pcm_1414 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_767_data;
-struct InstrumentPCM instrument_pcm_1415 = {
+extern struct SampleData WISH_sample_767_data;
+struct InstrumentPCM instrument_pcm_fr_1415 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_767_data,
+    /* Sample    */ &WISH_sample_767_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -539,7 +539,7 @@ struct InstrumentPCM instrument_pcm_1415 = {
 };
 
 extern struct SampleData sample_768_data;
-struct InstrumentPCM instrument_pcm_1416 = {
+struct InstrumentPCM instrument_pcm_fr_1416 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -553,13 +553,13 @@ struct InstrumentPCM instrument_pcm_1416 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_769_data;
-struct InstrumentPCM instrument_pcm_1417 = {
+extern struct SampleData WISH_sample_769_data;
+struct InstrumentPCM instrument_pcm_fr_1417 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_769_data,
+    /* Sample    */ &WISH_sample_769_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -568,13 +568,13 @@ struct InstrumentPCM instrument_pcm_1417 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_770_data;
-struct InstrumentPCM instrument_pcm_1418 = {
+extern struct SampleData WISH_sample_770_data;
+struct InstrumentPCM instrument_pcm_fr_1418 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_770_data,
+    /* Sample    */ &WISH_sample_770_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -583,13 +583,13 @@ struct InstrumentPCM instrument_pcm_1418 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_771_data;
-struct InstrumentPCM instrument_pcm_1419 = {
+extern struct SampleData WISH_sample_771_data;
+struct InstrumentPCM instrument_pcm_fr_1419 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_771_data,
+    /* Sample    */ &WISH_sample_771_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -599,7 +599,7 @@ struct InstrumentPCM instrument_pcm_1419 = {
 };
 
 extern struct SampleData sample_772_data;
-struct InstrumentPCM instrument_pcm_1420 = {
+struct InstrumentPCM instrument_pcm_fr_1420 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -614,7 +614,7 @@ struct InstrumentPCM instrument_pcm_1420 = {
 };
 
 extern struct SampleData sample_773_data;
-struct InstrumentPCM instrument_pcm_1421 = {
+struct InstrumentPCM instrument_pcm_fr_1421 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
@@ -628,13 +628,13 @@ struct InstrumentPCM instrument_pcm_1421 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_774_data;
-struct InstrumentPCM instrument_pcm_1422 = {
+extern struct SampleData WISH_sample_774_data;
+struct InstrumentPCM instrument_pcm_fr_1422 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_774_data,
+    /* Sample    */ &WISH_sample_774_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -643,13 +643,13 @@ struct InstrumentPCM instrument_pcm_1422 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_775_data;
-struct InstrumentPCM instrument_pcm_1423 = {
+extern struct SampleData WISH_sample_775_data;
+struct InstrumentPCM instrument_pcm_fr_1423 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_775_data,
+    /* Sample    */ &WISH_sample_775_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -658,13 +658,13 @@ struct InstrumentPCM instrument_pcm_1423 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_776_data;
-struct InstrumentPCM instrument_pcm_1424 = {
+extern struct SampleData WISH_sample_776_data;
+struct InstrumentPCM instrument_pcm_fr_1424 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_776_data,
+    /* Sample    */ &WISH_sample_776_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -673,13 +673,13 @@ struct InstrumentPCM instrument_pcm_1424 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_777_data;
-struct InstrumentPCM instrument_pcm_1425 = {
+extern struct SampleData WISH_sample_777_data;
+struct InstrumentPCM instrument_pcm_fr_1425 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_777_data,
+    /* Sample    */ &WISH_sample_777_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -688,13 +688,13 @@ struct InstrumentPCM instrument_pcm_1425 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_778_data;
-struct InstrumentPCM instrument_pcm_1426 = {
+extern struct SampleData WISH_sample_778_data;
+struct InstrumentPCM instrument_pcm_fr_1426 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_778_data,
+    /* Sample    */ &WISH_sample_778_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -703,13 +703,13 @@ struct InstrumentPCM instrument_pcm_1426 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_779_data;
-struct InstrumentPCM instrument_pcm_1427 = {
+extern struct SampleData WISH_sample_779_data;
+struct InstrumentPCM instrument_pcm_fr_1427 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_779_data,
+    /* Sample    */ &WISH_sample_779_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -718,13 +718,13 @@ struct InstrumentPCM instrument_pcm_1427 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_780_data;
-struct InstrumentPCM instrument_pcm_1428 = {
+extern struct SampleData WISH_sample_780_data;
+struct InstrumentPCM instrument_pcm_fr_1428 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_780_data,
+    /* Sample    */ &WISH_sample_780_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -733,13 +733,13 @@ struct InstrumentPCM instrument_pcm_1428 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_781_data;
-struct InstrumentPCM instrument_pcm_1429 = {
+extern struct SampleData WISH_sample_781_data;
+struct InstrumentPCM instrument_pcm_fr_1429 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_781_data,
+    /* Sample    */ &WISH_sample_781_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -748,13 +748,13 @@ struct InstrumentPCM instrument_pcm_1429 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_782_data;
-struct InstrumentPCM instrument_pcm_1430 = {
+extern struct SampleData WISH_sample_782_data;
+struct InstrumentPCM instrument_pcm_fr_1430 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_782_data,
+    /* Sample    */ &WISH_sample_782_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -763,13 +763,13 @@ struct InstrumentPCM instrument_pcm_1430 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_783_data;
-struct InstrumentPCM instrument_pcm_1431 = {
+extern struct SampleData WISH_sample_783_data;
+struct InstrumentPCM instrument_pcm_fr_1431 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_783_data,
+    /* Sample    */ &WISH_sample_783_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -778,13 +778,13 @@ struct InstrumentPCM instrument_pcm_1431 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_784_data;
-struct InstrumentPCM instrument_pcm_1432 = {
+extern struct SampleData WISH_sample_784_data;
+struct InstrumentPCM instrument_pcm_fr_1432 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_784_data,
+    /* Sample    */ &WISH_sample_784_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -793,13 +793,13 @@ struct InstrumentPCM instrument_pcm_1432 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_785_data;
-struct InstrumentPCM instrument_pcm_1433 = {
+extern struct SampleData WISH_sample_785_data;
+struct InstrumentPCM instrument_pcm_fr_1433 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_785_data,
+    /* Sample    */ &WISH_sample_785_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,
@@ -808,13 +808,13 @@ struct InstrumentPCM instrument_pcm_1433 = {
     /* ADSR Rel  */ 0x1E7FBA,
 };
 
-extern struct SampleData sample_786_data;
-struct InstrumentPCM instrument_pcm_1434 = {
+extern struct SampleData WISH_sample_786_data;
+struct InstrumentPCM instrument_pcm_fr_1434 = {
     /* Type      */ INSTRUMENT_PCM_FIXED,
     /* Key       */ 0x3C,
     /* Fast Read */ FALSE,
     /* Panning   */ 127,
-    /* Sample    */ &sample_786_data,
+    /* Sample    */ &WISH_sample_786_data,
     /* ADSR Init */ 0x7F0000,
     /* ADSR Sus  */ 0x7F0000,
     /* ADSR Atk  */ 0x600000,

@@ -1532,7 +1532,7 @@ union Instrument inst_bank_43[] = {
     /* 112 */ NULL,                            NULL,                            NULL,                            NULL,
     /* 116 */ NULL,                            NULL,                            NULL,                            NULL,
     /* 120 */ NULL,                            NULL,                            NULL,                            NULL,
-    /* 124 */ NULL,                            { .rhy = &instrument_rhy_0850 }, { .rhy = &instrument_rhy_0851 }, { .rhy = &instrument_rhy_0852 }
+    /* 124 */ { .rhy = &instrument_rhy_wish_fr },                            { .rhy = &instrument_rhy_0850 }, { .rhy = &instrument_rhy_0851 }, { .rhy = &instrument_rhy_0852 }
 };
 
 // 128 Instruments
@@ -2085,6 +2085,23 @@ union Instrument inst_bank_space_dance_en[] = {
     /* 124 */ NULL,                            NULL,                            NULL,                            NULL
 };
 
+union Instrument inst_bank_tossteam_en[] = {
+    /* 000 */ { .pcm = &instrument_pcm_redgo }, { .pcm = &instrument_pcm_redfastgo }, { .pcm = &instrument_pcm_redblue }, { .pcm = &instrument_pcm_redlongblue },
+    /* 004 */ { .pcm = &instrument_pcm_redyel }, { .pcm = &instrument_pcm_redfastyellow }, { .pcm = &instrument_pcm_redfastnow }, { .pcm = &instrument_pcm_redlongnow },
+    /* 008 */ NULL,                            NULL,                            NULL,                            NULL,
+    /* 012 */ { .pcm = &instrument_pcm_bluecatch }, { .pcm = &instrument_pcm_fastcatchit }, { .pcm = &instrument_pcm_bluered }, { .pcm = &instrument_pcm_bluelongred },
+    /* 016 */ { .pcm = &instrument_pcm_blueyel }, NULL,                            { .pcm = &instrument_pcm_bluenow }, { .pcm = &instrument_pcm_bluelongnow },
+    /* 020 */ { .pcm = &instrument_pcm_0242 }, { .pcm = &instrument_pcm_2243 },                            NULL,                            NULL,
+    /* 024 */ { .pcm = &instrument_pcm_yelgo }, { .pcm = &instrument_pcm_yelfastgo }, { .pcm = &instrument_pcm_yelblue }, { .pcm = &instrument_pcm_yellongblue },
+    /* 028 */ { .pcm = &instrument_pcm_yelcatch }, { .pcm = &instrument_pcm_yelfastcatchit }, { .pcm = &instrument_pcm_yelred }, { .pcm = &instrument_pcm_yellongred },
+    /* 032 */ NULL,                            { .pcm = &instrument_pcm_yelhoi }, NULL,                            NULL,
+    /* 036 */ { .pcm = &instrument_pcm_redhoi }, { .pcm = &instrument_pcm_redgittyup }, NULL,                            { .pcm = &instrument_pcm_bluehoi },
+    /* 040 */ { .pcm = &instrument_pcm_bluegittyup }, { .pcm = &instrument_pcm_yelprepare }, { .pcm = &instrument_pcm_redaye }, { .pcm = &instrument_pcm_blueouchie },
+    /* 044 */ { .pcm = &instrument_pcm_yelbreak }, { .pcm = &instrument_pcm_0241 }, { .pcm = &instrument_pcm_redllow }, { .pcm = &instrument_pcm_blueit },
+    /* 048 */ { .pcm = &instrument_pcm_yelit }, NULL,                            NULL,                            NULL,
+    /* 052 */ NULL,                            NULL,                            NULL,                            NULL,
+};
+
 union Instrument inst_bank_bon_odori_fr[] = {
     /* 000 */ { .pcm = &instrument_pcm_fr_1280 }, { .pcm = &instrument_pcm_fr_1281 }, { .pcm = &instrument_pcm_fr_1282 }, { .pcm = &instrument_pcm_fr_1283 },
     /* 004 */ { .pcm = &instrument_pcm_fr_1284 }, { .pcm = &instrument_pcm_fr_1285 }, { .pcm = &instrument_pcm_fr_1286 }, { .pcm = &instrument_pcm_fr_1287 },
@@ -2150,4 +2167,21 @@ union Instrument inst_bank_ange_fr[] = {
     /* 060 */ { .pcm = &instrument_pcm_1371 }, { .pcm = &instrument_pcm_1372 }, { .pcm = &instrument_pcm_1373 }, { .pcm = &instrument_pcm_1374 },
     /* 064 */ { .pcm = &instrument_pcm_1375 }, { .pcm = &instrument_pcm_1376 }, { .pcm = &instrument_pcm_1377 }, { .pcm = &instrument_pcm_1378 },
     /* 068 */ { .pcm = &instrument_pcm_1379 }
+};
+
+union Instrument inst_bank_wish_fr[] = {
+    /* 000 */ { .pcm = &instrument_pcm_fr_1380 }, { .pcm = &instrument_pcm_fr_1381 }, { .pcm = &instrument_pcm_fr_1382 }, { .pcm = &instrument_pcm_fr_1383 },
+    /* 004 */ { .pcm = &instrument_pcm_fr_1384 }, { .pcm = &instrument_pcm_fr_1385 }, { .pcm = &instrument_pcm_fr_1386 }, { .pcm = &instrument_pcm_fr_1387 },
+    /* 008 */ { .pcm = &instrument_pcm_fr_1388 }, { .pcm = &instrument_pcm_fr_1389 }, { .pcm = &instrument_pcm_fr_1390 }, { .pcm = &instrument_pcm_fr_1391 },
+    /* 012 */ { .pcm = &instrument_pcm_fr_1392 }, { .pcm = &instrument_pcm_fr_1393 }, { .pcm = &instrument_pcm_fr_1394 }, { .pcm = &instrument_pcm_fr_1395 },
+    /* 016 */ { .pcm = &instrument_pcm_fr_1396 }, { .pcm = &instrument_pcm_fr_1397 }, { .pcm = &instrument_pcm_fr_1398 }, { .pcm = &instrument_pcm_fr_1399 },
+    /* 020 */ { .pcm = &instrument_pcm_fr_1400 }, { .pcm = &instrument_pcm_fr_1401 }, { .pcm = &instrument_pcm_fr_1402 }, { .pcm = &instrument_pcm_fr_1403 },
+    /* 024 */ { .pcm = &instrument_pcm_fr_1404 }, { .pcm = &instrument_pcm_fr_1405 }, { .pcm = &instrument_pcm_fr_1406 }, { .pcm = &instrument_pcm_fr_1407 },
+    /* 028 */ { .pcm = &instrument_pcm_fr_1408 }, { .pcm = &instrument_pcm_fr_1409 }, { .pcm = &instrument_pcm_fr_1410 }, { .pcm = &instrument_pcm_fr_1411 },
+    /* 032 */ { .pcm = &instrument_pcm_fr_1412 }, { .pcm = &instrument_pcm_fr_1413 }, { .pcm = &instrument_pcm_fr_1414 }, { .pcm = &instrument_pcm_fr_1415 },
+    /* 036 */ { .pcm = &instrument_pcm_fr_1416 }, { .pcm = &instrument_pcm_fr_1417 }, { .pcm = &instrument_pcm_fr_1418 }, { .pcm = &instrument_pcm_fr_1419 },
+    /* 040 */ { .pcm = &instrument_pcm_fr_1420 }, { .pcm = &instrument_pcm_fr_1421 }, { .pcm = &instrument_pcm_fr_1422 }, { .pcm = &instrument_pcm_fr_1423 },
+    /* 044 */ { .pcm = &instrument_pcm_fr_1424 }, { .pcm = &instrument_pcm_fr_1425 }, { .pcm = &instrument_pcm_fr_1426 }, { .pcm = &instrument_pcm_fr_1427 },
+    /* 048 */ { .pcm = &instrument_pcm_fr_1428 }, { .pcm = &instrument_pcm_fr_1429 }, { .pcm = &instrument_pcm_fr_1430 }, { .pcm = &instrument_pcm_fr_1431 },
+    /* 052 */ { .pcm = &instrument_pcm_fr_1432 }, { .pcm = &instrument_pcm_fr_1433 }, { .pcm = &instrument_pcm_fr_1434 }
 };

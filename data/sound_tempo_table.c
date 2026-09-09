@@ -167,5 +167,6 @@ struct TempoTable sound_tempo_table[] = {
     { &s_bon_odori_bgm_fr_seqData, 121 },
     { &s_bon_dance_bgm_fr_seqData, 121 },
     { &s_koihoney_bgm_fr_seqData, 137 },
+    { &s_wish_bgm_fr_seqData, 204 },
     { NULL, 0 }
 };
