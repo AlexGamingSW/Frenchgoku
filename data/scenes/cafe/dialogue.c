@@ -512,7 +512,7 @@ const char *cafe_dialogue_rhythm_test[] = {
     /* ------------------------------------------------ */
         "\n"
         "Dites, avez-vous essay‡Q\n"
-        "de refaire le Test de Rythme‡R?\n"
+        "de refaire le test de rythme‡R?\n"
         "\n",
     /* ------------------------------------------------ */
         "\n"
