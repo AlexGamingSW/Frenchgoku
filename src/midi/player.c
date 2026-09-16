@@ -590,7 +590,6 @@ static u8 midi_player_get_transposed_key(struct SoundPlayer *soundPlayer, u32 tr
 }
 
 
-
 // MidiStream Note Off/On [Evnt_8; Evnt_9]
 void midi_player_add_note(struct SoundPlayer *soundPlayer, u32 track, u32 key, u32 velocity) {
     struct MidiNote *midiNote;

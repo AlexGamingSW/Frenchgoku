@@ -5585,7 +5585,7 @@
         },
         {
             "sample": "march_ord_8.wav",
-            "pitch": "C5"
+            "pitch": "B4"
         },
         {
             "sample": "march_ord_9.wav",
@@ -6452,6 +6452,22 @@
         },
         {
             "sample": "WISH_sample_786.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "hit.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "three.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "two.wav",
+            "pitch": "C5"
+        },
+        {
+            "sample": "four.wav",
             "pitch": "C5"
         },
         {
