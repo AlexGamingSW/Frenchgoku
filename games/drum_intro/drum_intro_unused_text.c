@@ -32,9 +32,11 @@ const char D_0805d554[] =
     "Allez‡R! Je commence‡R!";
 
 const char D_0805d568[] =
+    "\n"
     "‡f toi maintenant.\n";
 
 const char D_0805d57c[] =
+    "\n"
     "Ahahah, je plaisantais‡R!\n"
     "Pardonne-moi.";
 
