@@ -121,7 +121,7 @@ script script_drum_intro_unused_2_main
     dmi_event03 3
     rest 24
     rest 12
-    play_sfx s_intro_a_seqData
+    play_sfx_localized s_intro_a_seqData, s_intro_a_en_seqData
     rest 12
     play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3
@@ -175,16 +175,32 @@ script script_drum_intro_unused_2_main
     play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3
     rest 24
+    if_localized
+    play_sfx_vol_pitch s_intro_a_en_seqData, 32, -256
+    else
     play_sfx_vol_pitch s_intro_a_seqData, 32, -256
+    end_if
     rest 24
+    if_localized
+    play_sfx_vol s_intro_a_en_seqData, 48
+    else
     play_sfx_vol s_intro_a_seqData, 48
+    end_if
     rest 24
     play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     dmi_event03 3
     rest 24
+    if_localized
+    play_sfx_vol_pitch s_intro_a_en_seqData, 32, -256
+    else
     play_sfx_vol_pitch s_intro_a_seqData, 32, -256
+    end_if
     rest 24
+    if_localized
+    play_sfx_vol s_intro_a_en_seqData, 48
+    else
     play_sfx_vol s_intro_a_seqData, 48
+    end_if
     rest 24
     play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3
@@ -248,7 +264,7 @@ script script_drum_intro_unused_2_main
     set_tempo 200
     dmi_event05 1
     start_tracking_inputs
-    play_sfx s_intro_a_seqData
+    play_sfx_localized s_intro_a_seqData, s_intro_a_en_seqData
     rest 12
     play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3

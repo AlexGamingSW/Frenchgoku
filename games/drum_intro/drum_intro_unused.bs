@@ -38,7 +38,7 @@ script drum_intro_unused_sub_08a21294
     beat_anim
     rest 24
     rest 12
-    play_sfx s_intro_a_seqData
+    play_sfx_localized s_intro_a_seqData, s_intro_a_en_seqData
     rest 12
     play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     beat_anim
