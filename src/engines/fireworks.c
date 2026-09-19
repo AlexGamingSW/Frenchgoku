@@ -556,7 +556,11 @@ u32 fireworks_cue_update(struct Cue *cue, struct FireworksCue *info, u32 running
 
     if (runningTime > ticks_to_frames(fireworks_cue_durations[info->type])) {
         if (!info->exploded) {
-            play_sound_w_pitch_volume(&s_hanabi_ah_seqData, 48, 0);
+            if (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0) {
+                play_sound_w_pitch_volume(&s_hanabi_ah_fr_seqData, 48, 0);
+            } else {
+                play_sound_w_pitch_volume(&s_hanabi_ah_seqData, 48, 0);
+            }
         }
         return TRUE;
     }

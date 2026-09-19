@@ -1478,7 +1478,7 @@
 /* 1475 */ DEFINE_SONG( &s_hanabi_wish2_seqData,             SFX_PLAYER_5   )
 /* 1476 */ DEFINE_SONG( &s_hanabi_wish3_seqData,             SFX_PLAYER_5   )
 /* 1477 */ DEFINE_SONG( &s_hanabi_wish4_seqData,             SFX_PLAYER_5   )
-/* 1478 */ DEFINE_SONG( NULL, 0 )
+/* 1478 */ DEFINE_SONG( &s_hanabi_ah_fr_seqData,             SFX_PLAYER_5   )
 /* 1479 */ DEFINE_SONG( NULL, 0 )
 /* 1480 */ DEFINE_SONG( &s_intro_stick_seqData,              MUSIC_PLAYER_1 )
 /* 1481 */ DEFINE_SONG( &s_intro_a_seqData,                  MUSIC_PLAYER_1 )

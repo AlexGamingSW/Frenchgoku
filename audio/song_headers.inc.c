@@ -2638,18 +2638,6 @@ struct SongHeader s_hanabi_bgm_seqData = {
     /* Song Number   */ 1468
 };
 
-extern const u8 s_hanabi_ah_mid[];
-struct SongHeader s_hanabi_ah_seqData = {
-    /* MIDI Sequence */ s_hanabi_ah_mid,
-    /* Sound Player  */ SFX_PLAYER_5,
-    /* Bank Number   */ INST_BANK_7,
-    /* Volume        */ 70,
-    /* Priority      */ 80,
-    /* unk8          */ 0x40,
-    /* Song Title    */ s_hanabi_ah_seqName,
-    /* Song Number   */ 1473
-};
-
 extern const u8 s_hanabi_wish1_mid[];
 struct SongHeader s_hanabi_wish1_seqData = {
     /* MIDI Sequence */ s_hanabi_wish1_mid,

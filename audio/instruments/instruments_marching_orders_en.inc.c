@@ -1,4 +1,4 @@
-extern struct SampleData countin_r5_sample_137_data;
+extern struct SampleData sample_137_FR_data;
 struct InstrumentPCM instrument_pcm_r5one = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
@@ -13,7 +13,7 @@ struct InstrumentPCM instrument_pcm_r5one = {
     /* ADSR Rel  */ 0x13E350,
 };
 
-extern struct SampleData countin_r5_sample_138_data;
+extern struct SampleData sample_138_FR_data;
 struct InstrumentPCM instrument_pcm_r5two = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
@@ -28,7 +28,7 @@ struct InstrumentPCM instrument_pcm_r5two = {
     /* ADSR Rel  */ 0x13E350,
 };
 
-extern struct SampleData countin_r5_sample_139_data;
+extern struct SampleData sample_139_FR_data;
 struct InstrumentPCM instrument_pcm_r5three = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,
@@ -43,7 +43,7 @@ struct InstrumentPCM instrument_pcm_r5three = {
     /* ADSR Rel  */ 0x13E350,
 };
 
-extern struct SampleData countin_r5_sample_140_data;
+extern struct SampleData sample_140_FR_data;
 struct InstrumentPCM instrument_pcm_r5yeah = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
     /* Key       */ 0x3C,

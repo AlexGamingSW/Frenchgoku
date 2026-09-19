@@ -129,6 +129,7 @@ script script_remix_5_main
     enable_pause_menu
     bouncy_road_set_bounce_height 192
     play_music_localized s_wish_bgm_seqData, s_wish_bgm_en_seqData
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_SFX
     rest 24
     rest 24
     rest 24

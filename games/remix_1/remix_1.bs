@@ -250,16 +250,11 @@ script script_remix_1_main
     rest 24
     beat_anim
     #ifdef PLUS
-    if_localized
     print_text_f 2
     rest 12
     play_sfx_localized s_f_boxing_hit_sfx_seqData, s_f_boxing_hit2_deux_seqData
     rest 12
     play_sfx_localized s_f_boxing_two_sfx_seqData, s_f_boxing_hit2_coups_seqData
-    else
-    rest 24
-    print_text_f 2
-    end_if
     #else
     rest 24
     print_text_f 2
@@ -344,16 +339,11 @@ script script_remix_1_main
     rest 24
     beat_anim
     #ifdef PLUS
-    if_localized
     print_text_f 2
     rest 12
     play_sfx_localized s_f_boxing_hit_sfx_seqData, s_f_boxing_hit2_deux_seqData
     rest 12
     play_sfx_localized s_f_boxing_two_sfx_seqData, s_f_boxing_hit2_coups_seqData
-    else
-    rest 24
-    print_text_f 2
-    end_if
     #else
     rest 24
     print_text_f 2
@@ -787,14 +777,10 @@ script script_remix_1_main
     load_karate_man
     #ifdef PLUS
     print_text_f 5
-    if_localized
     rest 12
     play_sfx_localized s_f_boxing_hit_sfx_seqData, s_f_boxing_hit4_quatre_seqData
     rest 12
     play_sfx_localized s_f_boxing_four_sfx_seqData, s_f_boxing_hit4_coups_seqData
-    else
-    rest 24
-    end_if
     #else
     print_text_f 4
     rest 24

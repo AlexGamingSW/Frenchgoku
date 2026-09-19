@@ -284,6 +284,7 @@ extern struct SongHeader s_f_hanabi_v_tamaya_en_seqData;
 extern struct SongHeader s_f_hanabi_v_nuei_en_seqData;
 // --------------------------------------------------------------
 extern struct SongHeader s_hanabi_ah_seqData;
+extern struct SongHeader s_hanabi_ah_fr_seqData;
 extern struct SongHeader s_hanabi_wish1_seqData;
 extern struct SongHeader s_hanabi_wish2_seqData;
 extern struct SongHeader s_hanabi_wish3_seqData;
@@ -584,6 +585,7 @@ extern struct SongHeader s_rap_oresira_naiyo_en_seqData;
 extern struct SongHeader s_rap_un_seqData;
 extern struct SongHeader s_rap_uun_seqData;
 extern struct SongHeader s_rap_yeah_seqData;
+extern struct SongHeader s_rap_yeah_en_seqData;
 extern struct SongHeader s_sindan_manzai_seqData;
 extern struct SongHeader s_sindan_mail_seqData;
 extern struct SongHeader s_esa_pengin1_1_seqData;

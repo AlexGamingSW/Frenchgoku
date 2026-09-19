@@ -30,21 +30,21 @@ define_gameplay_scene scene_drum_intro_unused_3, script_drum_intro_unused_3_entr
 @ Drum Intro (Unused 3) - Main Script
 
 script drum_intro_unused_3_sub_08a36930
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     beat_anim
     rest 24
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     beat_anim
     rest 24
     rest 12
     play_sfx s_intro_a_seqData
     clear_text_s
     rest 12
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     beat_anim
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     beat_anim
     rest 24
     play_sfx s_intro_three_seqData
@@ -57,21 +57,21 @@ return
 
 
 script drum_intro_unused_3_sub_08a36a5c
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3
     rest 24
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     dmi_event03 3
     rest 24
     rest 12
     play_sfx s_intro_a_seqData
     clear_text_s
     rest 12
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     dmi_event03 3
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     dmi_event03 3
     rest 24
     play_sfx s_intro_three_seqData
@@ -88,6 +88,7 @@ script script_drum_intro_unused_3_main
     set_tempo 120
     set_music_volume 40
     mod_music_volume 156, 96
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_SFX
     dmi_event02 1
     rest 24
     rest 24

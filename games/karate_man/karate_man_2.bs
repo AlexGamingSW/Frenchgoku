@@ -130,7 +130,7 @@ script script_karate_man_2_main
     run gameplay_set_sound_tempo, 124
     set_tempo 124
     set_music_volume 150
-    play_music s_karate_bgm_seqData
+    play_music_localized s_karate_bgm_seqData, s_karate_bgm_fr_seqData
     beat_anim
     rest 24
     beat_anim
