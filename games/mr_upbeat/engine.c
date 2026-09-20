@@ -146,7 +146,7 @@ struct CueDefinition *mr_upbeat_cue_index[] = {
     END_OF_CUE_INDEX
 };
 
-const char D_0805a674[] = "Nouveau record";
+const char D_0805a674[] = "Nouveau record‡R!";
 
 const char D_0805a684[] = "Bien jou‡Q‡R!";
 
