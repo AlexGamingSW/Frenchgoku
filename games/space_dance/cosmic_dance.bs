@@ -200,11 +200,11 @@ script script_cosmic_dance_main
     mod_music_volume 80, 72
     space_dance_event04 FALSE
     if_localized
-    play_sfx_vol s_intro_one_en_seqData, 52
+    play_sfx_vol s_sdance_un_seqData, 52
     rest 24
-    play_sfx_vol s_intro_two_en_seqData, 60
+    play_sfx_vol s_sdance_deux_seqData, 60
     rest 24
-    play_sfx_vol s_intro_three_en_seqData, 48
+    play_sfx_vol s_sdance_trois_seqData, 48
     rest 22
     rest 2
     play_sfx_vol s_intro_go_en_seqData, 56

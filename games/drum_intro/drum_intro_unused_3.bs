@@ -50,8 +50,13 @@ script drum_intro_unused_3_sub_08a36930
     play_sfx_localized s_intro_three_seqData, s_intro_three_en_seqData
     beat_anim
     rest 12
-    play_sfx s_intro_four_seqData
-    rest 12
+    if_localized
+        rest 12
+        play_sfx_synced s_intro_quatre_seqData, 150, 256
+    else
+        play_sfx_synced s_intro_four_seqData, 150, 256
+        rest 12
+    end_if
     beat_anim
 return
 
@@ -77,8 +82,13 @@ script drum_intro_unused_3_sub_08a36a5c
     play_sfx_localized s_intro_three_seqData, s_intro_three_en_seqData
     dmi_event03 3
     rest 12
-    play_sfx s_intro_four_seqData
-    rest 12
+    if_localized
+        rest 12
+        play_sfx_synced s_intro_quatre_seqData, 150, 256
+    else
+        play_sfx_synced s_intro_four_seqData, 150, 256
+        rest 12
+    end_if
     dmi_event03 3
 return
 

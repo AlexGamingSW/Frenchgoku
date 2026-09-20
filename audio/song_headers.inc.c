@@ -5554,6 +5554,39 @@ struct SongHeader s_sdance_go_seqData = {
     /* Song Number   */ 1494
 };
 
+struct SongHeader s_sdance_un_seqData = {
+    /* MIDI Sequence */ s_sdance_one_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 75,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1495
+};
+
+struct SongHeader s_sdance_deux_seqData = {
+    /* MIDI Sequence */ s_sdance_two_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 127,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1496
+};
+
+struct SongHeader s_sdance_trois_seqData = {
+    /* MIDI Sequence */ s_sdance_three_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 127,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1497
+};
+
 extern const u8 s_f_dummy_mid[];
 struct SongHeader s_f_dummy_seqData = {
     /* MIDI Sequence */ s_f_dummy_mid,

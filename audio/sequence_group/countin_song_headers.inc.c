@@ -105,6 +105,30 @@ struct SongHeader s_intro_three_en_seqData = {
     /* Song Number   */ 58
 };
 
+extern const u8 s_intro_quatre_mid[];
+struct SongHeader s_intro_quatre_seqData = {
+    /* MIDI Sequence */ s_intro_quatre_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 127,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1498
+};
+
+extern const u8 s_intro_allez_mid[];
+struct SongHeader s_intro_allez_seqData = {
+    /* MIDI Sequence */ s_intro_allez_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 100,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1499
+};
+
 extern const u8 s_intro_go_mid[];
 struct SongHeader s_intro_go_en_seqData = {
     /* MIDI Sequence */ s_intro_go_mid,
@@ -115,4 +139,16 @@ struct SongHeader s_intro_go_en_seqData = {
     /* unk8          */ 0x40,
     /* Song Title    */ NULL,
     /* Song Number   */ 59
+};
+
+extern const u8 s_intro_go_fr_mid[];
+struct SongHeader s_intro_go_fr_seqData = {
+    /* MIDI Sequence */ s_intro_go_fr_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_COUNTIN_EN,
+    /* Volume        */ 127,
+    /* Priority      */ 80,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1507
 };

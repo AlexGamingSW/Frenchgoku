@@ -113,16 +113,24 @@ void fireworks_set_pattern_mode(u32 mode) {
 void fireworks_play_sound(u32 sound) {
     switch (sound) {
         case FIREWORKS_SFX_COME_ON:
-            play_sound_in_player(2, &s_intro_comeon_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_allez_seqData : &s_intro_comeon_seqData
+            );
             break;
         case FIREWORKS_SFX_ONE:
-            play_sound_in_player(2, &s_intro_one_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_one_en_seqData : &s_intro_one_seqData
+            );
             break;
         case FIREWORKS_SFX_TWO:
-            play_sound_in_player(2, &s_intro_two_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_two_en_seqData : &s_intro_two_seqData
+            );
             break;
         case FIREWORKS_SFX_THREE:
-            play_sound_in_player(2, &s_intro_three_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_three_en_seqData : &s_intro_three_seqData
+            );
             break;
         case FIREWORKS_SFX_NUEI:
             play_sound(CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?

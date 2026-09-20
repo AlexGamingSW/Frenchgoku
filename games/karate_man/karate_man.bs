@@ -629,7 +629,7 @@ script script_karate_man_practice
         rest 12
         if_localized
         rest 12
-        play_sfx_synced s_intro_go_en_seqData, 150, 256
+        play_sfx_synced s_intro_quatre_seqData, 150, 256
         else
         play_sfx_synced s_intro_four_seqData, 150, 256
         rest 12

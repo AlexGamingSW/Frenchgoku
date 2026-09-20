@@ -2106,8 +2106,8 @@ union Instrument inst_bank_RAPWOMEN_en[] = {
 union Instrument inst_bank_countin_en[] = {
     /* 000 */ { .pcm = &instrument_pcm_sdon }, { .pcm = &instrument_pcm_sdtw }, { .pcm = &instrument_pcm_sdth }, { .pcm = &instrument_pcm_sdgo },
     /* 004 */ { .pcm = &instrument_pcm_mrup }, { .pcm = &instrument_pcm_0203 }, { .pcm = &instrument_pcm_0204 }, { .pcm = &instrument_pcm_0199 },
-    /* 008 */ NULL,                            NULL,                            NULL,                            NULL,
-    /* 012 */ NULL,                            NULL,                            NULL,                            NULL,
+    /* 008 */ { .pcm = &instrument_pcm_sdun },  { .pcm = &instrument_pcm_sddeux }, { .pcm = &instrument_pcm_sdtrois }, { .pcm = &instrument_pcm_sdgo_fr },
+    /* 012 */ { .pcm = &instrument_pcm_quatre }, { .pcm = &instrument_pcm_allez },                            NULL,                            NULL,
     /* 016 */ NULL,                            NULL,                            NULL,                            NULL,
     /* 020 */ NULL,                            NULL,                            NULL,                            NULL,
     /* 024 */ NULL,                            NULL,                            { .pcm = &instrument_pcm_dlesson1 }, NULL,

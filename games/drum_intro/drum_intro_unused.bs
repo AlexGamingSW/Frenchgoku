@@ -54,8 +54,13 @@ return
 
 script drum_intro_unused_sub_08a21390
     call drum_intro_unused_sub_08a21294
-    play_sfx s_intro_four_seqData
-    rest 12
+    if_localized
+        rest 12
+        play_sfx_synced s_intro_quatre_seqData, 150, 256
+    else
+        play_sfx_synced s_intro_four_seqData, 150, 256
+        rest 12
+    end_if
     beat_anim
     rest 24
 return
