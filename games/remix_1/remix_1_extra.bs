@@ -780,13 +780,14 @@ script script_remix_1_extra_main
     load_karate_man_extra
     #ifdef PLUS
     print_text_f 5
-    #else
-    print_text_f 4
-    #endif
     rest 12
     play_sfx_localized s_f_boxing_hit_sfx_seqData, s_f_boxing_hit4_quatre_seqData
     rest 12
     play_sfx_localized s_f_boxing_four_sfx_seqData, s_f_boxing_hit4_coups_seqData
+    #else
+    print_text_f 4
+    rest 24
+    #endif
     rest 24
     clear_text_f
     spawn_cue CUE_POT
