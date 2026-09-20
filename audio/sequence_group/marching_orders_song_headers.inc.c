@@ -524,3 +524,15 @@ struct SongHeader s_f_marcher2_v_hidari_en_seqData = {
     /* Song Title    */ NULL,
     /* Song Number   */ 1839
 };
+
+extern const u8 s_guntai_v_agauchef_mid[];
+struct SongHeader s_guntai_v_agauchef_seqData = {
+    /* MIDI Sequence */ s_guntai_v_agauchef_mid,
+    /* Sound Player  */ SFX_PLAYER_1,
+    /* Bank Number   */ INST_BANK_MARCHING_ORDERS_EN,
+    /* Volume        */ 127,
+    /* Priority      */ 90,
+    /* unk8          */ 0x40,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 1854
+};

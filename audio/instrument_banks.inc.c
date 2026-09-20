@@ -2259,7 +2259,7 @@ union Instrument inst_bank_marching_orders_en[] = {
     /* 056 */ NULL,                            NULL,                            NULL,                            NULL,
     /* 060 */ { .pcm = &instrument_pcm_moRn }, { .pcm = &instrument_pcm_moLn }, NULL,                            NULL,
     /* 064 */ { .pcm = &instrument_pcm_moA2 }, { .pcm = &instrument_pcm_moA3 }, NULL,                            NULL,
-    /* 068 */ { .pcm = &instrument_pcm_moFf }, NULL,                            NULL,                            NULL,
+    /* 068 */ { .pcm = &instrument_pcm_moFf }, { .pcm = &instrument_pcm_moGF },                            NULL,                            NULL,
 };
 
 union Instrument inst_bank_bon_odori_fr[] = {

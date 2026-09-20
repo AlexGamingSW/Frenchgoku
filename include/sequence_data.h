@@ -403,6 +403,7 @@ extern struct SongHeader s_guntai_v_migi_en_seqData;
 extern struct SongHeader s_guntai_v_hidari_muke1_en_seqData;
 extern struct SongHeader s_guntai_v_hidari_en_seqData;
 extern struct SongHeader s_guntai_v_muke_f_seqData;
+extern struct SongHeader s_guntai_v_agauchef_seqData;
 extern struct SongHeader s_f_marcher2_v_zentai_a_seqData;
 extern struct SongHeader s_f_marcher2_v_zentai_tten_seqData;
 extern struct SongHeader s_f_marcher2_v_zentai_tion_seqData;

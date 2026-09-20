@@ -1854,7 +1854,7 @@
 /* 1851 */ DEFINE_SONG( &s_f_marcher2_v_migimukeL_en_seqData, SFX_PLAYER_1 )
 /* 1852 */ DEFINE_SONG( &s_f_marcher2_v_migimukeS_en_seqData, SFX_PLAYER_1 )
 /* 1853 */ DEFINE_SONG( &s_f_marcher2_v_migi_en_seqData,     SFX_PLAYER_1 )
-/* 1854 */ DEFINE_SONG( NULL, 0 )
+/* 1854 */ DEFINE_SONG( &s_guntai_v_agauchef_seqData,        SFX_PLAYER_1 )
 /* 1855 */ DEFINE_SONG( &s_dontan_count_seqData,             SFX_PLAYER_7   )
 /* 1856 */ DEFINE_SONG( &s_dontan_water_seqData,             SFX_PLAYER_2   )
 /* 1857 */ DEFINE_SONG( NULL, 0 )
