@@ -248,8 +248,9 @@ struct SongHeader s_f_rapW_v_KibunnwaSaiko_en_seqData = {
     /* Song Number   */ 49
 };
 
+extern const u8 s_f_rapW_v_AmakuteSaiko_en_mid[];
 struct SongHeader s_f_rapW_v_AmakuteSaiko_en_seqData = {
-    /* MIDI Sequence */ s_f_rapW_v_AmakuteSaiko_mid,
+    /* MIDI Sequence */ s_f_rapW_v_AmakuteSaiko_en_mid,
     /* Sound Player  */ SFX_PLAYER_4,
     /* Bank Number   */ INST_BANK_RAPMEN_EN,
     /* Volume        */ 103,
@@ -259,8 +260,9 @@ struct SongHeader s_f_rapW_v_AmakuteSaiko_en_seqData = {
     /* Song Number   */ 50
 };
 
+extern const u8 s_f_rapW_v_BetubaraSaiko_en_mid[];
 struct SongHeader s_f_rapW_v_BetubaraSaiko_en_seqData = {
-    /* MIDI Sequence */ s_f_rapW_v_BetubaraSaiko_mid,
+    /* MIDI Sequence */ s_f_rapW_v_BetubaraSaiko_en_mid,
     /* Sound Player  */ SFX_PLAYER_4,
     /* Bank Number   */ INST_BANK_RAPMEN_EN,
     /* Volume        */ 103,
