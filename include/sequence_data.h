@@ -854,6 +854,7 @@ extern struct SongHeader s_f_rapW_v_Yeah_en_seqData;
 extern struct SongHeader s_f_rapW_v_Un_seqData;
 extern struct SongHeader s_f_rapW_v_Uun_seqData;
 extern struct SongHeader s_f_rapW_v_CheckIt_seqData;
+extern struct SongHeader s_f_rapW_v_CheckIt_fr_seqData;
 extern struct SongHeader s_f_rapW_v_OyatuwaSaiko_d_seqData;
 extern struct SongHeader s_f_rapW_v_KibunnwaSaiko_d_seqData;
 extern struct SongHeader s_f_rapW_v_AmakuteSaiko_d_seqData;

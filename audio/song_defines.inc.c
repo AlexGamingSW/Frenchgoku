@@ -621,7 +621,7 @@
 /* 0618 */ DEFINE_SONG( &s_f_rapW_v_KibunnwaSaiko_d_seqData, SFX_PLAYER_4   )
 /* 0619 */ DEFINE_SONG( &s_f_rapW_v_AmakuteSaiko_d_seqData,  SFX_PLAYER_4   )
 /* 0620 */ DEFINE_SONG( &s_f_rapW_v_BetubaraSaiko_d_seqData, SFX_PLAYER_4   )
-/* 0621 */ DEFINE_SONG( NULL, 0 )
+/* 0621 */ DEFINE_SONG( &s_f_rapW_v_CheckIt_fr_seqData,         MUSIC_PLAYER_1 )
 /* 0622 */ DEFINE_SONG( NULL, 0 )
 /* 0623 */ DEFINE_SONG( &s_f_batter_ball_land_seqData,       SFX_PLAYER_3   )
 /* 0624 */ DEFINE_SONG( &s_f_batter_ball_high_seqData,       SFX_PLAYER_1   )

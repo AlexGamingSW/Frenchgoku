@@ -7003,6 +7003,18 @@ struct SongHeader s_f_rapW_v_CheckIt_seqData = {
     /* Song Number   */ 616
 };
 
+extern const u8 s_f_rapW_v_CheckIt_fr_mid[];
+struct SongHeader s_f_rapW_v_CheckIt_fr_seqData = {
+    /* MIDI Sequence */ s_f_rapW_v_CheckIt_fr_mid,
+    /* Sound Player  */ MUSIC_PLAYER_1,
+    /* Bank Number   */ INST_BANK_56,
+    /* Volume        */ 46,
+    /* Priority      */ 100,
+    /* unk8          */ 0xff,
+    /* Song Title    */ NULL,
+    /* Song Number   */ 621
+};
+
 extern const u8 s_f_rapW_v_OyatuwaSaiko_d_mid[];
 struct SongHeader s_f_rapW_v_OyatuwaSaiko_d_seqData = {
     /* MIDI Sequence */ s_f_rapW_v_OyatuwaSaiko_d_mid,

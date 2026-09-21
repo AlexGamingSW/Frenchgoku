@@ -69,6 +69,7 @@ extern u8 rapping_anim_map[];
 extern u8 rapping_anim_durations[];
 extern struct SongHeader *rap_men_cue_hit_sfx[2][2];
 extern struct SongHeader *rap_men_cue_miss_sfx[2];
+extern struct SongHeader *rap_men_cue_miss_fr_sfx[2];
 
 
 // Functions:
