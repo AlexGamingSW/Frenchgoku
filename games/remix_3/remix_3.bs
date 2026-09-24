@@ -121,12 +121,17 @@ script script_remix_3_main
     enable_pause_menu
     rest 24
     rest 12
-    play_music s_koihoney_bgm_seqData
+    play_music_localized s_koihoney_bgm_seqData, s_koihoney_bgm_en_seqData
     rest 12
     rest 24
     start_perfect_campaign
     bunny_hop_event09 0xC010
-    print_text_s D_0806a0d4
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_MUSIC
+    if_localized
+        print_text_s D_0806a0d4_fr
+    else
+        print_text_s D_0806a0d4
+    end_if
     rest 24
     rest 24
     rest 24
@@ -577,7 +582,13 @@ script script_remix_3_main
     rest 24
     bunny_hop_event02 TRUE
     rest 24
-    print_text_s D_0806a0fc
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_MUSIC
+    if_localized
+        print_text_s D_0806a0fc_fr
+    else
+        print_text_s D_0806a0fc
+    end_if
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_SFX
     rest 24
     rest 24
     bunny_hop_event01 1

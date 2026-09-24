@@ -15,7 +15,8 @@ const char D_0805d8ec[] =
 
 const char D_0805d900[] =
     "\n"
-    "Ce morceau-l‡g suit un rythme en valse.";
+    "Ce morceau-l‡g suit\n"
+    "un rythme en valse.";
 
 const char D_0805d914[] =
     "\n"

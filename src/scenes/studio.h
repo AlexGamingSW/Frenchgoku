@@ -191,6 +191,7 @@ struct StudioEntry {
 
 // DATA
 extern struct StudioEntry studio_song_table[];
+extern struct StudioEntry studio_song_table_fr[];
 extern const char *studio_drum_kit_names[];
 extern const char *studio_mem_warnings_text[];
 extern const char **studio_options_text[];

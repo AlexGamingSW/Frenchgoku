@@ -113,19 +113,29 @@ void fireworks_set_pattern_mode(u32 mode) {
 void fireworks_play_sound(u32 sound) {
     switch (sound) {
         case FIREWORKS_SFX_COME_ON:
-            play_sound_in_player(2, &s_intro_comeon_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_allez_seqData : &s_intro_comeon_seqData
+            );
             break;
         case FIREWORKS_SFX_ONE:
-            play_sound_in_player(2, &s_intro_one_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_one_en_seqData : &s_intro_one_seqData
+            );
             break;
         case FIREWORKS_SFX_TWO:
-            play_sound_in_player(2, &s_intro_two_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_two_en_seqData : &s_intro_two_seqData
+            );
             break;
         case FIREWORKS_SFX_THREE:
-            play_sound_in_player(2, &s_intro_three_seqData);
+            play_sound_in_player(2, CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_intro_three_en_seqData : &s_intro_three_seqData
+            );
             break;
         case FIREWORKS_SFX_NUEI:
-            play_sound(&s_f_hanabi_v_nuei_seqData);
+            play_sound(CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_f_hanabi_v_nuei_en_seqData : &s_f_hanabi_v_nuei_seqData
+            );
             break;
     }
 }
@@ -488,7 +498,9 @@ void fireworks_cue_spawn(struct Cue *cue, struct FireworksCue *info, u32 type) {
             }
             info->y = info->targetY - (ticks_to_frames(0x30) * info->velY) - (yDistance * 64);
             info->sprite = sprite_create(gSpriteHandler, anim_fireworks_bomb, 0, FIXED_TO_INT(info->x), FIXED_TO_INT(info->y), 0x801, 0, 0, 0);
-            play_sound(&s_f_hanabi_v_tamaya_seqData);
+            play_sound(CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+                &s_f_hanabi_v_tamaya_en_seqData : &s_f_hanabi_v_tamaya_seqData
+            );
             break;
     }
 }
@@ -552,7 +564,11 @@ u32 fireworks_cue_update(struct Cue *cue, struct FireworksCue *info, u32 running
 
     if (runningTime > ticks_to_frames(fireworks_cue_durations[info->type])) {
         if (!info->exploded) {
-            play_sound_w_pitch_volume(&s_hanabi_ah_seqData, 48, 0);
+            if (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0) {
+                play_sound_w_pitch_volume(&s_hanabi_ah_fr_seqData, 48, 0);
+            } else {
+                play_sound_w_pitch_volume(&s_hanabi_ah_seqData, 48, 0);
+            }
         }
         return TRUE;
     }

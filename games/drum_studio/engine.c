@@ -135,7 +135,7 @@ const char D_0805a020[] = "\nAppuie sur les deux ensemble.";
 
 const char D_0805a038[] = "\nTe pr‡Qcipite pas‡R!";
 
-const char D_0805a048[] = "\nT'‡Qtais en retard.";
+const char D_0805a048[] = "\nT'‡Qtais un chouˆ´a\nen retard.";
 
 const char D_0805a058[] = "\nTr‡as bien‡R!";
 

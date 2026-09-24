@@ -43,6 +43,7 @@ struct ReadingMaterial {
 
 // DATA
 extern struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS];
+extern struct ReadingMaterial reading_material_table_fr[3];
 extern struct GraphicsTable reading_gfx_table[];
 extern struct CompressedData *reading_buffered_textures[];
 extern struct ReadingMaterial reading_material_error;

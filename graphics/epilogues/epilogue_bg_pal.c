@@ -3832,7 +3832,7 @@ Palette epilogue_toss_boys_bg_pal[] = {
 Palette epilogue_toss_boys_2_bg_pal[] = {
     /* PALETTE 00 */ {
         /* 00 */ TO_RGB555(0x000000),
-        /* 01 */ TO_RGB555(0x000000),
+        /* 01 */ TO_RGB555(0xF0B800),
         /* 02 */ TO_RGB555(0xF858F0),
         /* 03 */ TO_RGB555(0xF8F8F8),
         /* 04 */ TO_RGB555(0x2008A0),

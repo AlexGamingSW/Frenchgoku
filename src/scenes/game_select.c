@@ -241,9 +241,11 @@ const char *get_campaign_gift_title(s32 id, s32 shortenSongTitle) {
     switch (giftType) {
         case CAMPAIGN_GIFT_SONG:
             if (shortenSongTitle) {
-                return studio_song_table[giftID].shortTitle;
+                // On applique le titre francais pour le Remix 3 et le Remix 5
+                // si les chansons sont en francais
+                return (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_MUSIC) && (giftID == 5 || giftID == 6)) ? studio_song_table_fr[giftID - 5].shortTitle : studio_song_table[giftID].shortTitle;
             } else {
-                return studio_song_table[giftID].fullTitle;
+                return (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_MUSIC) && (giftID == 5 || giftID == 6)) ? studio_song_table_fr[giftID - 5].fullTitle : studio_song_table[giftID].fullTitle;
             }
 
         case CAMPAIGN_GIFT_DRUM_KIT:

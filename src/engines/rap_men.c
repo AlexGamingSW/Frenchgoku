@@ -164,7 +164,9 @@ void rap_men_cue_miss(struct Cue *cue, struct RapMenCue *info) {
 void rap_men_input_event(u32 pressed, u32 released) {
     sprite_set_anim(gSpriteHandler, gRapMen->playerSprite, rap_men_get_anim(RAP_MEN_ANIM_PLAYER), 0, 1, 0x7f, 0);
     gRapMen->playerAnimTimer = ticks_to_frames(0x24);
-    play_sound(rap_men_cue_miss_sfx[gRapMen->version]);
+    play_sound(CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_SFX) != 0 ?
+        rap_men_cue_miss_fr_sfx[gRapMen->version] : rap_men_cue_miss_sfx[gRapMen->version]
+    );
     beatscript_enable_loops();
 }
 

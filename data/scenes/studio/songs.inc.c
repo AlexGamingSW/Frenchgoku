@@ -73,13 +73,13 @@ struct StudioEntry studio_song_table[] = {
         /* Drum Script */ script_studio_space_dance
     },
     /* HONEY_SWEET_ANGEL */ {
-        /* Full Title  */ "Petit Ange Sucr‡Q",
-        /* Short Title */ "Petit Ange Sucr‡Q",
+        /* Full Title  */ "Koi no Honey Sweet Angel",
+        /* Short Title */ "Honey Sweet Angel",
         /* Drum Script */ script_studio_honey_sweet_angel
     },
     /* WISH */ {
-        /* Full Title  */ "Attendre Pour Toi",
-        /* Short Title */ "Attendre Pour Toi",
+        /* Full Title  */ "WISH Kimi o Matenakute",
+        /* Short Title */ "Kimi o Matenakute",
         /* Drum Script */ script_studio_wish
     },
     /* NIGHT_WALK */ {
@@ -272,4 +272,17 @@ struct StudioEntry studio_song_table[] = {
         /* Short Title */ NULL,
         /* Drum Script */ script_studio_perfect,
     }
+};
+
+struct StudioEntry studio_song_table_fr[2] = {
+    /* HONEY_SWEET_ANGEL - Version FR */ {
+        /* Full Title  */ "Petit Ange Sucr‡Q",
+        /* Short Title */ "Petit Ange Sucr‡Q",
+        /* Drum Script */ script_studio_honey_sweet_angel
+    },
+    /* WISH - Version FR */ {
+        /* Full Title  */ "Attendre Pour Toi",
+        /* Short Title */ "Attendre Pour Toi",
+        /* Drum Script */ script_studio_wish
+    },
 };

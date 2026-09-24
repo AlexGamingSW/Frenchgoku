@@ -90,7 +90,7 @@ script script_studio_bon_dance
     rest 24
     run play_studio_mus_count_in
     rest 24
-    play_music s_bon_dance_bgm_seqData
+    play_music_localized s_bon_dance_bgm_seqData, s_bon_dance_bgm_fr_seqData
     rest_beats 8
     dms_start_bg_monitor 1
     rest_beats 20
@@ -122,7 +122,7 @@ script script_studio_bon_odori
     rest 24
     run play_studio_mus_count_in
     rest 24
-    play_music s_bon_odori_bgm_seqData
+    play_music_localized s_bon_odori_bgm_seqData, s_bon_odori_bgm_fr_seqData
     rest 24
     run play_studio_mus_count_in
     rest 24
@@ -566,7 +566,7 @@ script script_studio_honey_sweet_angel
     rest 24
     run play_studio_mus_count_in
     rest 12
-    play_music s_koihoney_bgm_seqData
+    play_music_localized s_koihoney_bgm_seqData, s_koihoney_bgm_en_seqData
     rest 12
     run play_studio_mus_count_in
     rest 24
@@ -740,7 +740,7 @@ script script_studio_karate_man
     run play_studio_mus_count_in
     rest 24
     dms_start_bg_monitor 2
-    play_music s_karate_bgm_seqData
+    play_music_localized s_karate_bgm_seqData, s_karate_bgm_fr_seqData
     rest_beats 16
     rest_beats 16
     rest_beats 16
@@ -1625,7 +1625,7 @@ script script_studio_wish
     run play_studio_mus_count_in
     rest 24
     dms_start_bg_monitor 0
-    play_music s_wish_bgm_seqData
+    play_music_localized s_wish_bgm_seqData, s_wish_bgm_en_seqData
     rest_beats 16
     rest_beats 16
     rest_beats 16

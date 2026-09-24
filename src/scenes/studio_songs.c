@@ -117,10 +117,17 @@ const char *studio_song_list_get_string(s32 line) {
     strint(numString, line + 1);
     memcpy(gStudio->string, "\00414.", 5);
     songData = &D_030046a8->data.studioSongs[line];
+
     songEntry = &studio_song_table[songData->songID];
 
     if (songEntry->shortTitle != NULL) {
-        strcat(gStudio->string, songEntry->shortTitle);
+        // On applique le titre francais pour le Remix 3 et le Remix 5
+        // si les chansons sont en francais
+        if (CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_MUSIC) && (songData->songID == 5 || songData->songID == 6)) {
+            strcat(gStudio->string, studio_song_table_fr[songData->songID - 5].shortTitle);
+        } else {
+            strcat(gStudio->string, songEntry->shortTitle);
+        }
     } else {
         strcat(gStudio->string, songEntry->fullTitle);
     }

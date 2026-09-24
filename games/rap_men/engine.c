@@ -246,6 +246,10 @@ struct SongHeader *rap_men_cue_miss_sfx[] = {
     /* RAP_WOMEN */ &s_f_rapW_v_CheckIt_seqData,
 };
 
+struct SongHeader *rap_men_cue_miss_fr_sfx[] = {
+    /* MECS_DU_RAP   */ &s_rap_two_seqData,
+    /* NANAS_DU_RAP */  &s_f_rapW_v_CheckIt_fr_seqData,
+};
 
   //  //  //  GAME ENGINE DATA  //  //  //
 

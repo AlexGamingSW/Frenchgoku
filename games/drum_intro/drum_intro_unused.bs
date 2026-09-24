@@ -30,23 +30,23 @@ define_gameplay_scene scene_drum_intro_unused, script_drum_intro_unused_entry
 @ Drum Intro (Unused) - Main Script
 
 script drum_intro_unused_sub_08a21294
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     beat_anim
     rest 24
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     beat_anim
     rest 24
     rest 12
-    play_sfx s_intro_a_seqData
+    play_sfx_localized s_intro_a_seqData, s_intro_a_en_seqData
     rest 12
-    play_sfx s_intro_one_seqData
+    play_sfx_localized s_intro_one_seqData, s_intro_one_en_seqData
     beat_anim
     rest 24
-    play_sfx s_intro_two_seqData
+    play_sfx_localized s_intro_two_seqData, s_intro_two_en_seqData
     beat_anim
     rest 24
-    play_sfx s_intro_three_seqData
+    play_sfx_localized s_intro_three_seqData, s_intro_three_en_seqData
     beat_anim
     rest 12
 return
@@ -54,8 +54,13 @@ return
 
 script drum_intro_unused_sub_08a21390
     call drum_intro_unused_sub_08a21294
-    play_sfx s_intro_four_seqData
-    rest 12
+    if_localized
+        rest 12
+        play_sfx_synced s_intro_quatre_seqData, 150, 256
+    else
+        play_sfx_synced s_intro_four_seqData, 150, 256
+        rest 12
+    end_if
     beat_anim
     rest 24
 return
@@ -154,6 +159,7 @@ script script_drum_intro_unused_main
     set_tempo 120
     set_music_volume 0
     mod_music_volume 256, 192
+    set_localized BEATSCRIPT_LOCALIZED_COND_GLOBAL_NON_JP_SFX
     rest 24
     rest 24
     rest 24
