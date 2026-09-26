@@ -36,6 +36,32 @@ const char *drum_live_menu_poster_desc[] = {
     "\n"
     "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Balade nocturne\n"
     "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Danse spatiale\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Koi no Honey Sweet Angel\n"
+    "\n",
+    
+    /* DRUM BOYS  */
+    "\x03\x31" "\x01\x6d" "\x05\x30" "\x01\x34" "Les Drum Boys       en CONCERT ! \n"
+    "\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Trio clap clap\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Claquettes\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　WISH Kimi o Matenakute\n"
+    "\n",
+
+    /* DRUM BAND  */
+    "\x03\x31" "\x01\x6d" "\x05\x30" "\x01\x34" "Samoura斡 Tom\n  et sa bande\n"
+    "\x03\x31" "\x01\x6d" "\x05\x30" "\x01\x34" "\x01\x52" "en CONCERT ! \n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "\x01\x4c" "♪　Danse cosmique\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Trio western clap\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Super claquettes\n"
+    "\n"
+};
+
+const char *drum_live_menu_poster_desc_fr[] = {
+    /* DRUM GIRLS */
+    "\x03\x31" "\x01\x6d" "\x05\x30" "\x01\x34" "Les Drum Girls       en CONCERT ! \n"
+    "\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Balade nocturne\n"
+    "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Danse spatiale\n"
     "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Petit Ange Sucr⑱\n"
     "\n",
     
@@ -55,7 +81,6 @@ const char *drum_live_menu_poster_desc[] = {
     "\x03\x30" "\x01\x73" "\x05\x31" "\x01\x35" "♪　Super claquettes\n"
     "\n"
 };
-
 
   //  //  //  CUE DATA  //  //  //
 
