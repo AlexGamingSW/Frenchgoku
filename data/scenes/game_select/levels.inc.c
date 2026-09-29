@@ -992,7 +992,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "Stop‡R! Ne partez pas sans nous‡R!",
             /* OK        */ "Ce voyage s'av‡are plutˆ¶t agr‡Qable‡R!",
-            /* SUPERB    */ "J'ai decouvert une nouvelle plan‡ate‡R!"
+            /* SUPERB    */ "J'ai d‡Qcouvert une nouvelle plan‡ate‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },
