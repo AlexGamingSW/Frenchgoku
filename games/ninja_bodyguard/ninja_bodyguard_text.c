@@ -33,4 +33,4 @@ const char D_0805ba1c[] = "Tu as bloqu‡Q cinq pierres ‡g la suite‡R?!";
 
 const char D_0805ba40[] = "Tu as mˆ®me bloqu‡Q deux pierres d'un coup‡R! Wow‡R!";
 
-const char D_0805ba68[] = "Ma petite-amie me chuchotte...";
+const char D_0805ba68[] = "Ma petite amie me chuchote...";
