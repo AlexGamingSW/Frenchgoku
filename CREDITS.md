@@ -43,6 +43,7 @@
 ### Testeurs
 - FireChat♂
 - Metal Sunday
+- lumiflag
 
 ## Remerciements
 - L'équipe anglaise de Rhythm Heaven Advance
