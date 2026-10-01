@@ -22,7 +22,11 @@ struct GraphicsTable toss_boys_2_prologue_gfx_table[] = {
         /* Size  */ COMPRESSED_GFX_SOURCE
     },
     /* OBJ Tileset */ {
+        #ifdef PLUS
         /* Src.  */ &toss_boys_2_prologue_obj,
+        #else
+        /* Src.  */ &toss_boys_prologue_obj,
+        #endif
         /* Dest. */ OBJ_TILESET_BASE(0),
         /* Size  */ COMPRESSED_GFX_SOURCE
     },

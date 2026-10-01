@@ -50,7 +50,7 @@ void toss_boys_2_prologue_engine_start(u32 ver) {
     #ifdef PLUS
     gPrologueEngineData->textSprite = sprite_create(gSpriteHandler, anim_toss_boys_2_prologue_title, 0, 120, 110, 0, 0, 0x7f, 0);
     #else
-    gPrologueEngineData->textSprite = sprite_create(gSpriteHandler, anim_toss_boys_prologue_title, 0, 120, 127, 0, 0, 0x7f, 0);
+    gPrologueEngineData->textSprite = sprite_create(gSpriteHandler, anim_toss_boys_prologue_title, 0, 120, 123, 0, 0, 0x7f, 0);
     #endif
 }
 
