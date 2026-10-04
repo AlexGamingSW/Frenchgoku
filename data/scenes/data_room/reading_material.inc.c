@@ -216,13 +216,13 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "Journal d'un marcheur",
         /* BODY ----------------------------------------------------------- */
             "16 avril‡R:\n"
-            "J'ai rejoint le groupe des marcheurs‡R!\n"
+            "J'ai rejoint la troupe des marcheurs‡R!\n"
             "Je vais essayer de faire de mon mieux\n"
 			"pour me rendre utile‡R!\n"
             "\n"
             "20 avril‡R:\n"
             "Aujourd'hui j'ai march‡Q de travers.\n"
-            "Le commandant s'est ‡Qnerv‡Q contre moi...\n"
+            "Le sergent s'est ‡Qnerv‡Q contre moi...\n"
             "\n"
             "28 avril‡R:\n"
             "Aujourd'hui nous avons fait du nettoyage devant\n"
@@ -238,23 +238,23 @@ struct ReadingMaterial reading_material_table[TOTAL_READING_MATERIALS] = {
             "de me faire virer...\n"
 			"\n"
             "8 mai‡R:\n"
-            "Il y a quelque chose avec le commandant...\n"
+            "Il y a quelque chose avec le sergent...\n"
             "Hier il nous a dit qu'il est all‡Q danser avec des lapins.\n"
             "Est-ce qu'il va bien...‡R?\n"
             "\n"
             "16 mai‡R:\n"
             "R‡Qcemment, je vois de plus en plus de personnes\n"
-            "qui ressemblent au commandant...\n"
+            "qui ressemblent au sergent...\n"
             "ˆ»a doit ˆ®tre mon imagination...\n"
             "\n"
             "22 mai‡R:\n"
             "Vous n'allez jamais le croire‡R!\n"
-			"Le commandant est...\n"
+			"Le sergent est devenu un...\n"
             "\n"
             "\n"
             "Le journal se termine ici.\n"
 			"\n"
-            "Qu'a-t-il bien pu se passer avec le commandant‡R?",
+            "Qu'a-t-il bien pu se passer avec le sergent‡R?",
         /* STYLE ---------------------------------------------------------- */
             /* GFX */ reading_style_cherry_gfx_table,
             /* BGM */ &reading_style_cherry_bgm
