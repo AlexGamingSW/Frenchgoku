@@ -250,10 +250,10 @@ const char *cafe_dialogue_extra_perfects_clear[] = {
         "Vous avez vraiment obtenu tous\n"
         "les Parfaits de l'‡Qtape Extra ?!\n",
     /* ------------------------------------------------ */
-        "\n"
         "Toutes mes f‡Qlicitations !\n"
         "‡f ce rythme, obtenir" "\0051" "\0015" "tous" "\0054" "\0018" " les Parfaits\n"
-        "ne devrait pas vous poser probl‡ame !\n",
+        "ne devrait pas vous poser probl‡ame !\n"
+        "Passez vite me revoir !\n",
     /* ------------------------------------------------ */
     END_OF_DIALOGUE
 };
