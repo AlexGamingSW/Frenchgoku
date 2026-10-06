@@ -21,7 +21,7 @@ const char *studio_drum_kit_names[] = {
     /* HEEL1   */ "Batterie pro 1",
     /* HEEL2   */ "Batterie pro 2",
     /* SFX     */ "Batterie effets sonores",
-    /* TAP     */ "Batterie claquette",
+    /* TAP     */ "Batterie claquettes",
     /* AIR     */ "Batterie coupe-vent",
     /* SAMURAI */ "Batterie du samouraˆ´"
 };

@@ -234,9 +234,9 @@ const char *cafe_dialogue_all_perfects_clear[] = {
         "Impressionnant‡R!",
     /* ------------------------------------------------ */
         "\n"
-        "Beau travail, d'ailleurs.\n"
-        "Vous avez bien m‡Qrit‡Q une pause.\n"
-        "\n",
+        "Apr‡as tous ces efforts,\n"
+        "vous pouvez enfin prendre\n"
+        "une pause bien m‡Qrit‡Qe‡R!\n",
     /* ------------------------------------------------ */
     END_OF_DIALOGUE
 };
