@@ -94,7 +94,7 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_polyrhythm_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Il nous faut produire beaucoup plus de ces bidules...",
+            /* TRY_AGAIN */ "On doit produire beaucoup plus de ces trucs rouges...",
             /* OK        */ "En produire plus ne ferait pas de mal‡R!",
             /* SUPERB    */ "Nous en produirons toujours plus‡R!"
         },
