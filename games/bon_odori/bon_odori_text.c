@@ -95,7 +95,7 @@ const char text_bon_odori_pan_pan[] = ".2:0" "Ｐィ　ｐィ";
 
 const char text_bon_odori_don_don_pan_pan_2[] = ".1:0" "Ｄァ　ｄァ　" ".2:0" "ｐィ　ｐィ";
 
-const char D_08067a84[] = ".6:1" "Ｂｉｅｎｖｅｎｕｅ　ａｕ　ｆｅｓｔｉｖａｌ　ｄｕ　Ｂァ　Ｏアｒｉ　！";
+const char D_08067a84[] = ".6:1" "Ｂｉｅｎｖｅｎｕｅ　ａｕ　ｆｅｓｔｉｖａｌ　ｄｕ　Ｂァ　Ｏｄｏｒｉ　！";
 
 const char D_08067aa4[] = ".6:1" "Ｔａｐｅｚ　ｄｅｓ　ｍａｉｎｓ　ｑｕィｄ　ァ　ｄｉｔ　《　Ｐィ　》　！";
 
