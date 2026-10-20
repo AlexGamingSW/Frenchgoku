@@ -761,7 +761,7 @@ script script_bon_dance_main
         rest 4
         set_marking_criteria 2
         bon_odori_lyrics_print_right 3, text_bon_dance_in_japan
-        bon_odori_lyrics_start_highlight 1, 40 //Contee de
+        bon_odori_lyrics_start_highlight 1, 39 //Contee de
         beat_anim
         rest 24
         rest 16
