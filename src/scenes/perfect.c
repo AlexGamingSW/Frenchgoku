@@ -218,7 +218,7 @@ void perfect_scene_start(void *sVar, s32 dArg) {
             strcat(gPerfect->string, " cadeaux " "\0020" "\0010" "‡g gagner.\n" // ...gifts
                                          "Continuez comme ˆ¹a‡R!"); // left to get. Keep going!
         } else {
-            strcat(gPerfect->string, " cadeau " "\0020" "\0010" "‡g gagner.\n" // ...gift
+            strcat(gPerfect->string, "Il ne reste plus qu'un cadeau " "\0020" "\0010" "‡g gagner.\n" // ...gift
                                          "Continuez comme ˆ¹a‡R!"); // left to get. Keep going!
         }
     } else {

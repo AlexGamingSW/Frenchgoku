@@ -23,7 +23,7 @@ const char D_0806a448[] = "On entend dire dans la foule";
 
 const char text_bon_dance_ha[] = ".0:0" "Ｈａａ～";
 
-const char text_bon_dance_hanabi_agare_ba[] = ".0:0" "Ｈａｎａｂｉ　ａｇａｒｅ　ｂａ～";
+const char text_bon_dance_hanabi_agare_ba[] = ".0:0" "Ｈィａｂｉ　ａｇａｒｅ　ｂａ～";
 
 const char text_bon_dance_hanabi_agare_ba_fr[] = ".0:0" "Ｑｕィｄ　ｌａ　ｎｕｉｔ　ｓ’ｉｌｌｕｍｉｎｅｒａ";
 
@@ -33,7 +33,7 @@ const char text_bon_dance_dondo_pan_pan[] = ".1:0" "Ｄァア　" ".2:0" "ｐィ　ｐィ
 
 const char text_bon_dance_haa[] = ".0:0" "Ｈａａ～　Ａｈ～";
 
-const char text_bon_dance_kansei_agaru[] = ".0:0" "Ｋａｎｓｅｉ　ａｇａｒｕ～";
+const char text_bon_dance_kansei_agaru[] = ".0:0" "Ｋィｓｅｉ　ａｇａｒｕ～";
 
 const char text_bon_dance_kansei_agaru_fr[] = ".0:0" "Ｐａｒｔｏｕｔ　ｃｅ　ｓｅｒａ　ｌａ　ｊｏｉｅ";
 
@@ -55,7 +55,7 @@ const char text_bon_dance_matsuri_da_wasshoi_fr[] = ".0:0" "Ｎｏｔｒｅ　ｃぎｌぎ
 
 const char text_bon_dance_dondo_panpa_dondo_panpa[] = ".1:0" "Ｄァア　" ".2:0" "ｐィｐａ　" ".1:0" "ｄァア　" ".2:0" "ｐィｐａ";
 
-const char text_bon_dance_nippon_chu_ga_wasshoi[] = ".0:0" "Ｎｉｐｐｏｎ　ｃｈｕｕ　ｇａ　ｗａｓｓｈｏｉ！";
+const char text_bon_dance_nippon_chu_ga_wasshoi[] = ".0:0" "Ｎｉｐｐァ　ｃｈｕｕ　ｇａ　ｗａｓｓｈｏｉ！";
 
 const char text_bon_dance_nippon_chu_ga_wasshoi_fr[] = ".0:0" "Ｄ’ｕｎｅ　ｇぎｎぎｒａｔｉァ　！";
 

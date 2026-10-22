@@ -94,7 +94,7 @@ struct LevelData level_data_table[] = {
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_polyrhythm_2_gfx_tables,
         /* Epilogue Text */ {
-            /* TRY_AGAIN */ "Il nous faut produire beaucoup plus de ces bidules...",
+            /* TRY_AGAIN */ "On doit produire beaucoup plus de ces trucs rouges...",
             /* OK        */ "En produire plus ne ferait pas de mal‡R!",
             /* SUPERB    */ "Nous en produirons toujours plus‡R!"
         },
@@ -992,7 +992,7 @@ struct LevelData level_data_table[] = {
         /* Epilogue Text */ {
             /* TRY_AGAIN */ "Stop‡R! Ne partez pas sans nous‡R!",
             /* OK        */ "Ce voyage s'av‡are plutˆ¶t agr‡Qable‡R!",
-            /* SUPERB    */ "J'ai decouvert une nouvelle plan‡ate‡R!"
+            /* SUPERB    */ "J'ai d‡Qcouvert une nouvelle plan‡ate‡R!"
         },
         /* Level Flags   */ LEVEL_DATA_FLAG_IS_EXTRA | LEVEL_DATA_FLAG_NO_PRACTICE
     },

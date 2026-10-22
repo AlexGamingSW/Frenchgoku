@@ -15,6 +15,6 @@ const char D_08067c1c[] = "Les passages lents ‡Qtaient parfaits‡R!";
 
 const char D_08067c40[] = "";
 
-const char D_08067c44[] = "Vous avez mˆ®me r‡Qussi CE passage‡R! Wow‡R!";
+const char D_08067c44[] = "Tu as mˆ®me r‡Qussi CE passage‡R! Wow‡R!";
 
 const char D_08067c74[] = "Commentaire du trio";

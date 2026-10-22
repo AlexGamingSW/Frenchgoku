@@ -27,6 +27,7 @@ struct DrumLiveMenuCue {
 extern struct CompressedData *drum_live_menu_buffered_textures[];
 extern struct GraphicsTable drum_live_menu_gfx_table[];
 extern const char *drum_live_menu_poster_desc[];
+extern const char *drum_live_menu_poster_desc_fr[];
 
 
 // Functions:
@@ -35,7 +36,7 @@ extern void drum_live_menu_init_gfx2(void); // Graphics Init. 2
 extern void drum_live_menu_init_gfx1(void); // Graphics Init. 1
 extern void drum_live_menu_engine_start(u32 version); // Game Engine Start
 extern void drum_live_menu_engine_event_stub(void); // Engine Event 01 (STUB)
-// extern ? func_08036e10(?);
+extern void func_08036e10(u8 index);
 // extern ? func_08036e28(?);
 // extern ? func_08036ec8(?);
 // extern ? func_08036f18(?);

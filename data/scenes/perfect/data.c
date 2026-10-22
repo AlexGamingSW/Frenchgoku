@@ -48,7 +48,7 @@ struct CompressedData *perfect_certificate_buffered_textures[] = {
 const char *perfect_gift_directive_text[] = {
     /* Song     */ " ‡g ‡Qcouter au Studio‡R!\n",
     /* Drum Kit */ "‡R! Jouez-y au Studio‡R!\n",
-    /* E-Mail   */ ", dans les Archives‡R!\n",
+    /* E-Mail   */ " dans les Archives‡R!\n",
     /* Other    */ "",
 };
 

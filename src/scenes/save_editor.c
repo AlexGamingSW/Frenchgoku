@@ -115,7 +115,7 @@ struct SaveEditorMember gSaveEditorMembers[SE_MBR_COUNT] = {
     /* SE_MBR_SOUND_MODE */
     { "Sortie audio",                          SE_KIND_U32,         0,  1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_PERFECT_CLEAR_CAFE_DIALOGUE_PENDING */
-    { "Queue dialogues au Caf‡Q apr‡as Parfait", SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
+    { "Queue dialogues au caf‡Q apr‡as Parfait", SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2BC */
     { "unk2BC",                              SE_KIND_U32,         0,  -1, -1, NULL,          0, NULL,               0 },
     /* SE_MBR_UNK_2C0 */

@@ -43,6 +43,7 @@
 ### Testeurs
 - FireChat♂
 - Metal Sunday
+- lumiflag
 
 ## Remerciements
 - L'équipe anglaise de Rhythm Heaven Advance
@@ -103,6 +104,7 @@
 - Cherryberryfaygo
 - Nabix (& his family)
 - itaific
+- TheAwkwardGirl
 - FireChat♂
 - Kievit
 
