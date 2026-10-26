@@ -35,7 +35,7 @@ const char D_0805e03c[] =
 const char D_0805e070[] =
     "Et si on mesurait\n"
     "la puissance de\n"
-    "votre ryhtme‡R?";
+    "votre rythme‡R?";
 
 
 /* Game Text - Drumming Intro (Part 2) */
