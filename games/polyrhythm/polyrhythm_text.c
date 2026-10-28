@@ -11,7 +11,7 @@ const char D_0805b010[] = "";
 
 const char D_0805b014[] = "Votre main gauche s'est endormie‡R?";
 
-const char D_0805b02c[] = "Votre main gauche m‡Qriterait son propre salaire‡R!";
+const char D_0805b02c[] = "Votre main gauche m‡Qrite son propre salaire‡R!";
 
 const char D_0805b04c[] = "Apprenez ‡g vous adapter aux nouveaux rythmes‡R!";
 
