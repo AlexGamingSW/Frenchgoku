@@ -852,7 +852,7 @@ const struct Beatscript *drum_studio_init_script(void) {
                 gDrumStudio->playerDrumKitID = 0;
                 drum_studio_init_kit();
             }
-            func_0802918c(studio_song_table[replayData->songID].fullTitle, replayData->unk3 & 1);
+            func_0802918c(CHECK_ADVANCE_FLAG(D_030046a8->data.advanceFlags, ADVANCE_FLAG_NON_JP_MUSIC) ? studio_song_table_fr[replayData->songID - 5].fullTitle : studio_song_table[replayData->songID].fullTitle, replayData->unk3 & 1);
             if (replayData->songID == STUDIO_SONG_SILENCE) {
                 gDrumStudio->unk402 = 120;
             }
